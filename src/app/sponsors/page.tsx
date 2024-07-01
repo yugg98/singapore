@@ -13,7 +13,7 @@ const page = () => {
                 </h1>
                 <p className="mt-6 text-lg leading-8 text-gray-900">
                   At DeGen Summit, we present exclusive sponsorship packages
-                  designed to align with your brand's vision, budget, and
+                  designed to align with your brand&apos;s vision, budget, and
                   marketing aspirations.
                   <br />
                   <br />

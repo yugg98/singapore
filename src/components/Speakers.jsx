@@ -661,6 +661,7 @@ const people = [
           >
             {people.map((person) => (
            <li
+           key={person.role}
               className="p-4 transition-all card  duration-150 ease-in-out bg-orange-600 hover:scale-105 rounded-xl hover:bg-orange-900 hover:shadow-md flex flex-col justify-between"
         
             >

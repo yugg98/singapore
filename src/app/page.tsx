@@ -75,7 +75,7 @@ export default function Home() {
                 developers, and worldwide media to explore the tremendous
                 prospects in the blockchain ecosystem while also providing
                 unrivaled networking opportunities. Be a member of the community
-                that determines what's next in blockchain. Join us at DeGen to
+                that determines what&apos;s next in blockchain. Join us at DeGen to
                 help define the future of blockchain.
               </p>
             </div>
