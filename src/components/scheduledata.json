@@ -1,0 +1,723 @@
+[
+    {
+      "Day": "Day 1 - 4th Dec",
+      "Time_Range": "09:30 AM to 5:30 PM",
+      "Conference": "Blockchain & its Infrastructure 1st day - Day 1",
+      "Agenda": [
+        {
+          "Time": "09:30 to 10:10",
+          "Duration": "40 Minutes",
+          "Venue": "",
+          "Topics": "All about Blockchain: Layer0, Layer1, Layer2, Layer3"
+        },
+        {
+          "Time": "10:10 to 10:30",
+          "Duration": "20 Minutes",
+          "Venue": "",
+          "Topics": "Analysing Cross-Chain Bridge Security & Mitigating Hacks"
+        },
+        {
+          "Time": "10:30 to 11:10",
+          "Duration": "40 Minutes",
+          "Venue": "",
+          "Topics": "The Era of Self Owned Data"
+        },
+        {
+          "Time": "11:10 to 11:30",
+          "Duration": "20 Minutes",
+          "Venue": "",
+          "Topics": "Importance of Cross Chain Bridges"
+        },
+        {
+          "Time": "11:30 to 12:10",
+          "Duration": "40 Minutes",
+          "Venue": "",
+          "Topics": "Founder Stories"
+        },
+        {
+          "Time": "12:10 to 12:40",
+          "Duration": "30 Minutes",
+          "Venue": "",
+          "Topics": "Understanding Layer3, will it be more efficient?"
+        },
+        {
+          "Time": "12:40 to 01:00",
+          "Duration": "20 Minutes",
+          "Venue": "",
+          "Topics": "Exploring Oracle Design Tradeoffs & Dispute Periods"
+        },
+        {
+          "Time": "13:00 to 14:00",
+          "Duration": "1 Hour",
+          "Venue": "",
+          "Topics": "Lunch"
+        },
+        {
+          "Time": "14:00 to 14:40",
+          "Duration": "40 Minutes",
+          "Venue": "",
+          "Topics": "Sharks in the Action - Making Better Risk Decisions in Web3"
+        },
+        {
+          "Time": "14:40 to 15:00",
+          "Duration": "20 Minutes",
+          "Venue": "",
+          "Topics": "Oracles of the Future: Moving Beyond Price Feeds"
+        },
+        {
+          "Time": "15:00 to 15:40",
+          "Duration": "40 Minutes",
+          "Venue": "",
+          "Topics": "Data Provenance in a Decentralised World"
+        },
+        {
+          "Time": "15:40 to 16:00",
+          "Duration": "20 Minutes",
+          "Venue": "",
+          "Topics": "Account Abstraction Done Right"
+        },
+        {
+          "Time": "16:00 to 16:40",
+          "Duration": "40 Minutes",
+          "Venue": "",
+          "Topics": "Women at the Top"
+        },
+        {
+          "Time": "16:40 to 17:00",
+          "Duration": "20 Minutes",
+          "Venue": "",
+          "Topics": "Building Longevity and Value: L1 Protocols"
+        },
+        {
+          "Time": "17:00 to 17:40",
+          "Duration": "40 Minutes",
+          "Venue": "",
+          "Topics": "Know Before You Build: What to look at when building on L2"
+        },
+        {
+          "Time": "19:00 to 23:00",
+          "Duration": "4 Hours",
+          "Venue": "",
+          "Topics": "Kickoff Party"
+        }
+      ]
+    },
+    {
+      "Day": "Day 2 - 5th Dec",
+      "Time_Range": "09:30 AM to 5:30 PM",
+      "Conference": "DAO & Governance - Day 2",
+      "Agenda": [
+        {
+          "Time": "09:30 to 10:10",
+          "Duration": "40 Minutes",
+          "Venue": "",
+          "Topics": "DAOs As Breakthrough Incubators for Businesses, Non-Profits, and Individuals"
+        },
+        {
+          "Time": "10:10 to 10:30",
+          "Duration": "20 Minutes",
+          "Venue": "",
+          "Topics": "DAO’s Impact on the Future of NFTs - How DAOs are Driving Innovation and Shaping the decentralised Landscape"
+        },
+        {
+          "Time": "10:30 to 11:10",
+          "Duration": "40 Minutes",
+          "Venue": "",
+          "Topics": "Off-Chain vs. On-Chain Tokens"
+        },
+        {
+          "Time": "11:10 to 11:30",
+          "Duration": "20 Minutes",
+          "Venue": "",
+          "Topics": "DAO-based Blockchain Economy"
+        },
+        {
+          "Time": "11:30 to 12:10",
+          "Duration": "40 Minutes",
+          "Venue": "",
+          "Topics": "Founder Stories"
+        },
+        {
+          "Time": "12:10 to 12:40",
+          "Duration": "30 Minutes",
+          "Venue": "",
+          "Topics": "DAO: The Journey So Far"
+        },
+        {
+          "Time": "12:40 to 01:00",
+          "Duration": "20 Minutes",
+          "Venue": "",
+          "Topics": "How DAOs enable the shift towards ReFi"
+        },
+        {
+          "Time": "13:00 to 14:00",
+          "Duration": "1 Hour",
+          "Venue": "",
+          "Topics": ""
+        },
+        {
+          "Time": "14:00 to 14:40",
+          "Duration": "40 Minutes",
+          "Venue": "",
+          "Topics": "Becoming A DAO Supported Entrepreneur"
+        },
+        {
+          "Time": "14:40 to 15:00",
+          "Duration": "20 Minutes",
+          "Venue": "",
+          "Topics": "DAO Taxation"
+        },
+        {
+          "Time": "15:00 to 15:40",
+          "Duration": "40 Minutes",
+          "Venue": "",
+          "Topics": "How to create active and loyal community in WEB3 space"
+        },
+        {
+          "Time": "15:40 to 16:00",
+          "Duration": "20 Minutes",
+          "Venue": "",
+          "Topics": "Brand Loyalty and Rewards, the Gateway Drug for Crypto"
+        },
+        {
+          "Time": "16:00 to 16:40",
+          "Duration": "40 Minutes",
+          "Venue": "",
+          "Topics": "How Women Bring the Community Together by Utilizing Social Media"
+        },
+        {
+          "Time": "16:40 to 17:00",
+          "Duration": "20 Minutes",
+          "Venue": "",
+          "Topics": "Equitable Ownership and Governance in the Online Economy"
+        },
+        {
+          "Time": "17:00 to 17:40",
+          "Duration": "40 Minutes",
+          "Venue": "",
+          "Topics": "Practical Guide to Launching a DAO"
+        },
+        {
+          "Time": "19:00 to 23:00",
+          "Duration": "4 Hours",
+          "Venue": "",
+          "Topics": "Cultural Evening - Indian Cuisine"
+        }
+      ]
+    },
+    {
+      "Day": "Day 3 - 6th Dec",
+      "Time_Range": "09:30 AM to 5:30 PM",
+      "Conference": "Metaverse & GameFi - Day 3",
+      "Agenda": [
+        {
+          "Time": "09:30 to 10:10",
+          "Duration": "40 Minutes",
+          "Venue": "",
+          "Topics": "What Do Web3 and Metaverse Mean for the Future of Business?"
+        },
+        {
+          "Time": "10:10 to 10:30",
+          "Duration": "20 Minutes",
+          "Venue": "",
+          "Topics": "How Metaverse Gaming Will Lead to the Mass Adoption"
+        },
+        {
+          "Time": "10:30 to 11:10",
+          "Duration": "40 Minutes",
+          "Venue": "",
+          "Topics": "Convergence of Physical and Digital On-chain Worlds"
+        },
+        {
+          "Time": "11:10 to 11:30",
+          "Duration": "20 Minutes",
+          "Venue": "",
+          "Topics": "How Web3 is Paving the Way Towards Economic Stimulation and Value Creation in an AI Driven Metaverse"
+        },
+        {
+          "Time": "11:30 to 12:10",
+          "Duration": "40 Minutes",
+          "Venue": "",
+          "Topics": "Founder Stories"
+        },
+        {
+          "Time": "12:10 to 12:40",
+          "Duration": "30 Minutes",
+          "Venue": "",
+          "Topics": "How to Make Crypto Games That Don't Suck"
+        },
+        {
+          "Time": "12:40 to 13:00",
+          "Duration": "20 Minutes",
+          "Venue": "",
+          "Topics": "Keys to sustainability - What gamefi projects lack to maintain success and build trustworthy ecosystem"
+        },
+        {
+          "Time": "13:00 to 14:00",
+          "Duration": "1 Hour",
+          "Venue": "",
+          "Topics": ""
+        },
+        {
+          "Time": "14:00 to 14:40",
+          "Duration": "40 Minutes",
+          "Venue": "",
+          "Topics": "Investing in Metaverse: Today and Tomorrow"
+        },
+        {
+          "Time": "14:40 to 15:00",
+          "Duration": "20 Minutes",
+          "Venue": "",
+          "Topics": "AI or the Metaverse - What should brands bet on?"
+        },
+        {
+          "Time": "15:00 to 15:40",
+          "Duration": "40 Minutes",
+          "Venue": "",
+          "Topics": "Creator Economy? Web3 Fixes This"
+        },
+        {
+          "Time": "15:40 to 16:00",
+          "Duration": "20 Minutes",
+          "Venue": "",
+          "Topics": "Blockchain Gaming: Building the virtual asset class of the future"
+        },
+        {
+          "Time": "16:00 to 16:40",
+          "Duration": "40 Minutes",
+          "Venue": "",
+          "Topics": "Balancing Reality and Virtuality: Women's Perspectives on Life in the Metaverse"
+        },
+        {
+          "Time": "16:40 to 17:00",
+          "Duration": "20 Minutes",
+          "Venue": "",
+          "Topics": "THE F-WORD OF METAVERSE: FUTURE, FAD OR FRAUD?"
+        },
+        {
+          "Time": "17:00 to 17:40",
+          "Duration": "40 Minutes",
+          "Venue": "",
+          "Topics": "Metaverse Framework & Policy Making"
+        },
+        {
+          "Time": "19:00 to 23:00",
+          "Duration": "4 Hours",
+          "Venue": "",
+          "Topics": "Demo Night & Fundraising"
+        }
+      ]
+    },
+    {
+      "Day": "Day 4 - 7th Dec",
+      "Time_Range": "09:30 AM to 5:30 PM",
+      "Conference": "ZK & Security - Day 4",
+      "Agenda": [
+        {
+          "Time": "09:30 to 10:10",
+          "Duration": "40 Minutes",
+          "Venue": "",
+          "Topics": "Decentralized Identities and Blockchain"
+        },
+        {
+          "Time": "10:10 to 10:30",
+          "Duration": "20 Minutes",
+          "Venue": "",
+          "Topics": "How zK Will Completely Reshape Crypto's Tech Stack"
+        },
+        {
+          "Time": "10:30 to 11:10",
+          "Duration": "40 Minutes",
+          "Venue": "",
+          "Topics": "Interop in the Age of Rollups"
+        },
+        {
+          "Time": "11:10 to 11:30",
+          "Duration": "20 Minutes",
+          "Venue": "",
+          "Topics": "Why You Should Care About Shared Sequencers"
+        },
+        {
+          "Time": "11:30 to 12:10",
+          "Duration": "40 Minutes",
+          "Venue": "",
+          "Topics": "Founder Stories"
+        },
+        {
+          "Time": "12:10 to 12:40",
+          "Duration": "30 Minutes",
+          "Venue": "",
+          "Topics": "From Concept to Deployment: Building with a Security Mindset"
+        },
+        {
+          "Time": "12:40 to 13:00",
+          "Duration": "20 Minutes",
+          "Venue": "",
+          "Topics": "Elevating Security: The 3 Missing Pieces (Culture, Tech, Law)"
+        },
+        {
+          "Time": "13:00 to 14:00",
+          "Duration": "1 Hour",
+          "Venue": "",
+          "Topics": ""
+        },
+        {
+          "Time": "14:00 to 14:40",
+          "Duration": "40 Minutes",
+          "Venue": "",
+          "Topics": "Finding the Right Fit for Success - Key Traits to Look for in Investors, Partners, Incubators and Launchpads"
+        },
+        {
+          "Time": "14:40 to 15:00",
+          "Duration": "20 Minutes",
+          "Venue": "",
+          "Topics": "Towards Standardizing Zero Knowledge"
+        },
+        {
+          "Time": "15:00 to 15:40",
+          "Duration": "40 Minutes",
+          "Venue": "",
+          "Topics": "Advanced Cryptography on the Way to Practice"
+        },
+        {
+          "Time": "15:40 to 16:00",
+          "Duration": "20 Minutes",
+          "Venue": "",
+          "Topics": "Threshold Cryptography"
+        },
+        {
+          "Time": "16:00 to 16:40",
+          "Duration": "40 Minutes",
+          "Venue": "",
+          "Topics": "Leading Female Voices in Zero-Knowledge Research"
+        },
+        {
+          "Time": "16:40 to 17:00",
+          "Duration": "20 Minutes",
+          "Venue": "",
+          "Topics": "Bringing ZKP to Traditional Industries, Physical World Use-cases"
+        },
+        {
+          "Time": "17:00 to 17:40",
+          "Duration": "40 Minutes",
+          "Venue": "",
+          "Topics": "ZKP for Audits of Unsolicited Consumer Communication"
+        },
+        {
+          "Time": "19:00 to 23:00",
+          "Duration": "4 Hours",
+          "Venue": "",
+          "Topics": "Awards Night"
+        }
+      ]
+    },
+    {
+      "Day": "Day 5 - 8th Dec",
+      "Time_Range": "09:30 AM to 5:30 PM",
+      "Conference": "CeFi, DeFi & Staking - Day 5",
+      "Agenda": [
+        {
+          "Time": "09:30 to 10:10",
+          "Duration": "40 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "Scaling DeFi"
+        },
+        {
+          "Time": "10:10 to 10:30",
+          "Duration": "20 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "Providing Liquidity in Volatile Markets: Challenges and Rewards"
+        },
+        {
+          "Time": "10:30 to 11:10",
+          "Duration": "40 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "How to Raise Millions in an Initial Token Offering - the Legal Way?"
+        },
+        {
+          "Time": "11:10 to 11:30",
+          "Duration": "20 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "Validator Pricing Strategies"
+        },
+        {
+          "Time": "11:30 to 12:10",
+          "Duration": "40 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "Founder Stories"
+        },
+        {
+          "Time": "12:10 to 12:40",
+          "Duration": "30 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "Yield Farming & Lending"
+        },
+        {
+          "Time": "12:40 to 13:00",
+          "Duration": "20 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "The Need for Cross-Chain & Multichain DeFi"
+        },
+        {
+          "Time": "13:00 to 14:00",
+          "Duration": "1 Hour",
+          "Venue": "Main Stage",
+          "Topics": ""
+        },
+        {
+          "Time": "14:00 to 14:40",
+          "Duration": "40 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "Powering the Next Wave of Institutional Digital Asset Adoption/Inside the Minds of Crypto VCs/Token or Equity/A Retrospect on Investment Thesis"
+        },
+        {
+          "Time": "14:40 to 15:00",
+          "Duration": "20 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "Cefi vs Defi: Competing to serve Digital Assets of Tomorrow"
+        },
+        {
+          "Time": "15:00 to 15:40",
+          "Duration": "40 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "Envisioning and Building the Future Token Economy"
+        },
+        {
+          "Time": "15:40 to 16:00",
+          "Duration": "20 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "How will Liquid Staking Influence the Validator Business?"
+        },
+        {
+          "Time": "16:00 to 16:40",
+          "Duration": "40 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "Empowerment through Financial Sovereignty"
+        },
+        {
+          "Time": "16:40 to 17:00",
+          "Duration": "20 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "Digital Assets as Collateral: The Next Lending Boom Ridiculing Traditional Finance"
+        },
+        {
+          "Time": "17:00 to 17:40",
+          "Duration": "40 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "Crypto Exchanges: Same, Same But Difference"
+        },
+        {
+          "Time": "19:00 to 23:00",
+          "Duration": "4 Hours",
+          "Venue": "",
+          "Topics": "Web3 Prop Party"
+        }
+      ]
+    },
+    {
+      "Day": "Day 6 - 9th Dec",
+      "Time_Range": "09:30 AM to 5:30 PM",
+      "Conference": "Enterprise Blockchain - Day 6",
+      "Agenda": [
+        {
+          "Time": "09:30 to 10:10",
+          "Duration": "40 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "Inequality in the Financial Markets"
+        },
+        {
+          "Time": "10:10 to 10:30",
+          "Duration": "20 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "Marketing’s Future: Web3 & Passion-Centered Design"
+        },
+        {
+          "Time": "10:30 to 11:10",
+          "Duration": "40 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "The Intersection of Ai, Blockchain & Sustainability"
+        },
+        {
+          "Time": "11:10 to 11:30",
+          "Duration": "20 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "Blockchain & Big Data"
+        },
+        {
+          "Time": "11:30 to 12:10",
+          "Duration": "40 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "Founder Stories"
+        },
+        {
+          "Time": "12:10 to 12:40",
+          "Duration": "30 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "From Margin to Mainstream: Digital Asset Banking"
+        },
+        {
+          "Time": "12:40 to 13:00",
+          "Duration": "20 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "Enhancing Your Traditional Web2 Business with Web3 for Additional Revenue"
+        },
+        {
+          "Time": "13:00 to 14:00",
+          "Duration": "1 Hour",
+          "Venue": "Main Stage",
+          "Topics": ""
+        },
+        {
+          "Time": "14:00 to 14:40",
+          "Duration": "40 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "Becoming Web3 Investor | Pros & Cons"
+        },
+        {
+          "Time": "14:40 to 15:00",
+          "Duration": "20 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "Why Enterprises are Buying into Blockchain as a Service"
+        },
+        {
+          "Time": "15:00 to 15:40",
+          "Duration": "40 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "Unlocking Faster Bank Settlements with Distributed Ledger Technology"
+        },
+        {
+          "Time": "15:40 to 16:00",
+          "Duration": "20 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "WhiteLabel Solutions"
+        },
+        {
+          "Time": "16:00 to 16:40",
+          "Duration": "40 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "Leading Female Voices in Enterprises"
+        },
+        {
+          "Time": "16:40 to 17:00",
+          "Duration": "20 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "Applications of Zero Knowledge Proofs in the Banking Industry"
+        },
+        {
+          "Time": "17:00 to 17:40",
+          "Duration": "40 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "Public Accountability vs. Secret Laws: Can They Coexist?"
+        },
+        {
+          "Time": "19:00 to 23:00",
+          "Duration": "4 Hours",
+          "Venue": "",
+          "Topics": "NFT Art Culture Exhibition Night"
+        }
+      ]
+    },
+    {
+      "Day": "Day 7 - 10th Dec",
+      "Time_Range": "09:30 AM to 5:30 PM",
+      "Conference": "NFT & Utilities - Day 7",
+      "Agenda": [
+        {
+          "Time": "09:30 to 10:10",
+          "Duration": "40 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "NFTs & Sports Ownership: How NFT Tools are Reviving Fan Engagement"
+        },
+        {
+          "Time": "10:10 to 10:30",
+          "Duration": "20 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "Enlighten Your NFT Project with Dynamic NFT and Semi-Fungible Token"
+        },
+        {
+          "Time": "10:30 to 11:10",
+          "Duration": "40 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "Key Regulatory Enforcement Risks for NFTs"
+        },
+        {
+          "Time": "11:10 to 11:30",
+          "Duration": "20 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "The Role of NFTs in Sustainability Goals in Developing Economies"
+        },
+        {
+          "Time": "11:30 to 12:10",
+          "Duration": "40 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "Founder Stories"
+        },
+        {
+          "Time": "12:10 to 12:40",
+          "Duration": "30 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "Brand Building with NFTs: Decentralised, Participative, Owned by the Community"
+        },
+        {
+          "Time": "12:40 to 01:00",
+          "Duration": "20 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "NFT's May be Non-Fungible but They are Not Non-Infringeable"
+        },
+        {
+          "Time": "13:00 to 14:00",
+          "Duration": "1 Hour",
+          "Venue": "Main Stage",
+          "Topics": ""
+        },
+        {
+          "Time": "14:00 to 14:40",
+          "Duration": "40 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "NFTs are not Fading, They're just Changing"
+        },
+        {
+          "Time": "14:40 to 15:00",
+          "Duration": "20 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "WEB3 in Luxury Industry: NFTs Emerging as the New Driver for High-End Goods in the Web3 World"
+        },
+        {
+          "Time": "15:00 to 15:40",
+          "Duration": "40 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "Avoid the Pain of Having Your NFTs Stolen"
+        },
+        {
+          "Time": "15:40 to 16:00",
+          "Duration": "20 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "From NFT (AR)T to Trademarking"
+        },
+        {
+          "Time": "16:00 to 16:40",
+          "Duration": "40 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "Women Breaking Barriers and Building Bridges: Shifting Mindsets to Empower in NFTs"
+        },
+        {
+          "Time": "16:40 to 17:00",
+          "Duration": "20 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "NFTs, Digital Securities, and Regulated Marketplaces"
+        },
+        {
+          "Time": "17:00 to 17:40",
+          "Duration": "40 Minutes",
+          "Venue": "Main Stage",
+          "Topics": "NFT Ticketing as a Driver for Loyalty and Community"
+        },
+        {
+          "Time": "19:00 to 23:00",
+          "Duration": "4 Hours",
+          "Venue": "",
+          "Topics": "EDM Closing Party"
+        }
+      ]
+    }
+  ]

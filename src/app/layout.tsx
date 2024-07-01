@@ -3,7 +3,8 @@ import "./globals.css";
 import localFont from 'next/font/local'
 
 const myFont = localFont({ src: '../components/fonts/sato.otf' })
-
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,7 +18,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={myFont.className}>{children}</body>
+      <body className={myFont.className}>
+        <Navbar/>
+        {children}
+        
+      <Footer />
+      </body>
     </html>
   );
 }

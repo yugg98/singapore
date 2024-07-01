@@ -1,65 +1,96 @@
 import Image from "next/image";
-import Navbar from '@/components/Navbar'
-import Footer from '@/components/Footer'
-import Speakers from '@/components/Speakers'
+
+import Speakers from "@/components/Speakers";
+import Highlights from "@/components/Highlights";
+import Tickets from "@/components/Tickets";
+import Marquee from "react-fast-marquee";
+
 export default function Home() {
   return (
-   <main>
-    <Navbar/>
-    <div className=" herobg  flex justify-center items-center bg-cover">
-      <p className="text-8xl text-center text-white font-semibold">Singapore Events</p>
-    </div>
-    <div className="mt-1 overflow-hidden sm:mt-20">
-          <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
-            <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
-              <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
-                <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Why Sinagapore</h2>
-                <p className="mt-6 text-xl leading-8 text-gray-600">
-                  Quasi est quaerat. Sit molestiae et. Provident ad dolorem occaecati eos iste. Soluta rerum quidem
-                  minus ut molestiae velit error quod. Excepturi quidem expedita molestias quas.
-                </p>
-                <p className="mt-6 text-base leading-7 text-gray-600">
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt
-                  amet fugiat veniam occaecat fugiat. Quasi aperiam sit non sit neque reprehenderit.
-                </p>
+    <main>
+
+    
+      <Marquee className=" py-2 bg-purple-800">
+        <p className="text-base px-4 text-purple-100">#DegenCode Summit</p>
+        <p className="text-base px-4 text-purple-100">#Web3 Summit</p>
+        <p className="text-base px-4 text-purple-100">#Largest Web3 Event</p>
+        <p className="text-base px-4 text-purple-100">#Web3 Event Singapore</p>
+        <p className="text-base px-4 text-purple-100">#DegenCode Summit</p>
+        <p className="text-base px-4 text-purple-100">#Web3 Summit</p>
+        <p className="text-base px-4 text-purple-100">#Largest Web3 Event</p>
+        <p className="text-base px-4 text-purple-100">#Web3 Event Singapore</p>
+        <p className="text-base px-4 text-purple-100">#Web3 Summit</p>
+
+      </Marquee>
+      <div className=" herobg  flex justify-center items-center bg-cover">
+        <p className="text-8xl text-center text-white font-semibold">
+          Singapore Events
+        </p>
+      </div>
+      <div className="mt-1 overflow-hidden sm:mt-20">
+        <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
+          <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
+            <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
+              <h2 className="text-3xl font-bold tracking-tight text-[#6B21A8] sm:text-4xl">
+                Why Sinagapore?
+              </h2>
+              <p className="mt-6 text-xl leading-8 text-gray-600">
+                Singapore stands as a beacon of progress, a city that has
+                transformed itself into a global hub of innovation and luxury.
+                It’s the perfect setting for the DeGen Summit for several
+                compelling reasons:
+              </p>
+            </div>
+            <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
+              <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
+                <img
+                  src="/singapore.jpg"
+                  alt=""
+                  className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
+                />
               </div>
-              <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
-                <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
-                  <img
-                    src="https://images.unsplash.com/photo-1670272502246-768d249768ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&q=80"
-                    alt=""
-                    className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
-                  />
-                </div>
-                <div className="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
-                  <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
-                    <img
-                      src="https://images.unsplash.com/photo-1605656816944-971cd5c1407f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
-                      alt=""
-                      className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
-                    />
-                  </div>
-                  <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
-                    <img
-                      src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&h=842&q=80"
-                      alt=""
-                      className="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
-                    />
-                  </div>
-                  <div className="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
-                    <img
-                      src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
-                      alt=""
-                      className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover"
-                    />
-                  </div>
-                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <Highlights />
+      </div>
+      <div className="mt-1 overflow-hidden sm:mt-20">
+        <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
+          <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
+            <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
+              <h2 className="text-3xl font-bold tracking-tight text-[#6B21A8] sm:text-4xl">
+                About us
+              </h2>
+              <p className="mt-6 text-xl leading-8 text-gray-600">
+                welcome to DeGEN Summit, the top event for Web3 fans globally.
+                Join us as top company founders and executives discuss their
+                views and perspectives on the blockchain market.
+                <br />
+                <br />
+                At DeGEN, we bring together entrepreneurs, investors,
+                developers, and worldwide media to explore the tremendous
+                prospects in the blockchain ecosystem while also providing
+                unrivaled networking opportunities. Be a member of the community
+                that determines what's next in blockchain. Join us at DeGen to
+                help define the future of blockchain.
+              </p>
+            </div>
+            <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
+              <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
+                <img
+                  src="/singapore.jpg"
+                  alt=""
+                  className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
+                />
               </div>
-              </div>
-              </div>
-              </div>
-              <Speakers/>
-              <Footer/>
-   </main>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Tickets/>
+      <Speakers />
+    </main>
   );
 }

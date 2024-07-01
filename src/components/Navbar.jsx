@@ -11,7 +11,7 @@ function classNames(...classes) {
 const navigationItems = [
     { href: "/#about", label: "Hero" },
     { href: "/#about", label: "Why Singapore" },
-    { href: "/", label: "Schedule" },
+    { href: "/", label: "Agenda" },
     { href: "/#getinvolved", label: "Get Involved" },
     { href: "/#sponsors", label: "Sponsors" },
     { href: "/#speakers", label: "Speakers" },
