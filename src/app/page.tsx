@@ -66,7 +66,7 @@ export default function Home() {
                 About us
               </h2>
               <p className="mt-6 text-xl leading-8 text-gray-600">
-                welcome to DeGEN Summit, the top event for Web3 fans globally.
+                Welcome to DeGEN Summit, the top event for Web3 fans globally.
                 Join us as top company founders and executives discuss their
                 views and perspectives on the blockchain market.
                 <br />

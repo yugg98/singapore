@@ -1,7 +1,7 @@
 "use client";
 import { Fragment } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { MagnifyingGlassIcon } from "@heroicons/react/20/solid";
+import { Disclosure, Menu, Popover, Transition } from "@headlessui/react";
+import { ChevronDownIcon, MagnifyingGlassIcon } from "@heroicons/react/20/solid";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 
@@ -12,14 +12,19 @@ const navigationItems = [
     { href: "/", label: "Hero" },
     { href: "/#why", label: "Why Singapore" },
     { href: "/agenda", label: "Agenda" },
-    { href: "/#getinvolved", label: "Get Involved" },
     { href: "/sponsors", label: "Sponsors" },
     { href: "/speakers", label: "Speakers" },
     { href: "/startup", label: "Startup" },
     { href: "/awards", label: "Awards" },
     { href: "/contact", label: "Contact" },
   ];
-  
+  const getinvolved = [
+    { name: "Media", href: "https://tally.so/r/mY09gd" },
+    { name: "Community", href: "https://tally.so/r/mVQNdv" },
+    { name: "Sponsors", href: "/sponsors" },
+    { name: "Speakers", href: "/speakers" },
+    { name: "Volunteer", href: "https://tally.so/r/w2aoZV" },
+  ];
 export default function Navbar() {
   return (
     <Disclosure as="nav" className="  w-full ">
@@ -35,12 +40,44 @@ export default function Navbar() {
                 />
               </div>
               <div>
-              <div className="hidden  shadow-nav py-6 px-10 rounded-full items-center justify-center lg:flex lg:space-x-6">
+              <div className="hidden  shadow-nav py-3 px-10 rounded-full items-center justify-center lg:flex lg:space-x-6">
             {navigationItems.map((item) => (
               <Link key={item.href} href={item.href} className="text-sm hover:text-purple-600">
                 {item.label}
               </Link>
             ))}
+            <Popover className="relative">
+            <Popover.Button className="flex items-center p-2 text-sm font-semibold leading-6 text-black rounded hover:font-semibold  decoration-2 gap-x-1 focus:outline-none">
+              Get Involved
+              <ChevronDownIcon
+                className="flex-none w-5 h-5 text-purple-600"
+                aria-hidden="true"
+              />
+            </Popover.Button>
+
+            <Transition
+              as={Fragment}
+              enter="transition ease-out duration-200"
+              enterFrom="opacity-0 translate-y-1"
+              enterTo="opacity-100 translate-y-0"
+              leave="transition ease-in duration-150"
+              leaveFrom="opacity-100 translate-y-0"
+              leaveTo="opacity-0 translate-y-1"
+            >
+              <Popover.Panel className="absolute z-50 w-56 p-2 mt-3 bg-gray-900 shadow-lg -left-8 top-full rounded-xl ring-1 ring-gray-900/5">
+                {getinvolved.map((item) => (
+                  <Link
+                    key={item.name}
+                    href={item.href}
+                    target="_blank"
+                    className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
+                  >
+                    {item.name}
+                  </Link>
+                ))}
+              </Popover.Panel>
+            </Transition>
+          </Popover>
           </div>
               </div>
 

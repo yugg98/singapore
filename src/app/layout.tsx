@@ -33,7 +33,7 @@ export default function RootLayout({
             />
           </svg>
         </a>
-        {children}
+       
         <a
           href="https://api.whatsapp.com/send/?phone=918789764332"
           target="_blank"
