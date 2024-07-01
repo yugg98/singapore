@@ -9,20 +9,19 @@ const page = () => {
         <div className="mx-auto max-w-2xl">
           <div className="max-w-lg ">
             <h1 className=" text-4xl font-bold tracking-tight text-black sm:text-6xl">
-              Supercharge your web applications
+            Become a Speaker
+
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-900">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-              qui lorem cupidatat commodo. Elit sunt amet fugiat veniam
-              occaecat fugiat aliqua.
+            Become a speaker or presenter at DeGen Summit and inspire a global audience with your insights and ideas of the biggest Web3 stage. Be a catalyst for change, shape conversations and ignite minds.
+
+
             </p>
             <div className="mt-10 flex items-center gap-x-6">
               <button className="bg-purple-900 px-6 py-3 text-white rounded-full">
-               Nominate Yourself
+              Apply To Speak
               </button>
-              <button className="bg-purple-900 px-6 py-3 text-white rounded-full">
-               Nominate Others
-              </button>
+              
             </div>
           </div>
         </div>
