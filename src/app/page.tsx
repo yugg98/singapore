@@ -3,6 +3,8 @@ import Image from "next/image";
 import Speakers from "@/components/Speakers";
 import Highlights from "@/components/Highlights";
 import Tickets from "@/components/Tickets";
+import Sponsors from "@/components/Sponsors";
+
 import Marquee from "react-fast-marquee";
 
 export default function Home() {
@@ -27,7 +29,7 @@ export default function Home() {
           Singapore Events
         </p>
       </div>
-      <div className="mt-1 overflow-hidden sm:mt-20">
+      <div id="why" className="mt-1 overflow-hidden sm:mt-20">
         <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
             <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
@@ -56,7 +58,7 @@ export default function Home() {
       <div>
         <Highlights />
       </div>
-      <div className="mt-1 overflow-hidden sm:mt-20">
+      <div  className="mt-1 overflow-hidden sm:mt-20">
         <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
             <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
@@ -90,6 +92,7 @@ export default function Home() {
         </div>
       </div>
       <Tickets/>
+      <Sponsors/>
       <Speakers />
     </main>
   );

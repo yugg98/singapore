@@ -152,7 +152,7 @@ export default function Example() {
   const [frequency, setFrequency] = useState(pricing.frequencies[0])
 
   return (
-    <div className="bg-white">
+    <div className="bg-white" id="tickets">
     
       <main>
         {/* Pricing section */}

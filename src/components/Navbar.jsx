@@ -9,14 +9,14 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 const navigationItems = [
-    { href: "/#about", label: "Hero" },
-    { href: "/#about", label: "Why Singapore" },
-    { href: "/", label: "Agenda" },
+    { href: "/", label: "Hero" },
+    { href: "/#why", label: "Why Singapore" },
+    { href: "/agenda", label: "Agenda" },
     { href: "/#getinvolved", label: "Get Involved" },
-    { href: "/#sponsors", label: "Sponsors" },
-    { href: "/#speakers", label: "Speakers" },
-    { href: "/#startup", label: "Startup" },
-    { href: "/#awards", label: "Awards" },
+    { href: "/sponsors", label: "Sponsors" },
+    { href: "/speakers", label: "Speakers" },
+    { href: "/startup", label: "Startup" },
+    { href: "/awards", label: "Awards" },
     { href: "/contact", label: "Contact" },
   ];
   
@@ -45,10 +45,10 @@ export default function Navbar() {
               </div>
 
               <div className="md:flex hidden items-center gap-x-1">
-                <button className="bg-purple-800 hover:bg-purple-600 hover:scale-95 px-6 py-2 text-white rounded-full">
+                <Link href="/#tickets" className="bg-purple-800 hover:bg-purple-600 hover:scale-95 px-6 py-2 text-white rounded-full">
                   Book Tickets
-                </button>
-                <Link href="https://calendly.com/abc_2024/30min" className="bg-purple-800 hover:bg-purple-600 hover:scale-95 px-6 py-2 text-white rounded-full">
+                </Link>
+                <Link href="https://calendly.com/degensummit" className="bg-purple-800 hover:bg-purple-600 hover:scale-95 px-6 py-2 text-white rounded-full">
                  Enquire
                 </Link>
               </div>
