@@ -8,7 +8,6 @@ import Bhaswati  from "@/images/speakers/bhaswati.jpeg";
 import Hariharan from "@/images/speakers/hariharan.jpeg";
 import Satish from "@/images/speakers/satish.jpeg"
 import Zach from "@/images/speakers/zach.jpeg"
-import Alexander from "@/images/speakers/alexander.jpeg"
 import Kanishka from  "@/images/speakers/kanishka.jpeg"
 import anil from '@/images/speakers/anil.jpg'
 import trish from '@/images/speakers/trish.jpeg'
@@ -151,14 +150,7 @@ const people = [
   twitterUrl: "",
   linkedinUrl: "https://www.linkedin.com/in/simsykumar/",
 },
-{
-  name: "Alexander Jacobi ",
-  role: "Crypto Project Advisor & Co-Founder, Punchword",
-  imageUrl: Alexander,
-  location: "Germany",
-  twitterUrl: "https://twitter.com/aj_alexjacobi?lang=en",
-  linkedinUrl: "https://www.linkedin.com/in/aj-alexjacobi/",
-},
+
 {
   name: "Kanishka Agiwal ",
   role: "Head - Service Lines, India & South Asia, Amazon Web Services (AWS)",
