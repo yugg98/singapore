@@ -1,5 +1,5 @@
 import React from 'react'
-import Speaker from '@/components/Speakers'
+import Sponsors from '@/components/Sponsors'
 const page = () => {
   return (
     <div>
@@ -41,7 +41,7 @@ const page = () => {
     </div>
     <div className="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-white sm:h-32" />
   </div>
-  <Speaker/>
+  <Sponsors/>
   </div>
   )
 }
