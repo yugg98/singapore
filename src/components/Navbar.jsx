@@ -9,13 +9,12 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 const navigationItems = [
-    { href: "/", label: "Hero" },
-    { href: "/#why", label: "Why Singapore" },
-    { href: "/agenda", label: "Agenda" },
+  
+    // { href: "/agenda", label: "Agenda" },
     { href: "/sponsors", label: "Sponsors" },
     { href: "/speakers", label: "Speakers" },
-    { href: "/startup", label: "Startup" },
-    { href: "/awards", label: "Awards" },
+    // { href: "/startup", label: "Startup" },
+    // { href: "/awards", label: "Awards" },
     { href: "/contact", label: "Contact" },
   ];
   const getinvolved = [
@@ -27,10 +26,10 @@ const navigationItems = [
   ];
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="  w-full ">
+    <Disclosure as="nav" className="fixed z-[10] w-full color-white">
       {({ open,close }) => (
         <>
-          <div className="mx-auto max-w-7xl px-2 sm:px-4  lg:px-8 my-2">
+          <div className="mx-auto max-w-7xl px-2 sm:px-4 py-4   lg:px-8">
             <div className="flex h-16 justify-between">
               <div className="flex  items-center">
                 <img
@@ -42,15 +41,15 @@ export default function Navbar() {
               <div>
               <div className="hidden  shadow-nav py-3 px-10 rounded-full items-center justify-center lg:flex lg:space-x-6">
             {navigationItems.map((item) => (
-              <Link key={item.href} href={item.href} className="text-sm hover:text-purple-600">
+              <Link key={item.href} href={item.href} className="text-lg font-bold text-white hover:text-purple-600">
                 {item.label}
               </Link>
             ))}
             <Popover className="relative">
-            <Popover.Button className="flex items-center p-2 text-sm font-semibold leading-6 text-black rounded hover:font-semibold  decoration-2 gap-x-1 focus:outline-none">
+            <Popover.Button className="flex items-center p-2 text-lg font-semibold leading-6 text-white rounded hover:font-semibold  decoration-2 gap-x-1 focus:outline-none">
               Get Involved
               <ChevronDownIcon
-                className="flex-none w-5 h-5 text-purple-600"
+                className="flex-none w-5 h-5 text-purple-100"
                 aria-hidden="true"
               />
             </Popover.Button>
@@ -64,7 +63,7 @@ export default function Navbar() {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 translate-y-1"
             >
-              <Popover.Panel className="absolute z-50 w-56 p-2 mt-3 bg-gray-900 shadow-lg -left-8 top-full rounded-xl ring-1 ring-gray-900/5">
+              <Popover.Panel className="absolute z-50 w-56 p-2 mt-3 bg-gray-100 shadow-lg -left-8 top-full rounded-xl ring-1 ring-gray-900/5">
                 {getinvolved.map((item) => (
                   <Link
                     key={item.name}
@@ -82,9 +81,9 @@ export default function Navbar() {
               </div>
 
               <div className="md:flex hidden items-center gap-x-1">
-                <Link href="/#tickets" className="bg-purple-800 hover:bg-purple-600 hover:scale-95 px-6 py-2 text-white rounded-full">
+                {/* <Link href="/#tickets" className="bg-purple-800 hover:bg-purple-600 hover:scale-95 px-6 py-2 text-white rounded-full">
                   Book Tickets
-                </Link>
+                </Link> */}
                 <Link href="https://calendly.com/degensummit" className="bg-purple-800 hover:bg-purple-600 hover:scale-95 px-6 py-2 text-white rounded-full">
                  Enquire
                 </Link>

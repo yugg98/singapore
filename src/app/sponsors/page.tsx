@@ -3,15 +3,14 @@ import Sponsors from "@/components/Sponsors";
 const page = () => {
   return (
     <div>
-      <div className="relative isolate overflow-hidden mt-10 bg-cover ">
-        <div className="mx-auto max-w-7xl pb-24 pt-10 sm:pb-32 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:px-8 ">
+        <div className="mx-auto max-w-7xl pb-24 pt-10 sm:pb-32 lg:grid lg:grid-cols-2 lg:gap-x-8  lg:px-8 ">
           <div className="px-6 lg:px-0 lg:pt-4">
-            <div className="mx-auto max-w-2xl">
+            <div className="mx-auto max-w-2xl mt-20">
               <div className="max-w-lg ">
-                <h1 className=" text-4xl font-bold tracking-tight text-black sm:text-6xl">
+                <h1 className=" text-4xl font-bold tracking-tight text-primary sm:text-6xl">
                   Become a Sponsor
                 </h1>
-                <p className="mt-6 text-lg leading-8 text-gray-900">
+                <p className="mt-6 text-lg leading-8 text-white">
                   At DeGen Summit, we present exclusive sponsorship packages
                   designed to align with your brand&apos;s vision, budget, and
                   marketing aspirations.
@@ -27,7 +26,7 @@ const page = () => {
               </div>
             </div>
           </div>
-          <div className=" md:mx-auto md:max-w-2xl lg:mx-0 lg:mt-0 lg:w-screen">
+          <div className=" md:mx-auto md:max-w-2xl lg:mx-0 lg:mt-20 lg:w-screen">
             <div className=" md:rounded-3xl">
               <div>
                 <div className="relative px-6 pt-8 sm:pt-16 md:pl-16 md:pr-0">
@@ -39,8 +38,6 @@ const page = () => {
             </div>
           </div>
         </div>
-        <div className="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-white sm:h-32" />
-      </div>
       <Sponsors />
     </div>
   );

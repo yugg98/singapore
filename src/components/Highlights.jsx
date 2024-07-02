@@ -25,7 +25,7 @@ const features =  [
 ]
 export default function Example() {
   return (
-    <div className="my-10 bg-[#F69B38] py-20">
+    <div className="my-10 py-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
       <img src="/gr2.png" alt="" />
     

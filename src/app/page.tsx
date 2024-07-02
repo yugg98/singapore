@@ -10,33 +10,17 @@ import Marquee from "react-fast-marquee";
 export default function Home() {
   return (
     <main>
-
-    
-      <Marquee className=" py-2 bg-purple-800">
-        <p className="text-base px-4 text-purple-100">#DegenCode Summit</p>
-        <p className="text-base px-4 text-purple-100">#Web3 Summit</p>
-        <p className="text-base px-4 text-purple-100">#Largest Web3 Event</p>
-        <p className="text-base px-4 text-purple-100">#Web3 Event Singapore</p>
-        <p className="text-base px-4 text-purple-100">#DegenCode Summit</p>
-        <p className="text-base px-4 text-purple-100">#Web3 Summit</p>
-        <p className="text-base px-4 text-purple-100">#Largest Web3 Event</p>
-        <p className="text-base px-4 text-purple-100">#Web3 Event Singapore</p>
-        <p className="text-base px-4 text-purple-100">#Web3 Summit</p>
-
-      </Marquee>
-      <div className=" herobg  flex justify-center items-center bg-cover">
-        <p className="text-8xl text-center text-white font-semibold">
-          Singapore Events
-        </p>
+      <div className="   flex justify-center items-center bg-cover">
+        <video src="/degen.mp4 " autoPlay muted></video>
       </div>
       <div id="why" className="mt-1 overflow-hidden sm:mt-20">
         <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
             <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
-              <h2 className="text-3xl font-bold tracking-tight text-[#6B21A8] sm:text-4xl">
+              <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl">
                 Why Sinagapore?
               </h2>
-              <p className="mt-6 text-xl leading-8 text-gray-600">
+              <p className="mt-6 text-xl leading-8 text-white">
                 Singapore stands as a beacon of progress, a city that has
                 transformed itself into a global hub of innovation and luxury.
                 It’s the perfect setting for the DeGen Summit for several
@@ -55,17 +39,28 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Marquee className=" py-2 bg-purple-800">
+        <p className="text-base px-4 text-purple-100">#DegenCode Summit</p>
+        <p className="text-base px-4 text-purple-100">#Web3 Summit</p>
+        <p className="text-base px-4 text-purple-100">#Largest Web3 Event</p>
+        <p className="text-base px-4 text-purple-100">#Web3 Event Singapore</p>
+        <p className="text-base px-4 text-purple-100">#DegenCode Summit</p>
+        <p className="text-base px-4 text-purple-100">#Web3 Summit</p>
+        <p className="text-base px-4 text-purple-100">#Largest Web3 Event</p>
+        <p className="text-base px-4 text-purple-100">#Web3 Event Singapore</p>
+        <p className="text-base px-4 text-purple-100">#Web3 Summit</p>
+      </Marquee>
       <div>
         <Highlights />
       </div>
-      <div  className="mt-1 overflow-hidden sm:mt-20">
+      <div className="mt-1 overflow-hidden sm:mt-20">
         <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
             <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
-              <h2 className="text-3xl font-bold tracking-tight text-[#6B21A8] sm:text-4xl">
+              <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl">
                 About us
               </h2>
-              <p className="mt-6 text-xl leading-8 text-gray-600">
+              <p className="mt-6 text-xl leading-8 text-white">
                 Welcome to DeGEN Summit, the top event for Web3 fans globally.
                 Join us as top company founders and executives discuss their
                 views and perspectives on the blockchain market.
@@ -75,8 +70,8 @@ export default function Home() {
                 developers, and worldwide media to explore the tremendous
                 prospects in the blockchain ecosystem while also providing
                 unrivaled networking opportunities. Be a member of the community
-                that determines what&apos;s next in blockchain. Join us at DeGen to
-                help define the future of blockchain.
+                that determines what&apos;s next in blockchain. Join us at DeGen
+                to help define the future of blockchain.
               </p>
             </div>
             <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
@@ -91,8 +86,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Tickets/>
-      <Sponsors/>
+      {/* <Tickets/> */}
+      <Sponsors />
       <Speakers />
     </main>
   );

@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  background-color: #1E232C;
+  color: white;
+}
+
 .herobg{
   min-height: 500px;
 
@@ -10,6 +15,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background: url('/hero.jpg');
+ 
   background-size: cover;
 }

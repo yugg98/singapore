@@ -109,11 +109,11 @@ import bounce from '@/images/sponsors-logo/bounce.png'
 export default function Who() {
   return (
     <>
-      <div className="pt-24 pb-4  ">
+      <div className="pt-8 pb-4  ">
       <div className="py-8 "> 
         <div className="max-w-6xl px-6 mx-auto lg:px-8">
-          <h2 className="text-xl font-bold text-center text-purple-900 font-display">
-            Our Sponsors
+          <h2 className="text-5xl mb-10 font-bold text-center text-primary font-display">
+            Our Previous Sponsors
           </h2>
           <div className="-mx-6 mt-6 grid grid-cols-2 md:grid-cols-4 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
           <a
@@ -196,251 +196,11 @@ export default function Who() {
           </div>
         </div>
         </div>
-        <div className="max-w-6xl px-6 mx-auto lg:px-8">
-          <h2 className="text-xl font-bold text-center text-purple-900 font-display">
-            Knowledge Partner
-          </h2>
-          <div className="-mx-6 mt-6 grid grid-cols-2 md:grid-cols-4 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
-            <a
-              target="_blank"
-              href="https://blockchain-founders.io/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110 "
-                src={bfg}
-                alt="bfg"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.accenture.com/us-en/about/accenture-song-index"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={accenture}
-                alt="accenture"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/company/flamingo-chain/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={flamingo}
-                alt="flamingo"
-              />
-            </a>
-
-            <a
-              target="_blank"
-              href="https://www.mastercard.co.in/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={mastercard}
-                alt="mastercard"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://sortedwallet.com/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={sorted}
-                alt="sorted"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.ford.com/finance/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={ford}
-                alt="ford credit"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/company/artysan-accelerator/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={artysan}
-                alt="artysan"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.jia.xyz/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={jia}
-                alt="jia"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.simsyventures.com/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={simsy}
-                alt="simsy"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://punchword.com/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={punchword}
-                alt="punchword"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://aws.com"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={aws}
-                alt="aws"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.5dhealerverse.com/home.php"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={healerverse}
-                alt="healerverse"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://anatolianblockchain.com/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={anatolian}
-                alt="anatolian"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/company/cankayablockchain/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={cankaya}
-                alt="cankaya"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://economicsdesign.com/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={economic}
-                alt="economic"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.coinbase.com/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={coinbase}
-                alt="coinbase"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="http://www.bhaifinance.com/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={bhaifin}
-                alt="bhaifin"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://fsv.capital"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={foundersphere}
-                alt="foundersphere"
-              />
-            </a>
-            <a
-              target="_blank"
-              href=""
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={ajeetco}
-                alt="ajeetco"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://blockchainnetworkph.com/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={blocnet}
-                alt="blocnet"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://adlunam.cc/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={adlunam}
-                alt="adlunam"
-              />
-            </a>
-        
-        
-          </div>
-        </div>
-      </div>
+       
+      
       <div className="py-4 ">
         <div className="max-w-6xl px-6 mx-auto lg:px-8">
-          <h2 className="text-xl font-bold text-center text-purple-900 font-display">
+          <h2 className="text-xl font-bold text-center text-primary font-display">
             Crypto Payment Partner
           </h2>
           <div className="-mx-6 mt-6 grid grid-cols-1 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
@@ -460,7 +220,7 @@ export default function Who() {
       </div>
       <div className="py-4 ">
         <div className="max-w-6xl px-6 mx-auto lg:px-8">
-          <h2 className="text-xl font-bold text-center text-purple-900 font-display">
+          <h2 className="text-xl font-bold text-center text-primary font-display">
             Accommodation Partner
           </h2>
           <div className="-mx-6 mt-6 grid grid-cols-1 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
@@ -480,7 +240,7 @@ export default function Who() {
       </div>
       <div className="py-4">
         <div className="max-w-6xl px-6 mx-auto lg:px-8">
-          <h2 className="text-xl font-bold text-center text-purple-900 font-display">
+          <h2 className="text-xl font-bold text-center text-primary font-display">
             Ticketing Partners
           </h2>
           <div className="-mx-6 mt-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
@@ -511,7 +271,7 @@ export default function Who() {
       </div>
       <div className="pt-8 pb-4 ">
         <div className="max-w-6xl px-6 mx-auto lg:px-8">
-          <h2 className="text-xl font-bold text-center text-purple-900 font-display">
+          <h2 className="text-xl font-bold text-center text-primary font-display">
             Community Partners
           </h2>
           <div className="-mx-6 mt-6 grid grid-cols-2 md:grid-cols-4 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
@@ -1153,7 +913,7 @@ export default function Who() {
       </div>
       <div className="pt-8 pb-20 ">
         <div className="max-w-6xl px-6 mx-auto lg:px-8">
-          <h2 className="text-xl font-bold text-center text-purple-900 font-display">
+          <h2 className="text-xl font-bold text-center text-primary font-display">
             Media Partners
           </h2>
           <div className="-mx-6 mt-6 grid grid-cols-2 md:grid-cols-4 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
@@ -1369,6 +1129,7 @@ export default function Who() {
             {/* media partners ends */}
           </div>
         </div>
+      </div>
       </div>
     </>
   );
