@@ -99,7 +99,7 @@ const navigation = {
             <div className="space-y-8">
               <img
                 className="h-7"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                src="lo"
                 alt="Company name"
               />
               <p className="text-sm leading-6 text-gray-600">

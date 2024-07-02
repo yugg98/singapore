@@ -21,7 +21,8 @@ const page = () => {
                   maximum visibility and meaningful connections.
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
-                  <button className="bg-purple-900 px-6 py-3 text-white rounded-full">Request Sponsorship Deck</button>
+                <button className="bg-purple-900 px-6 py-3 text-white rounded-full">Request Sponsorship Deck</button>
+
                 </div>
               </div>
             </div>
@@ -31,7 +32,7 @@ const page = () => {
               <div>
                 <div className="relative px-6 pt-8 sm:pt-16 md:pl-16 md:pr-0">
                   <div className="mx-auto max-w-xl md:mx-0 md:max-w-md">
-                    <img src="/hero.jpg" className="rounded-2xl" alt="" />
+                    <img src="/s.jpeg" className="rounded-2xl" alt="" />
                   </div>
                 </div>
               </div>

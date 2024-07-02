@@ -10,7 +10,7 @@ import Marquee from "react-fast-marquee";
 export default function Home() {
   return (
     <main>
-      <div className="   flex justify-center items-center bg-cover">
+      <div className="flex justify-center items-center bg-cover">
         <video src="/degen.mp4 " autoPlay muted></video>
       </div>
       <div id="why" className="mt-1 overflow-hidden sm:mt-20">
@@ -39,7 +39,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Marquee className=" py-2 bg-purple-800">
+      <Marquee className=" py-2 mt-8 bg-indigo-800">
         <p className="text-base px-4 text-purple-100">#DegenCode Summit</p>
         <p className="text-base px-4 text-purple-100">#Web3 Summit</p>
         <p className="text-base px-4 text-purple-100">#Largest Web3 Event</p>

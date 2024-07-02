@@ -197,78 +197,7 @@ export default function Who() {
         </div>
         </div>
        
-      
-      <div className="py-4 ">
-        <div className="max-w-6xl px-6 mx-auto lg:px-8">
-          <h2 className="text-xl font-bold text-center text-primary font-display">
-            Crypto Payment Partner
-          </h2>
-          <div className="-mx-6 mt-6 grid grid-cols-1 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
-            <a
-              target="_blank"
-              href="https://copperx.io/?ref=web3carnival"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={CopperX}
-                alt="CopperX"
-              />
-            </a>
-          </div>
-        </div>
-      </div>
-      <div className="py-4 ">
-        <div className="max-w-6xl px-6 mx-auto lg:px-8">
-          <h2 className="text-xl font-bold text-center text-primary font-display">
-            Accommodation Partner
-          </h2>
-          <div className="-mx-6 mt-6 grid grid-cols-1 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
-            <a
-              target="_blank"
-              href="https://buktrips.com/hotels/?ref=web3carnival"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={buktrips}
-                alt="buktrips"
-              />
-            </a>
-          </div>
-        </div>
-      </div>
-      <div className="py-4">
-        <div className="max-w-6xl px-6 mx-auto lg:px-8">
-          <h2 className="text-xl font-bold text-center text-primary font-display">
-            Ticketing Partners
-          </h2>
-          <div className="-mx-6 mt-6 grid grid-cols-2 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
-            <a
-              target="_blank"
-              href="https://insider.in/web3-carnival-2023-dec4-2023/event/?ref=web3carnival"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={paytmInsider}
-                alt="paytmInsider"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.explara.com/e/web3-carnival-7daypass"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={explaraLogo}
-                alt="explaraLogo"
-              />
-            </a>
-          </div>
-        </div>
-      </div>
+   
       <div className="pt-8 pb-4 ">
         <div className="max-w-6xl px-6 mx-auto lg:px-8">
           <h2 className="text-xl font-bold text-center text-primary font-display">

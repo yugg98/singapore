@@ -651,7 +651,7 @@ const people = [
         <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
           <div className="mx-auto max-w-2xl">
             <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl">Meet our previous speakers</h2>
-            <p className="mt-2 text-lg leading-8 text-gray-700">
+            <p className="mt-2 text-lg leading-8 text-gray-100">
               We’re a dynamic group of individuals who are passionate about what we do.
             </p>
           </div>
@@ -662,7 +662,7 @@ const people = [
             {people.map((person) => (
            <li
            key={person.role}
-              className="p-4 transition-all card  duration-150 ease-in-out bg-orange-600 hover:scale-105 rounded-xl hover:bg-orange-900 hover:shadow-md flex flex-col justify-between"
+              className="p-4 transition-all card  duration-150 ease-in-out bg-indigo-900 hover:scale-105 rounded-xl hover:bg-orange-900 hover:shadow-md flex flex-col justify-between"
         
             >
                 <Image className="mx-auto h-36 w-36  md:h-40 md:w-40" src={person.imageUrl} alt="" />

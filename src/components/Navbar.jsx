@@ -26,14 +26,14 @@ const navigationItems = [
   ];
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="fixed z-[10] w-full color-white">
+    <Disclosure as="nav" className="fixed z-[10] backdrop-blur-2xl   w-full color-indigo-400">
       {({ open,close }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-4 py-4   lg:px-8">
             <div className="flex h-16 justify-between">
               <div className="flex  items-center">
                 <img
-                  className="w-18 h-auto"
+                  className="w-20 rounded-xl h-auto"
                   src="/logo.svg"
                   alt="Your Company"
                 />
@@ -63,7 +63,7 @@ export default function Navbar() {
               leaveFrom="opacity-100 translate-y-0"
               leaveTo="opacity-0 translate-y-1"
             >
-              <Popover.Panel className="absolute z-50 w-56 p-2 mt-3 bg-gray-100 shadow-lg -left-8 top-full rounded-xl ring-1 ring-gray-900/5">
+              <Popover.Panel className="absolute z-50 w-56 p-2 mt-3 bg-gray-900 shadow-lg -left-8 top-full rounded-xl ring-1 ring-gray-900/5">
                 {getinvolved.map((item) => (
                   <Link
                     key={item.name}

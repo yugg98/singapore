@@ -8,7 +8,7 @@ const page = () => {
             <div className="mx-auto max-w-2xl mt-20">
               <div className="max-w-lg ">
                 <h1 className=" text-4xl font-bold tracking-tight text-primary sm:text-6xl">
-                  Become a Sponsor
+                  Become a Speaker
                 </h1>
                 <p className="mt-6 text-lg leading-8 text-white">
                   At DeGen Summit, we present exclusive sponsorship packages
@@ -21,17 +21,18 @@ const page = () => {
                   maximum visibility and meaningful connections.
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
-                  <button className="bg-purple-900 px-6 py-3 text-white rounded-full">Request Sponsorship Deck</button>
+                <button className="bg-purple-900 px-6 py-3 text-white rounded-full">Become A Speaker</button>
+
                 </div>
               </div>
             </div>
           </div>
-          <div className=" md:mx-auto md:max-w-2xl lg:mx-0 lg:mt-20 lg:w-screen">
+          <div className=" md:mx-auto md:max-w-3xl lg:mx-0 lg:mt-20 lg:w-screen">
             <div className=" md:rounded-3xl">
               <div>
                 <div className="relative px-6 pt-8 sm:pt-16 md:pl-16 md:pr-0">
-                  <div className="mx-auto max-w-xl md:mx-0 md:max-w-md">
-                    <img src="/hero.jpg" className="rounded-2xl" alt="" />
+                  <div className="mx-auto max-w-xl md:mx-0 md:max-w-xl">
+                    <img src="/speaker.jpeg" className="rounded-2xl" alt="" />
                   </div>
                 </div>
               </div>
