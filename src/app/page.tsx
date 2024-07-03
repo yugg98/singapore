@@ -6,13 +6,12 @@ import Tickets from "@/components/Tickets";
 import Sponsors from "@/components/Sponsors";
 
 import Marquee from "react-fast-marquee";
-import { useRef } from 'react';
 
 export default function Home() {
   return (
     <main>
       <div className="flex justify-center items-center bg-cover">
-        <video  src="/degen.mp4 " autoPlay  muted></video>
+        <video src="/degen.mp4 " autoPlay loop muted></video>
       </div>
       <div id="why" className="mt-1 overflow-hidden sm:mt-20">
         <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
@@ -28,7 +27,7 @@ export default function Home() {
               vibrant tech scene, and diverse population, Singapore 
               attracts over 25,000 crypto enthusiasts to network, innovate,
                and capitalize on bullish opportunities in the Web3 space.
-                This global gathering underscores Singapore's role as a leading hub for blockchain technology and its readiness 
+                This global gathering underscores Singapore&apos;s role as a leading hub for blockchain technology and its readiness 
                 to embrace the future of decentralized finance.
                 It’s the perfect setting for the DeGen Summit for several
                 compelling reasons:
