@@ -776,6 +776,7 @@ export default function Example() {
             </li>
           ))}
         </ul>
+        <p className="text-2xl text-center text-primary">& Many More..</p>
       </div>
     </div>
   );

@@ -24,7 +24,7 @@ export default function RootLayout({
         <a
           href="https://api.whatsapp.com/send/?phone=918882237392"
           target="_blank"
-          className="fixed z-[8888] bottom-6 left-6 md:bottom-10 md:right-8 bg-green-600 w-16 h-16 rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl hover:bg-green-700 hover:drop-shadow-2xl hover:scale-95 transition-all ease-in-out duration-150"
+          className="fixed z-[8888] bottom-6 left-6 md:bottom-10 md:right-8 bg-green-600 w-12 h-12 rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl hover:bg-green-700 hover:drop-shadow-2xl hover:scale-95 transition-all ease-in-out duration-150"
         >
           <svg aria-hidden="true" className="w-8 h-8" viewBox="0 0 24 24">
             <path
@@ -37,9 +37,10 @@ export default function RootLayout({
         <a
           href="https://t.me/princeweb3"
           target="_blank"
-          className="fixed z-[8888] top-90 left-30 md:bottom-10 md:right-8   rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl s hover:drop-shadow-2xl  transition-all ease-in-out duration-150"
+          className="fixed z-[8888] bottom-6 right-6 md:bottom-10 md:right-16 rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl hover:drop-shadow-2xl transition-all ease-in-out duration-150"
+
         >
-         <img src="/tel.svg" className="w-16 h-16" alt=""  />
+         <img src="/tel.svg" className="w-12 h-12" alt=""  />
         </a>
       {<Footer /> }
       </body>

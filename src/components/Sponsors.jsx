@@ -1279,6 +1279,7 @@ export default function Who() {
             {/* community partners end */}
           </div>
         </div>
+        <p className="text-2xl text-center text-primary">& Many More..</p>
       </div>
       </div>
     </>
