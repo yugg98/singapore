@@ -1,4 +1,3 @@
-
 import Speakers from "@/components/Speakers";
 import Highlights from "@/components/Highlights";
 import Tickets from "@/components/Tickets";
@@ -13,15 +12,28 @@ export default function Home() {
   return (
     <main>
       <div className="h-screen">
-      <div className="flex justify-center items-center absolute bg-cover">
-        <video src="/degen.mp4 " autoPlay loop muted></video>
-      </div>
+        <div className="flex justify-center items-center absolute bg-cover">
+          <video
+            src="/degen.mp4 "
+            className="h-screen md:block hidden mx-auto  w-full"
+            autoPlay
+            loop
+            muted
+          ></video>
+            <video
+            src="/mobile.mp4 "
+            className="h-screen block md:hidden w-full"
+            autoPlay
+            loop
+            muted
+          ></video>
+        </div>
       </div>
       {/* <Clock/> */}
 
-      <Stats/>
+      <Stats />
 
-    <WhySingapore/>
+      <WhySingapore />
       <Marquee className=" py-2 mt-8 bg-indigo-800">
         <p className="text-base px-4 text-purple-100">#DeGen Summit</p>
         <p className="text-base px-4 text-purple-100">#Web3 Summit</p>
@@ -33,7 +45,7 @@ export default function Home() {
         <p className="text-base px-4 text-purple-100">#Web3 Event Singapore</p>
         <p className="text-base px-4 text-purple-100">#Web3 Summit</p>
       </Marquee>
-      
+
       <div>
         <Highlights />
       </div>
