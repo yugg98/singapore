@@ -712,10 +712,7 @@ export default function Example() {
           <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl">
             Meet our previous speakers
           </h2>
-          <p className="mt-2 text-lg leading-8 text-gray-100">
-            We’re a dynamic group of individuals who are passionate about what
-            we do.
-          </p>
+        
         </div>
         <ul
           role="list"
@@ -776,7 +773,7 @@ export default function Example() {
             </li>
           ))}
         </ul>
-        <p className="text-2xl text-center text-primary">& Many More..</p>
+        <p className="text-2xl text-center text-primary mt-8">& Many More..</p>
       </div>
     </div>
   );
