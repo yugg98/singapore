@@ -50,20 +50,20 @@ const navigation = {
           </svg>
         ),
       },
-      {
-        name: 'Telegram',
-        href: 'https://t.me/degensummit',
-        icon: (props) => (
-            <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
-              <path
-                fillRule="evenodd"
-                d="M12 2c-5.522 0-10 4.477-10 10s4.478 10 10 10 10-4.477 10-10-4.478-10-10-10zm4.625 6.417l-9.383 4.822c-.29.149-.406.298-.335.448.073.149.369.104.69-.056l2.945-1.547 5.781 3.917c.166.113.311.106.406-.018.095-.125-.032-.276-.228-.404l-6.103-3.61 3.454-2.34c.264-.172.387-.282.373-.33-.014-.047-.187-.01-.459.108l-8.8 4.427c-.223.111-.305.17-.245.17.06 0 .23-.064.473-.191l9.797-5.103c.279-.146.412-.288.396-.426-.017-.138-.193-.133-.514.018z"
-                clipRule="evenodd"
-              />
-            </svg>
+      // {
+      //   name: 'Telegram',
+      //   href: 'https://t.me/degensummit',
+      //   icon: (props) => (
+      //       <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
+      //         <path
+      //           fillRule="evenodd"
+      //           d="M12 2c-5.522 0-10 4.477-10 10s4.478 10 10 10 10-4.477 10-10-4.478-10-10-10zm4.625 6.417l-9.383 4.822c-.29.149-.406.298-.335.448.073.149.369.104.69-.056l2.945-1.547 5.781 3.917c.166.113.311.106.406-.018.095-.125-.032-.276-.228-.404l-6.103-3.61 3.454-2.34c.264-.172.387-.282.373-.33-.014-.047-.187-.01-.459.108l-8.8 4.427c-.223.111-.305.17-.245.17.06 0 .23-.064.473-.191l9.797-5.103c.279-.146.412-.288.396-.426-.017-.138-.193-.133-.514.018z"
+      //           clipRule="evenodd"
+      //         />
+      //       </svg>
          
-        ),
-      },
+      //   ),
+      // },
       {
         name: 'LinkedIn',
         href: 'https://www.linkedin.com/company/degensummit',
@@ -103,20 +103,20 @@ const navigation = {
               />
               <p className="text-sm leading-6 text-gray-100">
               The Premiere Web3 Event for the DeGENs!              </p>
-              {/* <div className="flex space-x-6">
+              <div className="flex space-x-6">
                 {navigation.social.map((item) => (
                   <a key={item.name} href={item.href} className="text-gray-100 hover:text-gray-200">
                     <span className="sr-only">{item.name}</span>
                     <item.icon className="h-6 w-6" aria-hidden="true" />
                   </a>
                 ))}
-              </div> */}
+              </div>
             </div>
             <div className="mt-16 grid  gap-8  xl:mt-0">
              
               <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
-                  <h3 className="text-sm font-semibold leading-6 text-gray-100">About Us</h3>
+                  <h3 className="text-sm font-bold leading-6 text-gray-100">About Us</h3>
                   <ul role="list" className="mt-6 space-y-4">
                     {navigation.Speakers.map((item) => (
                       <li key={item.name}>
@@ -128,7 +128,7 @@ const navigation = {
                   </ul>
                 </div>
                 <div className="mt-10 md:mt-0">
-                  <h3 className="text-sm font-semibold leading-6 text-gray-100">Legal</h3>
+                  <h3 className="text-sm font-bold leading-6 text-gray-100">Legal</h3>
                   <ul role="list" className="mt-6 space-y-4">
                     {navigation.legal.map((item) => (
                       <li key={item.name}>
