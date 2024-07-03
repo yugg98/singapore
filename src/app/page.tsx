@@ -17,7 +17,7 @@ export default function Home() {
         <video src="/degen.mp4 " autoPlay loop muted></video>
       </div>
       </div>
-      <Clock/>
+      {/* <Clock/> */}
 
       <Stats/>
 

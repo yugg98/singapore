@@ -103,14 +103,14 @@ const navigation = {
               />
               <p className="text-sm leading-6 text-gray-100">
               The Premiere Web3 Event for the DeGENs!              </p>
-              <div className="flex space-x-6">
+              {/* <div className="flex space-x-6">
                 {navigation.social.map((item) => (
                   <a key={item.name} href={item.href} className="text-gray-100 hover:text-gray-200">
                     <span className="sr-only">{item.name}</span>
                     <item.icon className="h-6 w-6" aria-hidden="true" />
                   </a>
                 ))}
-              </div>
+              </div> */}
             </div>
             <div className="mt-16 grid  gap-8  xl:mt-0">
              
