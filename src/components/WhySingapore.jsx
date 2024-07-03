@@ -3,10 +3,10 @@ import React from "react";
 
 const Whydubai = () => {
   return (
-    <div className="mt-16 overflow-hidden ">
+    <div className="mt-16 overflow-hidden border-0 ">
 
-      <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
-        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
+      <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8 border-0">
+        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 border-0 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
           <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
           <img src="/glowgr.svg"  className="absolute left-0 w-[1000px] z-[-1]" alt="" srcset="" />
 
