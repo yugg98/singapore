@@ -14,7 +14,7 @@ const stats = [
 ];
 export default function Example() {
   return (
-    <div className="mt-8">
+    <div className="md:mt-8">
       <div className="mx-auto max-w-6xl relative z-[20]">
         <div className="grid gap-4 px-10 py-10 overflow-hidden rounded-2xl md:grid-cols-4 grid-cols-2">
           {stats.map((stat, index) => (
@@ -26,7 +26,7 @@ export default function Example() {
               
             >
               <p className="mt-2 flex items-baseline gap-x-2 ">
-                <span className="text-4xl font-semibold tracking-tight text-white">
+                <span className="md:text-4xl text-2xl font-semibold tracking-tight text-white">
                   <CountUp start={0} end={stat.value} duration={2} />+
                 </span>
               </p>

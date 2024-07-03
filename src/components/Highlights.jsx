@@ -15,7 +15,7 @@ const features =  [
   },
   {
     "name": "Innovation at its Core!",
-  "image":"/f8.jpeg",
+  "image":"/f10.jpeg",
 
     "description": "Singapore is synonymous with cutting-edge technology and ambitious projects, mirroring the pioneering spirit of the Web3 community."
   },
