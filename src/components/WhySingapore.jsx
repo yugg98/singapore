@@ -20,7 +20,7 @@ const Whydubai = () => {
 
             </p>
             <p className="mt-6 text-base mb-6 font-sato  text-gray-100">
-            This global gathering underscores Singapore's role as a leading hub for blockchain technology and its readiness to embrace the future of decentralized finance. It’s the perfect setting for the DeGen Summit for several compelling reasons:
+            This global gathering underscores Singapore&apos;s role as a leading hub for blockchain technology and its readiness to embrace the future of decentralized finance. It’s the perfect setting for the DeGen Summit for several compelling reasons:
             </p>
             <Link
               href="/aboutus"
