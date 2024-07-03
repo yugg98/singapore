@@ -18,12 +18,14 @@ export default function Home() {
             className=" md:block hidden mx-auto  w-screen"
             autoPlay
             loop
+            controls
             muted
           ></video>
             <video
             src="/mobile.mp4 "
             className="h-screen block md:hidden w-full"
             autoPlay
+            controls
             loop
             muted
           ></video>
