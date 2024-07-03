@@ -18,6 +18,7 @@ export default function Home() {
             className=" md:block hidden mx-auto  w-screen"
             autoPlay
             loop
+            muted
             // controls
           ></video>
             <video
