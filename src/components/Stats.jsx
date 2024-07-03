@@ -14,9 +14,9 @@ const stats = [
 ];
 export default function Example() {
   return (
-    <div className="md:mt-8">
+    <div className="md:mt-8 md:relative top-[-100px]">
       <div className="mx-auto max-w-6xl relative z-[20]">
-        <div className="grid gap-4 px-10 py-10 overflow-hidden rounded-2xl md:grid-cols-4 grid-cols-2">
+        <div className="grid gap-4 px-10 pt-10 overflow-hidden rounded-2xl md:grid-cols-4 grid-cols-2">
           {stats.map((stat, index) => (
             <div
               key={stat.name}

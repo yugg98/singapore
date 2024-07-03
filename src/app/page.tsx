@@ -15,7 +15,7 @@ export default function Home() {
         <div className="flex justify-center items-center absolute bg-cover">
           <video
             src="/degen.mp4 "
-            className="h-screen md:block hidden mx-auto  w-full"
+            className=" md:block hidden mx-auto  w-screen"
             autoPlay
             loop
             muted
