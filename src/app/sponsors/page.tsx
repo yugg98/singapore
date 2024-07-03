@@ -21,7 +21,7 @@ const page = () => {
                   DeGen Summit brings you a range of tailored opportunities for
                   maximum visibility and meaningful connections.
                 </p>
-                <div className="mt-10 flex flex-wrap items-center gap-x-6">
+                <div className="mt-10 flex md:flex-nowrap flex-wrap  items-center gap-x-6">
                 <input
                   required
                     type="email"
@@ -35,7 +35,7 @@ const page = () => {
               <Link
                 type="submit"
                 href="DeGENSummitDeck.pdf"
-                className="md:w-1/2 w-full px-6 text-center py-4 mt-4 text-sm font-semibold text-purple-700 bg-white rounded-md shadow-sm md:mt-0 hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+                className="md:w-1/2 w-full px-6 text-center py-4 mt-4 text-md font-semibold text-purple-100 bg-indigo-600 rounded-md shadow-sm md:mt-0  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
               >
                 Request Sponsorship Deck
               </Link>

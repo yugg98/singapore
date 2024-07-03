@@ -4,24 +4,21 @@ import { Disclosure, Menu, Popover, Transition } from "@headlessui/react";
 import { ChevronDownIcon, MagnifyingGlassIcon } from "@heroicons/react/20/solid";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
-
+import TallyPopupButton from './TallyPopupButton.jsx';
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
-const navigationItems = [
-  
-    // { href: "/agenda", label: "Agenda" },
+
+  const navigationItems = [
     { href: "/sponsors", label: "Sponsors" },
     { href: "/speakers", label: "Speakers" },
-    // { href: "/startup", label: "Startup" },
-    // { href: "/awards", label: "Awards" },
     { href: "/contact", label: "Contact" },
   ];
   const getinvolved = [
-    { name: "Sponsors", href: "/sponsors" },
-    { name: "Speakers", href: "/speakers" },
-    { name: "Media", href: "https://tally.so/r/mY09gd" },
-    { name: "Community", href: "https://tally.so/r/mVQNdv" },
+    { name: "Sponsors", href: "n0P7Ky" },
+    { name: "Speakers", href: "wv2GMA" },
+    { name: "Media", href: "3xZjGr" },
+    { name: "Community", href: "wbO9aL" },
   ];
 export default function Navbar() {
   return (
@@ -47,38 +44,36 @@ export default function Navbar() {
                 {item.label}
               </Link>
             ))}
-            <Popover className="relative">
-            <Popover.Button className="flex items-center p-2 text-lg font-semibold leading-6 text-white rounded hover:font-semibold  decoration-2 gap-x-1 focus:outline-none">
-              Get Involved
-              <ChevronDownIcon
-                className="flex-none w-5 h-5 text-purple-100"
-                aria-hidden="true"
-              />
-            </Popover.Button>
+          <Popover className="relative">
+  <Popover.Button className="flex items-center p-2 text-lg font-semibold leading-6 text-white hover:text-purple-600 rounded hover:font-semibold decoration-2 gap-x-1 focus:outline-none">
+    Get Involved
+    <ChevronDownIcon
+      className="flex-none w-5 h-5 text-purple-100"
+      aria-hidden="true"
+    />
+  </Popover.Button>
 
-            <Transition
-              as={Fragment}
-              enter="transition ease-out duration-200"
-              enterFrom="opacity-0 translate-y-1"
-              enterTo="opacity-100 translate-y-0"
-              leave="transition ease-in duration-150"
-              leaveFrom="opacity-100 translate-y-0"
-              leaveTo="opacity-0 translate-y-1"
-            >
-              <Popover.Panel className="absolute z-50 w-56 p-2 mt-3 bg-gray-900 shadow-lg -left-8 top-full rounded-xl ring-1 ring-gray-900/5">
-                {getinvolved.map((item) => (
-                  <Link
-                    key={item.name}
-                    href={item.href}
-                    target="_blank"
-                    className="block p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
-                  >
-                    {item.name}
-                  </Link>
-                ))}
-              </Popover.Panel>
-            </Transition>
-          </Popover>
+  <Transition
+    as={Fragment}
+    enter="transition ease-out duration-200"
+    enterFrom="opacity-0 translate-y-1"
+    enterTo="opacity-100 translate-y-0"
+    leave="transition ease-in duration-150"
+    leaveFrom="opacity-100 translate-y-0"
+    leaveTo="opacity-0 translate-y-1"
+  >
+    <Popover.Panel className="absolute flex flex-col justify-left z-50 w-56 p-2 mt-3 bg-gray-900 shadow-lg left-0 top-full rounded-xl ring-1 ring-gray-900/5">
+      {getinvolved.map((item) => (
+        <TallyPopupButton 
+          key={item.name} 
+          href={item.href} 
+          label={item.name}
+          className="block w-full text-left justify-items-start p-2 px-3 py-2 text-sm font-semibold leading-6 text-white rounded-lg hover:font-semibold hover:bg-white/10 hover:underline hover:underline-offset-4 decoration-2 hover:bg-gray-800"
+        />
+      ))}
+    </Popover.Panel>
+  </Transition>
+</Popover>
           </div>
               </div>
 
@@ -86,7 +81,7 @@ export default function Navbar() {
                 {/* <Link href="/#tickets" className="bg-purple-800 hover:bg-purple-600 hover:scale-95 px-6 py-2 text-white rounded-full">
                   Book Tickets
                 </Link> */}
-                <Link href="https://calendly.com/degensummit" target="_blank" rel="noopener noreferrer" className="hover:bg-black hover:bg-blue-900 hover:scale-95 px-6 py-2 text-white rounded-full">
+                <Link href="https://calendly.com/degensummit" target="_blank" rel="noopener noreferrer" className="hover:bg-blue-700 bg-blue-900 hover:scale-95 px-6 py-2 text-white rounded-full">
                  Enquire
                 </Link>
               </div>

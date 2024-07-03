@@ -14,18 +14,10 @@ export default function Home() {
     <main>
       <div className="h-screen">
       <div className="flex justify-center items-center absolute bg-cover">
-        {/* <video src="/degen.mp4 " autoPlay loop muted></video> */}
-      </div>
-      <div className="h-[20vh]">
-      <video
-            src="/degen.mp4"
-            autoPlay
-            loop
-            muted
-            className="absolute top-0 left-0 w-full h-[110vh] object-cover z-[-1]"
-          />
+        <video src="/degen.mp4 " autoPlay loop muted></video>
       </div>
       </div>
+      <Clock/>
 
       <Stats/>
 
