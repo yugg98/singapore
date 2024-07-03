@@ -69,14 +69,18 @@ const navigation = {
         href: 'https://www.linkedin.com/company/degensummit',
         icon: (props) => (
           
-            <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
-              <path
-                fillRule="evenodd"
-                d="M2.155 2h19.69c.753 0 1.383.576 1.435 1.316v17.368c-.052.74-.682 1.316-1.435 1.316H2.155c-.753 0-1.383-.576-1.435-1.316V3.316C.772 2.576 1.402 2 2.155 2zm4.726 16.61V9.632H5.274v9.978h1.607zm-.803-11.608c.893 0 1.475-.588 1.475-1.327-.017-.765-.582-1.328-1.476-1.328-.893 0-1.475.563-1.475 1.328 0 .74.582 1.327 1.475 1.327zM18.554 16.61V12.38c0-1.453-.782-2.137-1.83-2.137-1.15 0-1.654.774-1.935 1.316-.1.245-.125.577-.125.916v4.135h-1.607V9.632h1.524v1.147c.62-.957 1.724-1.963 3.556-1.963 2.607 0 4.573 1.698 4.573 5.33l-.02 4.483h-1.608v-4.77c0-1.147-.438-2.137-1.44-2.137-1.2 0-1.737.98-1.737 2.137v4.77h-1.607z"
-                clipRule="evenodd"
-              />
-            </svg>
-          
+          <svg
+          className="h-5 w-5"
+          aria-hidden="true"
+          fill="currentColor"
+          viewBox="0 0 20 20"
+        >
+          <path
+            fillRule="evenodd"
+            d="M16.338 16.338H13.67V12.16c0-.995-.017-2.277-1.387-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248H8.014v-8.59h2.559v1.174h.037c.356-.675 1.227-1.387 2.526-1.387 2.703 0 3.203 1.778 3.203 4.092v4.711zM5.005 6.575a1.548 1.548 0 11-.003-3.096 1.548 1.548 0 01.003 3.096zm-1.337 9.763H6.34v-8.59H3.667v8.59zM17.668 1H2.328C1.595 1 1 1.581 1 2.298v15.403C1 18.418 1.595 19 2.328 19h15.34c.734 0 1.332-.582 1.332-1.299V2.298C19 1.581 18.402 1 17.668 1z"
+            clipRule="evenodd"
+          />
+          </svg>
         ),
       },
     ],
@@ -84,7 +88,7 @@ const navigation = {
   
   export default function Footer() {
     return (
-      <footer className=" max-w-6xl bg-gray-100 mt-10 p-10 pt-20 rounded-xl mx-auto my-10 shadow-xl" aria-labelledby="footer-heading">
+      <footer className=" max-w-6xl bg-gray-900 mt-10 p-10 pt-20 rounded-xl mx-auto my-10 shadow-xl" aria-labelledby="footer-heading">
         <h2 id="footer-heading" className="sr-only">
           Footer
         </h2>
@@ -92,56 +96,31 @@ const navigation = {
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
             <div className="space-y-8">
               <img
-                className="h-7"
+                className="h-24 rounded-lg"
                 href="/"
                 src="logo.svg"
                 alt="Company name"
               />
-              <p className="text-sm leading-6 text-gray-600">
+              <p className="text-sm leading-6 text-gray-100">
               The Premiere Web3 Event for the DeGENs!              </p>
               <div className="flex space-x-6">
                 {navigation.social.map((item) => (
-                  <a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500">
+                  <a key={item.name} href={item.href} className="text-gray-100 hover:text-gray-200">
                     <span className="sr-only">{item.name}</span>
                     <item.icon className="h-6 w-6" aria-hidden="true" />
                   </a>
                 ))}
               </div>
             </div>
-            <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-              <div className="md:grid md:grid-cols-2 md:gap-8">
-                {/*<div>
-                  <h3 className="text-sm font-semibold leading-6 text-gray-900">Speakers</h3>
-                  <ul role="list" className="mt-6 space-y-4">
-                    {navigation.Speakers.map((item) => (
-                      <li key={item.name}>
-                        <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
-                          {item.name}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>*/}
-                {/*<div className="mt-10 md:mt-0">
-                  <h3 className="text-sm font-semibold leading-6 text-gray-900">Support</h3>
-                  <ul role="list" className="mt-6 space-y-4">
-                    {navigation.support.map((item) => (
-                      <li key={item.name}>
-                        <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
-                          {item.name}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>*/}
-              </div>
+            <div className="mt-16 grid  gap-8  xl:mt-0">
+             
               <div className="md:grid md:grid-cols-2 md:gap-8">
                 <div>
-                  <h3 className="text-sm font-semibold leading-6 text-gray-900">About US</h3>
+                  <h3 className="text-sm font-semibold leading-6 text-gray-100">About US</h3>
                   <ul role="list" className="mt-6 space-y-4">
                     {navigation.Speakers.map((item) => (
                       <li key={item.name}>
-                        <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        <a href={item.href} className="text-sm leading-6 text-gray-200 hover:text-gray-100">
                           {item.name}
                         </a>
                       </li>
@@ -149,11 +128,11 @@ const navigation = {
                   </ul>
                 </div>
                 <div className="mt-10 md:mt-0">
-                  <h3 className="text-sm font-semibold leading-6 text-gray-900">Legal</h3>
+                  <h3 className="text-sm font-semibold leading-6 text-gray-100">Legal</h3>
                   <ul role="list" className="mt-6 space-y-4">
                     {navigation.legal.map((item) => (
                       <li key={item.name}>
-                        <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                        <a href={item.href} className="text-sm leading-6 text-gray-200 hover:text-gray-100">
                           {item.name}
                         </a>
                       </li>

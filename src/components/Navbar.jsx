@@ -33,8 +33,8 @@ export default function Navbar() {
               <div className="flex  items-center">
                 <a href= "/">
                 <img
-                      className="w-20 rounded-xl h-auto"
-                      src="/logo.svg"
+                      className="w-16  h-auto"
+                      src="/logo.png"
                       alt="Your Company"
                     />
                 </a>
@@ -82,17 +82,17 @@ export default function Navbar() {
           </div>
               </div>
 
-              <div className="md:flex hidden items-center gap-x-1">
+              <div className="md:flex hidden items-center gap-x-1 mx-4">
                 {/* <Link href="/#tickets" className="bg-purple-800 hover:bg-purple-600 hover:scale-95 px-6 py-2 text-white rounded-full">
                   Book Tickets
                 </Link> */}
-                <Link href="https://calendly.com/degensummit" target="_blank" rel="noopener noreferrer" className="bg-black hover:bg-blue-900 hover:scale-95 px-6 py-2 text-white rounded-full">
+                <Link href="https://calendly.com/degensummit" target="_blank" rel="noopener noreferrer" className="hover:bg-black hover:bg-blue-900 hover:scale-95 px-6 py-2 text-white rounded-full">
                  Enquire
                 </Link>
               </div>
               <div className="md:hidden flex items-center">
                 <Disclosure.Button>
-                  <Bars3Icon className="w-8 text-gray-800 h-8" />
+                  <Bars3Icon className="w-8 text-gray-200 h-8" />
                 </Disclosure.Button>
               </div>
             </div>

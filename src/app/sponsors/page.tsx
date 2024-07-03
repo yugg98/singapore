@@ -1,5 +1,6 @@
 import React from "react";
 import Sponsors from "@/components/Sponsors";
+import Link from "next/link";
 const page = () => {
   return (
     <div>
@@ -20,21 +21,35 @@ const page = () => {
                   DeGen Summit brings you a range of tailored opportunities for
                   maximum visibility and meaningful connections.
                 </p>
-                <div className="mt-10 flex items-center gap-x-6">
-                  <a href="https://www.canva.com/design/DAGIdqIN7Rc/UZsB5bcloSMdqpey0Vyv3A/view">
-                    <button className="bg-black px-6 py-3 text-white rounded-full">Request Sponsorship Deck</button>
-                  </a>
+                <div className="mt-10 flex flex-wrap items-center gap-x-6">
+                <input
+                  required
+                    type="email"
+                    name="email"
+                    // onChange={handleChange}
+                    // value={data.email}
+                    id="email"
+                    className="block md:w-1/2 w-full px-6 py-4 text-white bg-transparent border-0 rounded-md shadow-sm ring-1 ring-inset ring-white/20 placeholder:text-white/60 focus:ring-2 focus:ring-inset focus:ring-white/20 sm:text-sm sm:leading-6"
+                    placeholder="Enter your email"
+                  />
+              <Link
+                type="submit"
+                href="DeGENSummitDeck.pdf"
+                className="md:w-1/2 w-full px-6 text-center py-4 mt-4 text-sm font-semibold text-purple-700 bg-white rounded-md shadow-sm md:mt-0 hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+              >
+                Request Sponsorship Deck
+              </Link>
                 
 
                 </div>
               </div>
             </div>
           </div>
-          <div className=" md:mx-auto md:max-w-2xl lg:mx-0 lg:mt-20 lg:w-screen">
+          <div className=" md:mx-auto md:max-w-4xl lg:mx-0 lg:mt-20 lg:w-screen">
             <div className=" md:rounded-3xl">
               <div>
-                <div className="relative px-6 pt-8 sm:pt-16 md:pl-16 md:pr-0">
-                  <div className="mx-auto max-w-xl md:mx-0 md:max-w-md">
+                <div className="relative px-6 pt-8  md:pr-0">
+                  <div className="mx-auto max-w-xl md:mx-0 md:max-w-xl">
                     <img src="/s.jpeg" className="rounded-2xl" alt="" />
                   </div>
                 </div>

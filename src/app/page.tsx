@@ -1,9 +1,10 @@
-import Image from "next/image";
 
 import Speakers from "@/components/Speakers";
 import Highlights from "@/components/Highlights";
 import Tickets from "@/components/Tickets";
 import Sponsors from "@/components/Sponsors";
+import Stats from "@/components/Stats";
+import Clock from "@/components/Clock";
 
 import Marquee from "react-fast-marquee";
 
@@ -13,6 +14,10 @@ export default function Home() {
       <div className="flex justify-center items-center bg-cover">
         <video src="/degen.mp4 " autoPlay loop muted></video>
       </div>
+      <Clock/>
+
+      <Stats/>
+
       <div id="why" className="mt-1 overflow-hidden sm:mt-20">
         <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
@@ -45,7 +50,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/*<Marquee className=" py-2 mt-8 bg-indigo-800">
+      <Marquee className=" py-2 mt-8 bg-indigo-800">
         <p className="text-base px-4 text-purple-100">#DegenCode Summit</p>
         <p className="text-base px-4 text-purple-100">#Web3 Summit</p>
         <p className="text-base px-4 text-purple-100">#Largest Web3 Event</p>
@@ -55,7 +60,7 @@ export default function Home() {
         <p className="text-base px-4 text-purple-100">#Largest Web3 Event</p>
         <p className="text-base px-4 text-purple-100">#Web3 Event Singapore</p>
         <p className="text-base px-4 text-purple-100">#Web3 Summit</p>
-      </Marquee> */}
+      </Marquee>
       
       <div>
         <Highlights />
