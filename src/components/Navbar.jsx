@@ -18,11 +18,10 @@ const navigationItems = [
     { href: "/contact", label: "Contact" },
   ];
   const getinvolved = [
-    { name: "Media", href: "https://tally.so/r/mY09gd" },
-    { name: "Community", href: "https://tally.so/r/mVQNdv" },
     { name: "Sponsors", href: "/sponsors" },
     { name: "Speakers", href: "/speakers" },
-    { name: "Volunteer", href: "https://tally.so/r/w2aoZV" },
+    { name: "Media", href: "https://tally.so/r/mY09gd" },
+    { name: "Community", href: "https://tally.so/r/mVQNdv" },
   ];
 export default function Navbar() {
   return (
@@ -32,11 +31,14 @@ export default function Navbar() {
           <div className="mx-auto max-w-7xl px-2 sm:px-4 py-4   lg:px-8">
             <div className="flex h-16 justify-between">
               <div className="flex  items-center">
+                <a href= "/">
                 <img
-                  className="w-20 rounded-xl h-auto"
-                  src="/logo.svg"
-                  alt="Your Company"
-                />
+                      className="w-20 rounded-xl h-auto"
+                      src="/logo.svg"
+                      alt="Your Company"
+                    />
+                </a>
+                    
               </div>
               <div>
               <div className="hidden  shadow-nav py-3 px-10 rounded-full items-center justify-center lg:flex lg:space-x-6">
@@ -84,7 +86,7 @@ export default function Navbar() {
                 {/* <Link href="/#tickets" className="bg-purple-800 hover:bg-purple-600 hover:scale-95 px-6 py-2 text-white rounded-full">
                   Book Tickets
                 </Link> */}
-                <Link href="https://calendly.com/degensummit" className="bg-purple-800 hover:bg-purple-600 hover:scale-95 px-6 py-2 text-white rounded-full">
+                <Link href="https://calendly.com/degensummit" target="_blank" rel="noopener noreferrer" className="bg-black hover:bg-blue-900 hover:scale-95 px-6 py-2 text-white rounded-full">
                  Enquire
                 </Link>
               </div>

@@ -20,6 +20,7 @@ import nadja from '@/images/speakers/nadja.png'
 import maaz from '@/images/speakers/maaz.png'
 import abhishek from '@/images/speakers/abhishek.jpeg'
 import ken from '@/images/speakers/ken.jpeg'
+import brock from '@/images/speakers/brock.jpg'
 import evan from '@/images/speakers/evan.jpeg'
 import vidhi from '@/images/speakers/vidhi.jpg'
 import teddy from '@/images/speakers/teddycrop.jpeg'
@@ -69,7 +70,61 @@ import zenobia from '@/images/speakers/zenobia.jpeg'
 import parth2 from '@/images/speakers/parth2.jpeg'
 import karan2 from '@/images/speakers/karan2.jpeg'
 import arul from '@/images/speakers/arul.jpeg'
+import mario from '@/images/speakers/mario.jpg'
+import brandi from '@/images/speakers/brandi.jpeg'
+import alexandra from '@/images/speakers/alexendra.jpg'
+import nikita from '@/images/speakers/nikita.jpeg'
+import cryptorich from '@/images/speakers/cryptorich.jpeg'
+import anton from '@/images/speakers/anton.jpg'
 const people = [
+  {
+    name: "Brock Pierce",
+    role: "Investor & Co-Founder Tether",
+    imageUrl: brock,
+    location: "India",
+    twitterUrl: "https://x.com/degensummit",
+    linkedinUrl: "https://www.linkedin.com/in/degensummit",
+  },
+  {
+    name: "Mario Nawfal",
+    role: "Founder IBC Group",
+    imageUrl: mario,
+    location: "India",
+    twitterUrl: "https://x.com/degensummit",
+    linkedinUrl: "https://www.linkedin.com/in/degensummit",
+  },
+  {
+  name: "Crypto Rich",
+  role: "Influencer",
+  imageUrl: cryptorich,
+  location: "India",
+  twitterUrl: "https://x.com/degensummit",
+    linkedinUrl: "https://www.linkedin.com/in/degensummit",
+  },
+  {
+    name: "Brandi Veil",
+    role: "President Yes3 Network",
+    imageUrl: brandi,
+    linkedinUrl: "https://www.linkedin.com/in/brandiveil/",
+  },
+  {
+    name: "Alexandra Topalian",
+    role: "Master of Ceremonies",
+    imageUrl: alexandra,
+    linkedinUrl: "https://www.linkedin.com/in/brandiveil/",
+  },
+  {
+    name: "Nikita Sachdev",
+    role: "Founder & CEO LunaPR",
+    imageUrl: nikita,
+    linkedinUrl: "https://www.linkedin.com/in/brandiveil/",
+  },
+  {
+    name: "Alexandra Topalian",
+    role: "Master of Ceremonies",
+    imageUrl: alexandra,
+    linkedinUrl: "https://www.linkedin.com/in/brandiveil/",
+  },
   {
   name: "Raj Kapoor",
   role: "Founder, India Blockchain Alliance & Founder, Web3 On The Sea",

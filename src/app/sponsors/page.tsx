@@ -21,7 +21,10 @@ const page = () => {
                   maximum visibility and meaningful connections.
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
-                <button className="bg-purple-900 px-6 py-3 text-white rounded-full">Request Sponsorship Deck</button>
+                  <a href="https://www.canva.com/design/DAGIdqIN7Rc/UZsB5bcloSMdqpey0Vyv3A/view">
+                    <button className="bg-black px-6 py-3 text-white rounded-full">Request Sponsorship Deck</button>
+                  </a>
+                
 
                 </div>
               </div>

@@ -33,7 +33,7 @@ export default function Example() {
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-4">
             {features.map((feature) => (
 
-             <div key={feature.name} className="flex flex-col p-5 px-6 transition-all   hover:shadow-xl  duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-[#6B21A8] to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
+             <div key={feature.name} className="flex flex-col p-5 px-6 transition-all   hover:shadow-xl  duration-150 ease-in-out bg-black from-slate-900 via-[#6B21A8] to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
              <dt className="flex flex-col text-lg font-semibold leading-7 text-white md:items-center md:flex-row md:text-2xl font-display gap-x-4">
                {feature.name}
              </dt>
