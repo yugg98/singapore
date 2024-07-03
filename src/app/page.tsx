@@ -18,8 +18,7 @@ export default function Home() {
             className=" md:block hidden mx-auto  w-screen"
             autoPlay
             loop
-            controls
-            muted
+            // controls
           ></video>
             <video
             src="/mobile.mp4 "
@@ -27,7 +26,6 @@ export default function Home() {
             autoPlay
             controls
             loop
-            muted
           ></video>
         </div>
       </div>
