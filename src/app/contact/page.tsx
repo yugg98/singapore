@@ -74,6 +74,7 @@ export default function Page() {
               ready to assist. Reach out to us using any of the methods below,
               and let&apos;s start a conversation.
             </p>
+            <img src="/glowgr.svg" className="absolute top-0 z-[-1] opacity-60" alt="" srcset="" />
             <dl className="mt-10 space-y-4 text-base leading-7 text-gray-300">
               <div className="flex gap-x-4">
                 <dt className="flex-none">

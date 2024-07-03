@@ -23,11 +23,11 @@ export default function Home() {
 
     <WhySingapore/>
       <Marquee className=" py-2 mt-8 bg-indigo-800">
-        <p className="text-base px-4 text-purple-100">#Degen Summit</p>
+        <p className="text-base px-4 text-purple-100">#DeGen Summit</p>
         <p className="text-base px-4 text-purple-100">#Web3 Summit</p>
         <p className="text-base px-4 text-purple-100">#Largest Web3 Event</p>
         <p className="text-base px-4 text-purple-100">#Web3 Event Singapore</p>
-        <p className="text-base px-4 text-purple-100">#Degen Summit</p>
+        <p className="text-base px-4 text-purple-100">#DeGen Summit</p>
         <p className="text-base px-4 text-purple-100">#Web3 Summit</p>
         <p className="text-base px-4 text-purple-100">#Largest Web3 Event</p>
         <p className="text-base px-4 text-purple-100">#Web3 Event Singapore</p>
