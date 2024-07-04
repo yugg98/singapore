@@ -11,7 +11,7 @@ const Whydubai = () => {
           {/* <img src="/glowgr.svg"  className="absolute left-0 w-[1000px] z-[-1]" alt="" srcset="" /> */}
 
             <h2 className="text-3xl font-bold tracking-tight text-purple-700 sm:text-5xl">
-            Why Sinagapore?
+            Why Singapore?
 
             </h2>
             <p className="mt-6 text-lg font-sato  text-gray-100">

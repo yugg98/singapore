@@ -25,7 +25,6 @@ export default function Home() {
             src="/mobile.mp4 "
             className="h-screen block md:hidden w-full"
             autoPlay
-            controls
             loop
           ></video>
         </div>
