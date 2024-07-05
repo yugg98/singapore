@@ -84,7 +84,7 @@ function Hero() {
                 />
               </svg>
             </p>
-            <p className="text-2xl font-bold text-white">#FOMO Bird Offer</p>
+            <p className="text-2xl font-bold text-white">#EARLY Bird Offer</p>
             <p className="text-2xl font-bold text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -101,7 +101,7 @@ function Hero() {
                 />
               </svg>
             </p>
-            <p className="text-2xl font-bold text-white">#FOMO Bird Offer</p>
+            <p className="text-2xl font-bold text-white">#EARLY Bird Offer</p>
 
             <p className="text-2xl font-bold text-white">
               <svg
@@ -136,7 +136,7 @@ function Hero() {
                 />
               </svg>
             </p>
-            <p className="text-2xl font-bold text-white">#FOMO Bird Offer</p>
+            <p className="text-2xl font-bold text-white">#EARLY Bird Offer</p>
             <p className="text-2xl font-bold text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -153,58 +153,7 @@ function Hero() {
                 />
               </svg>
             </p>
-            <p className="text-2xl font-bold text-white">#FOMO Bird Offer</p>
-            <p className="text-2xl font-bold text-white">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-6 h-6"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"
-                />
-              </svg>
-            </p>
-            <p className="text-2xl font-bold text-white">DeGen Summit</p>
-            <p className="text-2xl font-bold text-white">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-6 h-6"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"
-                />
-              </svg>
-            </p>
-            <p className="text-2xl font-bold text-white">#FOMO Bird Offer</p>
-            <p className="text-2xl font-bold text-white">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-6 h-6"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"
-                />
-              </svg>
-            </p>
-            <p className="text-2xl font-bold text-white">#FOMO Bird Offer</p>
+            <p className="text-2xl font-bold text-white">#EARLY Bird Offer</p>
             <p className="text-2xl font-bold text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -238,7 +187,7 @@ function Hero() {
                 />
               </svg>
             </p>
-            <p className="text-2xl font-bold text-white">#FOMO Bird Offer</p>
+            <p className="text-2xl font-bold text-white">#EARLY Bird Offer</p>
             <p className="text-2xl font-bold text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -255,7 +204,58 @@ function Hero() {
                 />
               </svg>
             </p>
-            <p className="text-2xl font-bold text-white">#FOMO Bird Offer</p>
+            <p className="text-2xl font-bold text-white">#EARLY Bird Offer</p>
+            <p className="text-2xl font-bold text-white">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"
+                />
+              </svg>
+            </p>
+            <p className="text-2xl font-bold text-white">DeGen Summit</p>
+            <p className="text-2xl font-bold text-white">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"
+                />
+              </svg>
+            </p>
+            <p className="text-2xl font-bold text-white">#EARLY Bird Offer</p>
+            <p className="text-2xl font-bold text-white">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"
+                />
+              </svg>
+            </p>
+            <p className="text-2xl font-bold text-white">#EARLY Bird Offer</p>
           </div>
         </Marquee>
       </div>
@@ -272,23 +272,24 @@ function Hero() {
           </p>
         </div>
         <div className="grid grid-cols-1 gap-6 px-4 mx-auto my-12 max-w-7xl sm:grid-cols-3 lg:px-8 sm:px-6">
-        <div>
+          <div>
             <div className="border border-white/20 rounded-3xl">
               {/* <Image src={community} alt="map" className="w-full h-auto" /> */}
               <div className="flex items-center justify-between p-4">
                 <div className="text-4xl font-bold tracking-wide text-white">
                   $99
                 </div>
-               
               </div>
               <div className="flex flex-col px-4 pb-8 space-y-3">
                 <a
                   href="https://docs.google.com/forms/d/1MB3C0ovpdWjz9Xt0A7EWRX38K8873Yhng8tkIDvIiJA"
                   title="Buy with Crypto"
                   className="bg-purple-700 text-center py-2 inline-block rounded-lg"
-                >Buy Now</a>
-               
-               <ul
+                >
+                  Buy Now
+                </a>
+
+                <ul
                   role="list"
                   className="pt-4 space-y-3 text-sm leading-6 text-left text-white/90"
                 >
@@ -334,7 +335,6 @@ function Hero() {
                     />
                     Have your voice heard through Voting for Awards
                   </li>
-                  
                 </ul>
               </div>
             </div>
@@ -346,16 +346,20 @@ function Hero() {
                 <div className="text-4xl font-bold tracking-wide text-white">
                   $199
                 </div>
-                
-              </div>
-              <a
+                </div>
+
+              <div className="flex flex-col px-4 pb-8 space-y-3">
+                <a
                   href="https://docs.google.com/forms/d/1MB3C0ovpdWjz9Xt0A7EWRX38K8873Yhng8tkIDvIiJA"
                   title="Buy with Crypto"
-                  className="bg-purple-700  w-[96%] mx-auto  text-center py-2 inline-block rounded-lg"
-                >Buy Now</a>
+                  className="bg-purple-700 text-center py-2 inline-block rounded-lg"
+                >
+                  Buy Now
+                </a>
+                </div>
+
               <div className="flex flex-col px-4 pb-8 space-y-3">
-              
-                  <ul
+                <ul
                   role="list"
                   className="pt-4 space-y-3 text-sm leading-6 text-left text-white/90"
                 >
@@ -371,7 +375,7 @@ function Hero() {
                       className="flex-none w-5 h-6 text-amber-500"
                       aria-hidden="true"
                     />
-                   Coffee Breaks & Dinner
+                    Coffee Breaks & Dinner
                   </li>
                   <li className="flex gap-x-3">
                     <CheckCircleIcon
@@ -423,7 +427,7 @@ function Hero() {
                     />
                     Have your voice heard through Voting for Awards
                   </li>
-                  </ul>
+                </ul>
               </div>
             </div>
           </div>
@@ -434,18 +438,19 @@ function Hero() {
                 <div className="text-4xl font-bold tracking-wide text-white">
                   $399
                 </div>
-              
               </div>
               <div className="flex flex-col justify-center">
                 <a
                   href="https://docs.google.com/forms/d/1MB3C0ovpdWjz9Xt0A7EWRX38K8873Yhng8tkIDvIiJA"
                   title="Buy with Crypto"
                   className="bg-purple-700 mx-3 text-center py-2 inline-block rounded-lg"
-                >Buy Now</a>
-                </div>
+                >
+                  Buy Now
+                </a>
+              </div>
               <div className="flex flex-col px-4 pb-8 space-y-3">
-               
-                 <ul  role="list"
+                <ul
+                  role="list"
                   className="pt-4 space-y-3 text-sm leading-6 text-left text-white/90"
                 >
                   <li className="flex gap-x-3">
@@ -543,7 +548,7 @@ function Hero() {
                     Experience priority service at the Special VIP Registration
                     Desk
                   </li>
-                  
+
                   <li className="flex gap-x-3">
                     <CheckCircleIcon
                       className="flex-none w-5 h-6 text-amber-500"
