@@ -16,6 +16,8 @@ const navigationItems = [
   { href: "/sponsors", label: "Sponsors" },
   { href: "/speakers", label: "Speakers" },
   { href: "/contact", label: "Contact" },
+  { href: "/awards", label: "Awards" },
+
 ];
 const getinvolved = [
   { name: "Sponsors", href: "n0P7Ky" },
