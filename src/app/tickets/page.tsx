@@ -280,7 +280,7 @@ function Hero() {
                   $99
                 </div>
               </div>
-              <div className="flex flex-col px-4 pb-8 space-y-3">
+              <div className="flex flex-col px-4 pb-8 space-y-2">
                 <a
                   href="https://lu.ma/7a1zyw5g"
                   title="Buy with Crypto"
@@ -291,7 +291,7 @@ function Hero() {
 
                 <ul
                   role="list"
-                  className="pt-4 space-y-3 text-sm leading-6 text-left text-white/90"
+                  className="pt-2 space-y-3 text-sm leading-6 text-left text-white/90"
                 >
                   <li className="flex gap-x-3">
                     <CheckCircleIcon
@@ -346,9 +346,9 @@ function Hero() {
                 <div className="text-4xl font-bold tracking-wide text-white">
                   $199
                 </div>
-                </div>
+              </div>
 
-              <div className="flex flex-col px-4 pb-8 space-y-3">
+              <div className="flex flex-col px-4  space-y-3">
                 <a
                   href="https://lu.ma/7a1zyw5g"
                   title="Buy with Crypto"
@@ -356,7 +356,7 @@ function Hero() {
                 >
                   Buy Now
                 </a>
-                </div>
+              </div>
 
               <div className="flex flex-col px-4 pb-8 space-y-3">
                 <ul
