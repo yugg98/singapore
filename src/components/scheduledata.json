@@ -5,100 +5,89 @@
       "Conference": "Blockchain & its Infrastructure 1st day - Day 1",
       "Agenda": [
         {
-          "Time": "09:30 to 10:10",
-          "Duration": "40 Minutes",
-          "Venue": "",
-          "Topics": "All about Blockchain: Layer0, Layer1, Layer2, Layer3"
-        },
-        {
-          "Time": "10:10 to 10:30",
-          "Duration": "20 Minutes",
-          "Venue": "",
-          "Topics": "Analysing Cross-Chain Bridge Security & Mitigating Hacks"
-        },
-        {
-          "Time": "10:30 to 11:10",
-          "Duration": "40 Minutes",
-          "Venue": "",
-          "Topics": "The Era of Self Owned Data"
-        },
-        {
-          "Time": "11:10 to 11:30",
-          "Duration": "20 Minutes",
-          "Venue": "",
-          "Topics": "Importance of Cross Chain Bridges"
-        },
-        {
-          "Time": "11:30 to 12:10",
-          "Duration": "40 Minutes",
-          "Venue": "",
-          "Topics": "Founder Stories"
-        },
-        {
-          "Time": "12:10 to 12:40",
+          "Time": "08:30-09:00AM",
           "Duration": "30 Minutes",
-          "Venue": "",
-          "Topics": "Understanding Layer3, will it be more efficient?"
+          "Topics": "Registration and High Tea"
         },
         {
-          "Time": "12:40 to 01:00",
+          "Time": "09:00-09:20AM",
           "Duration": "20 Minutes",
-          "Venue": "",
-          "Topics": "Exploring Oracle Design Tradeoffs & Dispute Periods"
+          "Topics": "Opening Talk"
         },
         {
-          "Time": "13:00 to 14:00",
+          "Time": "09:20-09:40AM",
+          "Duration": "20 Minutes",
+          "Topics": "FireSide Key Chat"
+        },
+        {
+          "Time": "09:40-10:20AM",
+          "Duration": "40 Minutes",
+          "Topics": "Panel"
+        },
+        {
+          "Time": "10:20-10:40AM",
+          "Duration": "20 Minutes",
+          "Topics": "KeyNote"
+        },
+        {
+          "Time": "10:40-11:20AM",
+          "Duration": "40 Minutes",
+          "Topics": "Panel"
+        },
+        {
+          "Time": "11:20-12:00PM",
+          "Duration": "40 Minutes",
+          "Topics": "Panel"
+        },
+        {
+          "Time": "12:00-12:20PM",
+          "Duration": "20 Minutes",
+          "Topics": "KeyNote"
+        },
+        {
+          "Time": "12:20-01:00PM",
+          "Duration": "40 Minutes",
+          "Topics": "Panel"
+        },
+        {
+          "Time": "01:00-02:00PM",
           "Duration": "1 Hour",
-          "Venue": "",
           "Topics": "Lunch"
         },
         {
-          "Time": "14:00 to 14:40",
-          "Duration": "40 Minutes",
-          "Venue": "",
-          "Topics": "Sharks in the Action - Making Better Risk Decisions in Web3"
-        },
-        {
-          "Time": "14:40 to 15:00",
+          "Time": "02:00-02:20PM",
           "Duration": "20 Minutes",
-          "Venue": "",
-          "Topics": "Oracles of the Future: Moving Beyond Price Feeds"
+          "Topics": "KeyNote"
         },
         {
-          "Time": "15:00 to 15:40",
+          "Time": "02:20-03:20PM",
+          "Duration": "1 Hour",
+          "Topics": "Panel"
+        },
+        {
+          "Time": "03:20-04:00PM",
           "Duration": "40 Minutes",
-          "Venue": "",
-          "Topics": "Data Provenance in a Decentralised World"
+          "Topics": "Panel"
         },
         {
-          "Time": "15:40 to 16:00",
+          "Time": "04:00-04:20PM",
           "Duration": "20 Minutes",
-          "Venue": "",
-          "Topics": "Account Abstraction Done Right"
+          "Topics": "KeyNote"
         },
         {
-          "Time": "16:00 to 16:40",
+          "Time": "04:20-05:00PM",
           "Duration": "40 Minutes",
-          "Venue": "",
-          "Topics": "Women at the Top"
+          "Topics": "Panel"
         },
         {
-          "Time": "16:40 to 17:00",
-          "Duration": "20 Minutes",
-          "Venue": "",
-          "Topics": "Building Longevity and Value: L1 Protocols"
+          "Time": "05:00-06:30PM",
+          "Duration": "1 Hour 30 Minutes",
+          "Topics": "High Tea & Networking"
         },
         {
-          "Time": "17:00 to 17:40",
-          "Duration": "40 Minutes",
-          "Venue": "",
-          "Topics": "Know Before You Build: What to look at when building on L2"
-        },
-        {
-          "Time": "19:00 to 23:00",
-          "Duration": "4 Hours",
-          "Venue": "",
-          "Topics": "Kickoff Party"
+          "Time": "06:30-08:00PM",
+          "Duration": "1 Hour 30 Minutes",
+          "Topics": "Award Ceremony"
         }
       ]
     }

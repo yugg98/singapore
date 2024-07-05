@@ -14,14 +14,14 @@ export default function Page() {
   return (
     <div>
      <div className="relative isolate overflow-hidden  bg-cover ">
-        <div className="mx-auto max-w-7xl pb-24 pt-10 sm:pb-32 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:px-8 ">
+        <div className="mx-auto max-w-7xl pb-24 pt-24 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:px-8 ">
           <div className="px-6 lg:px-0 lg:pt-4">
             <div className="mx-auto max-w-2xl">
               <div className="max-w-lg ">
-                <h1 className=" text-4xl font-bold tracking-tight text-black sm:text-6xl">
+                <h1 className=" text-4xl font-bold tracking-tight text-primary sm:text-6xl">
                   DeGen Summit 2024 India Agenda 
                 </h1>
-                <p className="mt-6 text-lg leading-8 text-gray-900">
+                <p className="mt-6 text-lg leading-8 text-gray-100">
                16th September 2024 <br/>
                 Huone, 3D River Valley Rd, #03-01 Block D, Singapore 179023
                 </p>
@@ -48,10 +48,9 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <div className="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-white sm:h-32" />
       </div>
       <div className="px-4 py-4 mx-auto max-w-7xl ">
-        <h1 className="py-6 text-xl font-bold tracking-tight text-center text-gray-900 md:text-4xl sm:text-6xl">
+        <h1 className="py-6 text-xl font-bold tracking-tight text-center text-primary md:text-4xl sm:text-6xl">
           Exploring the Event&apos;s Blueprint: Tentative Agenda
         </h1>
         <Tabs />

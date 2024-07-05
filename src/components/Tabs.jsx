@@ -9,37 +9,14 @@ export default function Tabs() {
   return (
     <div className="w-full max-w-6xl px-4 py-10 mx-auto lg:px-8">
       <Tab.Group>
-        <Tab.List className="flex w-full p-1 space-x-1 overflow-x-auto bg-gray-100 rounded grow flex-nowrap lg:flex">
-          {data.map((category,key) => (
-            <Tab
-              key={category}
-              className={({ selected }) =>
-                classNames(
-                  "w-36 shrink-0 rounded-sm py-2.5 text-sm font-medium leading-5 text-purple-700",
-                  "ring-white ring-opacity-60 ring-offset-2 ring-offset-purple-400 focus:outline-none focus:ring-2",
-                  selected
-                    ? "bg-white shadow"
-                    : "text-gray-600 hover:bg-gray-200 hover:text-purple-900"
-                )
-              }
-            >
-              {category.Day}
-            </Tab>
-          ))}
-        </Tab.List>
-
+       
         <Tab.Panels className="">
          
           {data.map((categories) => (
             <Tab.Panel
               key={categories.Day}
             >
-               <div className="py-4 mt-6 text-2xl font-semibold text-gray-700 rounded shadow-inner bg-purple-50 md:text-center font-display">
-                     {categories.Event} 
-                     <div className="mt-2 text-xl font-semibold text-purple-900 md:text-center">
-                  {categories.Conference}
-                 </div>
-                 </div>
+               
                  
               {categories.Agenda.map((data) => (
                  <div key={data.Topics}>
