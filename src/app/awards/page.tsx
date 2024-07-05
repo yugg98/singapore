@@ -2,242 +2,156 @@ import { ChevronRightIcon } from "@heroicons/react/20/solid";
 import awards from "@/images/awards.svg";
 import Image from "next/image";
 
+// Dummy data for award categories
+const awardCategories = [
+  {
+    title: "BEST CRYPTO ENTREPRENEUR",
+    description: "Recognizing exceptional leadership in the crypto space",
+  },
+  {
+    title: "BEST CRYPTO CENTRALISED EXCHANGE",
+    description: "Celebrating excellence in centralized cryptocurrency exchanges",
+  },
+  {
+    title: "BEST CRYPTO DECENTRALISED EXCHANGE",
+    description: "Honoring the top decentralized cryptocurrency exchange",
+  },
+  {
+    title: "BEST EXCHANGE FOR DERIVATIVES TRADING",
+    description: "Awarding the leading platform for derivatives trading",
+  },
+  {
+    title: "BEST CRYPTO LAW FIRM",
+    description: "Acknowledging the premier legal firm in the crypto industry",
+  },
+  {
+    title: "BEST CRYPTO LAWYER",
+    description: "Celebrating outstanding legal expertise in cryptocurrency",
+  },
+  {
+    title: "BEST LIQUIDITY & MM PROVIDER",
+    description: "Recognizing excellence in liquidity and market making services",
+  },
+  {
+    title: "BEST TRADING APP",
+    description: "Awarding the top trading application in the crypto market",
+  },
+  {
+    title: "BREAKTHROUGH OF THE YEAR",
+    description: "Highlighting the most significant breakthrough in the crypto industry",
+  },
+  {
+    title: "BEST CRYPTO AI PROJECT",
+    description: "Celebrating innovation in AI within the cryptocurrency space",
+  },
+  {
+    title: "BEST WEB3 SECURITY FIRM",
+    description: "Honoring the leading security firm in the Web3 ecosystem",
+  },
+  {
+    title: "BEST CRYPTO FUND",
+    description: "Recognizing the best-performing crypto investment fund",
+  },
+  {
+    title: "BEST CRYPTO MEDIA",
+    description: "Celebrating excellence in cryptocurrency media and journalism",
+  },
+  {
+    title: "BEST LAYER-1 SOLUTION",
+    description: "Awarding the top Layer-1 blockchain solution",
+  },
+  {
+    title: "BEST LAYER-2 SOLUTION",
+    description: "Honoring the leading Layer-2 blockchain solution",
+  },
+  {
+    title: "BEST MARKETING AGENCY",
+    description: "Recognizing exceptional marketing services in the crypto industry",
+  },
+  {
+    title: "BEST WEB3 GAMING PROJECT",
+    description: "Celebrating innovation in blockchain-based gaming",
+  },
+  {
+    title: "MEME COIN OF THE YEAR",
+    description: "Highlighting the most impactful meme coin",
+  },
+  {
+    title: "SOCIAL INFLUENCER TO WATCH",
+    description: "Recognizing a rising star in the crypto social media landscape",
+  },
+  {
+    title: "INNOVATIVE NFT PROJECT OF THE YEAR",
+    description: "Celebrating groundbreaking innovation in the NFT space",
+  },
+  {
+    title: "ALL ‘BOUT CONNECTOR OF THE YEAR",
+    description: "Honoring exceptional networking and community-building in crypto",
+  },
+];
+
 
 export default function Hero() {
   return (
     <div>
-      <div className="relative isolate overflow-hidden  bg-cover ">
-        <div className="mx-auto max-w-7xl pb-24 pt-10 sm:pb-32 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:px-8 ">
-          <div className="px-6 lg:px-0 lg:pt-4">
-            <div className="mx-auto max-w-2xl">
-              <div className="max-w-lg ">
-                <h1 className=" text-4xl font-bold tracking-tight text-black sm:text-6xl">
-                  Supercharge your web applications
-                </h1>
-                <p className="mt-6 text-lg leading-8 text-gray-900">
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                  qui lorem cupidatat commodo. Elit sunt amet fugiat veniam
-                  occaecat fugiat aliqua.
-                </p>
-                <div className="mt-10 flex items-center gap-x-6">
-                  <button className="bg-purple-900 px-6 py-3 text-white rounded-full">
-                   Nominate Yourself
-                  </button>
-                  <button className="bg-purple-900 px-6 py-3 text-white rounded-full">
-                   Nominate Others
-                  </button>
-                </div>
-              </div>
-            </div>
+      <div className="bg-[url('/awards.jpg')] bg-cover bg-no-repeat bg-awards md:bg-cover md:bg-awards-mobile flex flex-col justify-end items-center">
+        <div className="items-center max-w-6xl px-4 pt-32 pb-10 mx-auto lg:flex lg:px-8 ">
+          <div className="flex-shrink-0 max-w-7xl mx-auto lg:mx-0 lg:max-w-5xl">
+            <h1 className="text-4xl font-bold text-white font-display sm:text-6xl text-center">Awards</h1>
+            <p className="mt-6 text-lg text-center font-sato  text-gray-300">
+              Honoring the trailblazers who have made exceptional contributions
+              to the field. Nominees will be selected and winners chosen by the
+              esteemed community in different categories. Participate in this
+              grand celebration of digital innovation and excellence. We begin
+              by inviting nominations for various categories within the
+              Industry, celebrating the exceptional contributions of companies.
+              The power to select the winners is given to our vibrant community.
+              Voting will take place across all our social media channels,
+              including Telegram To ensure all votes are accounted for, the
+              voting process will be closed one day before the event. Winners
+              will be announced during the conference.
+            </p>
+          
           </div>
-          <div className=" md:mx-auto md:max-w-2xl lg:mx-0 lg:mt-0 lg:w-screen">
-            <div className=" md:rounded-3xl">
-              <div>
-                <div className="relative px-6 pt-8 sm:pt-16 md:pl-16 md:pr-0">
-                  <div className="mx-auto max-w-xl md:mx-0 md:max-w-md">
-                    <img src="/hero.jpg" className="rounded-2xl" alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+         
         </div>
-        <div className="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-white sm:h-32" />
+        <div className="flex flex-col items-center w-[60%]  mb-20 space-y-4 lg:flex-row lg:space-y-0 gap-x-6 ">
+          <a
+            href="https://tally.so/r/wL7Og1"
+            className="w-full px-6 py-4 text-sm font-sato font-semibold text-purple-600 bg-white rounded-md shadow-sm hover:bg-gray-100 text-center"
+          >
+            Nominate Yourself
+          </a>
+          <a
+            href="https://tally.so/r/npyzMb"
+            className="w-full px-6 py-4 text-sm font-sato font-semibold text-purple-600 bg-white rounded-md shadow-sm hover:bg-gray-100 text-center"
+          >
+            Nominate Others
+          </a>
+        </div>
       </div>
-      <div className="bg-purple-50">
-      <div className="px-4 py-20 mx-auto max-w-7xl lg:px-8">
-        <p className="text-4xl font-bold text-center font-display text-purple-950">Award Categories</p>
-        <div className="mt-10">
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 gap-y-8">
-            <div className="p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl shadow-md hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
-              <p className="text-lg font-semibold text-center text-white font-display">
-              Oracle Excellence Award
-              </p>
-              <p className="mt-2 text-sm font-medium text-center text-white/80">
-              Bridging Real-World Data to Blockchain
-              </p>
-            </div>
-            <div className="p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl shadow-md hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
-              <p className="text-lg font-semibold text-center text-white font-display">
-              Interoperability Pioneer Award
-              </p>
-              <p className="mt-2 text-sm font-medium text-center text-white/80">
-              Bridging Blockchains Seamlessly
-              </p>
-            </div>
-            <div className="p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl shadow-md hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
-              <p className="text-lg font-semibold text-center text-white font-display">
-              Metaverse Maestro Award
-              </p>
-              <p className="mt-2 text-sm font-medium text-center text-white/80">
-              Leading Innovation in Blockchain VR
-              </p>
-            </div>
-            <div className="p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl shadow-md hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
-              <p className="text-lg font-semibold text-center text-white font-display">
-              Web3 Education Evangelist Award
-              </p>
-              <p className="mt-2 text-sm font-medium text-center text-white/80">
-              Fostering Global Understanding
-              </p>
-            </div>
-            <div className="p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl shadow-md hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
-              <p className="text-lg font-semibold text-center text-white font-display">
-              Social Impact Soldier Award
-              </p>
-              <p className="mt-2 text-sm font-medium text-center text-white/80">
-              Transforming Lives Through Blockchain
-              </p>
-            </div>
-            <div className="p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl shadow-md hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
-              <p className="text-lg font-semibold text-center text-white font-display">
-              Security Sentinel Award
-              </p>
-              <p className="mt-2 text-sm font-medium text-center text-white/80">
-              Safeguarding the Decentralized Frontier
-              </p>
-            </div>
-            <div className="p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl shadow-md hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
-              <p className="text-lg font-semibold text-center text-white font-display">
-              Gaming Guru Award
-              </p>
-              <p className="mt-2 text-sm font-medium text-center text-white/80">
-              Redefining Fun in Web3
-              </p>
-            </div>
-            <div className="p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl shadow-md hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
-              <p className="text-lg font-semibold text-center text-white font-display">
-              Community Catalyst Award
-              </p>
-              <p className="mt-2 text-sm font-medium text-center text-white/80">
-              Fostering Vibrant Web3 Communities
-              </p>
-            </div>
-            <div className="p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl shadow-md hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
-              <p className="text-lg font-semibold text-center text-white font-display">
-              Layer-2 Luminary Award
-              </p>
-              <p className="mt-2 text-sm font-medium text-center text-white/80">
-              Elevating Blockchain Efficiency
-              </p>
-            </div>
-            <div className="p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl shadow-md hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
-              <p className="text-lg font-semibold text-center text-white font-display">
-              Whisperers of Web3 Award
-              </p>
-              <p className="mt-2 text-sm font-medium text-center text-white/80">
-              Excellence in Web3 Journalism
-              </p>
-            </div>
-            <div className="p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl shadow-md hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
-              <p className="text-lg font-semibold text-center text-white font-display">
-              UX/UI Unicorn Award
-              </p>
-              <p className="mt-2 text-sm font-medium text-center text-white/80">
-              Streamlined Web3 Adoption
-              </p>
-            </div>
-            <div className="p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl shadow-md hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
-              <p className="text-lg font-semibold text-center text-white font-display">
-              Staking Star Award 
-              </p>
-              <p className="mt-2 text-sm font-medium text-center text-white/80">
-              Excellence in Staking Solutions
-              </p>
-            </div>
-            <div className="p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl shadow-md hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
-              <p className="text-lg font-semibold text-center text-white font-display">
-              Best DWeb Pioneer Award
-              </p>
-              <p className="mt-2 text-sm font-medium text-center text-white/80">
-              Advancing Decentralized Privacy
-              </p>
-            </div>
-            <div className="p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl shadow-md hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
-              <p className="text-lg font-semibold text-center text-white font-display">
-              ZKP Zenith Award
-              </p>
-              <p className="mt-2 text-sm font-medium text-center text-white/80">
-              Innovating Web3 Privacy with ZKPs
-              </p>
-            </div>
-            <div className="p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl shadow-md hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
-              <p className="text-lg font-semibold text-center text-white font-display">
-              Web3 Wallet Wizard Award
-              </p>
-              <p className="mt-2 text-sm font-medium text-center text-white/80">
-              Mastering Wallet Versatility
-              </p>
-            </div>
-            <div className="p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl shadow-md hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
-              <p className="text-lg font-semibold text-center text-white font-display">
-              Collaboration Catalyst Award
-              </p>
-              <p className="mt-2 text-sm font-medium text-center text-white/80">
-              Transforming Web3 Interaction
-              </p>
-            </div>
-            <div className="p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl shadow-md hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
-              <p className="text-lg font-semibold text-center text-white font-display">
-              Decentralized Identity Innovator Award
-              </p>
-              <p className="mt-2 text-sm font-medium text-center text-white/80">
-              Empowering User Privacy
-              </p>
-            </div>
-            <div className="p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl shadow-md hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
-              <p className="text-lg font-semibold text-center text-white font-display">
-              Frontier Financier Award
-              </p>
-              <p className="mt-2 text-sm font-medium text-center text-white/80">
-              Leading DeFi Excellence
-              </p>
-            </div>
-            <div className="p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl shadow-md hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
-              <p className="text-lg font-semibold text-center text-white font-display">
-              Governance Guru Award
-              </p>
-              <p className="mt-2 text-sm font-medium text-center text-white/80">
-              Empowering DAO Excellence
-              </p>
-            </div>
-            <div className="p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl shadow-md hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
-              <p className="text-lg font-semibold text-center text-white font-display">
-              DeFi Derivative Dynamo Award
-              </p>
-              <p className="mt-2 text-sm font-medium text-center text-white/80">
-              Pioneering Innovation
-              </p>
-            </div>
-            <div className="p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl shadow-md hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
-              <p className="text-lg font-semibold text-center text-white font-display">
-              Yield Farming Phenom Award
-              </p>
-              <p className="mt-2 text-sm font-medium text-center text-white/80">
-              Innovating Rewards
-              </p>
-            </div>
-            <div className="p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl shadow-md hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
-              <p className="text-lg font-semibold text-center text-white font-display">
-              P2P Powerhouse Award
-              </p>
-              <p className="mt-2 text-sm font-medium text-center text-white/80">
-              Upholding Decentralization Ideals
-              </p>
-            </div>
-            <div className="p-6 transition-all ring-2 ring-purple-950 hover:shadow-xl shadow-md hover:shadow-purple-950 duration-150 ease-in-out bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 rounded-2xl cursor-pointer hover:scale-95">
-              <p className="text-lg font-semibold text-center text-white font-display">
-              Web3 Analytics Ace Award
-              </p>
-              <p className="mt-2 text-sm font-medium text-center text-white/80">
-              Unveiling Insights
-              </p>
+      <div className="bg-grey-900">
+        <div className="px-4 py-20 mx-auto max-w-7xl lg:px-8">
+          <p className="text-4xl font-bold text-center font-display text-white">
+            Award Categories
+          </p>
+          <div className="mt-10">
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 gap-y-8">
+              {awardCategories.map((category, index) => (
+                 <div key= {category.title} className='from-[#ffe449] shadow-xl hover:scale-95 to-[#FFD700] bg-gradient-to-r shadow-2xl p-6 rounded-2xl'>
+              
+                  <p className="text-lg font-semibold text-center text-purple-800 font-display">
+                    {category.title}
+                  </p>
+                  <p className="mt-2 text-sm  font-sato font-medium text-center text-gray-600">
+                    {category.description}
+                  </p>
+                </div>
+              ))}
             </div>
           </div>
         </div>
       </div>
-      </div>
-      
     </div>
   );
 }

@@ -14,7 +14,7 @@ const stats = [
 ];
 export default function Example() {
   return (
-    <div className="relative top-[-180px]">
+    <div className="relative md:top-[-10px] top-[-180px]">
       <div className="mx-auto max-w-6xl relative z-[20]">
         <div className="grid gap-4 md:px-10 px-4 overflow-hidden rounded-2xl md:grid-cols-4 grid-cols-3">
           {stats.map((stat, index) => (
