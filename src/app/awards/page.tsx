@@ -1,6 +1,8 @@
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
 import awards from "@/images/awards.svg";
 import Image from "next/image";
+import How from "@/components/How";
+import Goals from "@/components/Goals";
 
 // Dummy data for award categories
 const awardCategories = [
@@ -152,6 +154,8 @@ export default function Hero() {
           </div>
         </div>
       </div>
+      <How/>
+      <Goals/>
     </div>
   );
 }

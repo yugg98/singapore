@@ -48,7 +48,7 @@ function Hero() {
           }}
         />
       </div>
-      <div className="py-2 mt-20 bg-purple-700">
+      <div className="py-2 mt-40 bg-purple-700">
         <Marquee>
           <div className="flex items-center space-x-6">
             <p className="pl-6 text-2xl font-bold text-white">
@@ -67,7 +67,7 @@ function Hero() {
                 />
               </svg>
             </p>
-            <p className="text-2xl font-bold text-white">ABCconclave.com</p>
+            <p className="text-2xl font-bold text-white">DeGen Summit</p>
             <p className="text-2xl font-bold text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -119,7 +119,7 @@ function Hero() {
                 />
               </svg>
             </p>
-            <p className="text-2xl font-bold text-white">ABCconclave.com</p>
+            <p className="text-2xl font-bold text-white">DeGen Summit</p>
             <p className="text-2xl font-bold text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -170,7 +170,7 @@ function Hero() {
                 />
               </svg>
             </p>
-            <p className="text-2xl font-bold text-white">ABCconclave.com</p>
+            <p className="text-2xl font-bold text-white">DeGen Summit</p>
             <p className="text-2xl font-bold text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -221,7 +221,7 @@ function Hero() {
                 />
               </svg>
             </p>
-            <p className="text-2xl font-bold text-white">ABCconclave.com</p>
+            <p className="text-2xl font-bold text-white">DeGen Summit</p>
             <p className="text-2xl font-bold text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -277,7 +277,7 @@ function Hero() {
               {/* <Image src={community} alt="map" className="w-full h-auto" /> */}
               <div className="flex items-center justify-between p-4">
                 <div className="text-4xl font-bold tracking-wide text-white">
-                  FREE
+                  $99
                 </div>
                
               </div>
@@ -285,10 +285,10 @@ function Hero() {
                 <a
                   href="https://docs.google.com/forms/d/1MB3C0ovpdWjz9Xt0A7EWRX38K8873Yhng8tkIDvIiJA"
                   title="Buy with Crypto"
-                  className="bg-purple-400 text-center py-2 inline-block rounded-lg"
+                  className="bg-purple-700 text-center py-2 inline-block rounded-lg"
                 >Buy Now</a>
                
-                <ul
+               <ul
                   role="list"
                   className="pt-4 space-y-3 text-sm leading-6 text-left text-white/90"
                 >
@@ -297,42 +297,49 @@ function Hero() {
                       className="flex-none w-5 h-6 text-amber-500"
                       aria-hidden="true"
                     />
-                    $1500 worth value
+                    Full access to Conference &amp; Speaking Session
                   </li>
                   <li className="flex gap-x-3">
                     <CheckCircleIcon
                       className="flex-none w-5 h-6 text-amber-500"
                       aria-hidden="true"
                     />
-                    Conference Hall
+                    Recharge with Lunch, Snacks &amp; Coffee Breaks
                   </li>
                   <li className="flex gap-x-3">
                     <CheckCircleIcon
                       className="flex-none w-5 h-6 text-amber-500"
                       aria-hidden="true"
                     />
-                    Insightfull Sessions{" "}
+                    Receive an exclusive Web3 Carnival Goodies Bag
                   </li>
                   <li className="flex gap-x-3">
                     <CheckCircleIcon
                       className="flex-none w-5 h-6 text-amber-500"
                       aria-hidden="true"
                     />
-                    Gaming Zone{" "}
+                    Engage in hands-on Workshops &amp; Entertainment Areas
                   </li>
                   <li className="flex gap-x-3">
                     <CheckCircleIcon
                       className="flex-none w-5 h-6 text-amber-500"
                       aria-hidden="true"
                     />
-                    Esports Arena{" "}
+                    Stay tuned with Event Highlights of the Day
                   </li>
                   <li className="flex gap-x-3">
                     <CheckCircleIcon
                       className="flex-none w-5 h-6 text-amber-500"
                       aria-hidden="true"
                     />
-                    Welcome Goodie{" "}
+                    Have your voice heard through Voting for Awards
+                  </li>
+                  <li className="flex gap-x-3">
+                    <CheckCircleIcon
+                      className="flex-none w-5 h-6 text-amber-500"
+                      aria-hidden="true"
+                    />
+                    Pass is only valid for One Day Access
                   </li>
                 </ul>
               </div>
@@ -360,7 +367,7 @@ function Hero() {
                   href="https://insider.in/web3-carnival-2023-dec4-2023/event"
                   title="Buy with EMI"
                 />
-                <ul
+                  <ul
                   role="list"
                   className="pt-4 space-y-3 text-sm leading-6 text-left text-white/90"
                 >
@@ -369,44 +376,59 @@ function Hero() {
                       className="flex-none w-5 h-6 text-amber-500"
                       aria-hidden="true"
                     />
-                    $1500 worth value
+                    Full Access to Daily Conference &amp; Speaking Sessions
                   </li>
                   <li className="flex gap-x-3">
                     <CheckCircleIcon
                       className="flex-none w-5 h-6 text-amber-500"
                       aria-hidden="true"
                     />
-                    Conference Hall
+                    Recharge with Lunch, Snacks &amp; Coffee Breaks
                   </li>
                   <li className="flex gap-x-3">
                     <CheckCircleIcon
                       className="flex-none w-5 h-6 text-amber-500"
                       aria-hidden="true"
                     />
-                    Insightfull Sessions{" "}
+                    Receive an exclusive Web3 Carnival Goodies Bag
                   </li>
                   <li className="flex gap-x-3">
                     <CheckCircleIcon
                       className="flex-none w-5 h-6 text-amber-500"
                       aria-hidden="true"
                     />
-                    Gaming Zone{" "}
+                    Engage in hands-on Workshops &amp; Entertainment Areas
                   </li>
                   <li className="flex gap-x-3">
                     <CheckCircleIcon
                       className="flex-none w-5 h-6 text-amber-500"
                       aria-hidden="true"
                     />
-                    Esports Arena{" "}
+                    Have your voice heard through Voting for Awards
                   </li>
                   <li className="flex gap-x-3">
                     <CheckCircleIcon
                       className="flex-none w-5 h-6 text-amber-500"
                       aria-hidden="true"
                     />
-                    Welcome Goodie{" "}
+                    Exclusive access to all event highlights (except Demo Night
+                    &amp; Awards Night)
                   </li>
-                </ul>
+                  <li className="flex gap-x-3">
+                    <CheckCircleIcon
+                      className="flex-none w-5 h-6 text-amber-500"
+                      aria-hidden="true"
+                    />
+                    Network over Daily Drinks Receptions
+                  </li>
+                  <li className="flex gap-x-3">
+                    <CheckCircleIcon
+                      className="flex-none w-5 h-6 text-amber-500"
+                      aria-hidden="true"
+                    />
+                    Have your voice heard through Voting for Awards
+                  </li>
+                  </ul>
               </div>
             </div>
           </div>
@@ -434,8 +456,7 @@ function Hero() {
                   href="https://insider.in/web3-carnival-2023-dec4-2023/event"
                   title="Buy with EMI"
                 />
-                <ul
-                  role="list"
+                 <ul  role="list"
                   className="pt-4 space-y-3 text-sm leading-6 text-left text-white/90"
                 >
                   <li className="flex gap-x-3">
@@ -443,71 +464,126 @@ function Hero() {
                       className="flex-none w-5 h-6 text-amber-500"
                       aria-hidden="true"
                     />
-                   Business +
+                    Full Access to Daily Conference &amp; Speaking Sessions
                   </li>
                   <li className="flex gap-x-3">
                     <CheckCircleIcon
                       className="flex-none w-5 h-6 text-amber-500"
                       aria-hidden="true"
                     />
-                  $4500 worth value
+                    Recharge with Lunch, Snacks &amp; Coffee Breaks
                   </li>
                   <li className="flex gap-x-3">
                     <CheckCircleIcon
                       className="flex-none w-5 h-6 text-amber-500"
                       aria-hidden="true"
                     />
-                  $4500 worth value
+                    Receive an exclusive Web3 Carnival Goodies Bag
                   </li>
                   <li className="flex gap-x-3">
                     <CheckCircleIcon
                       className="flex-none w-5 h-6 text-amber-500"
                       aria-hidden="true"
                     />
-                 Vip Seat
+                    Engage in hands-on Workshops &amp; Entertainment Areas
                   </li>
                   <li className="flex gap-x-3">
                     <CheckCircleIcon
                       className="flex-none w-5 h-6 text-amber-500"
                       aria-hidden="true"
                     />
-                  Elite Experience
+                    Revel in exclusive access to all event highlights
                   </li>
                   <li className="flex gap-x-3">
                     <CheckCircleIcon
                       className="flex-none w-5 h-6 text-amber-500"
                       aria-hidden="true"
                     />
-                 International Buffet Luncheon
+                    Network over Daily Drinks Receptions
                   </li>
                   <li className="flex gap-x-3">
                     <CheckCircleIcon
                       className="flex-none w-5 h-6 text-amber-500"
                       aria-hidden="true"
                     />
-                 Gala Networking Dinner
+                    Have your voice heard through Voting for Awards
                   </li>
                   <li className="flex gap-x-3">
                     <CheckCircleIcon
                       className="flex-none w-5 h-6 text-amber-500"
                       aria-hidden="true"
                     />
-                Exclusive After Party
+                    Glide through VIP Fast track Entry to all Areas &amp; Events
                   </li>
                   <li className="flex gap-x-3">
                     <CheckCircleIcon
                       className="flex-none w-5 h-6 text-amber-500"
                       aria-hidden="true"
                     />
-                Networking Lounge
+                    Indulge in VIP Access to Industry Lounge, connecting with
+                    elite minds.
                   </li>
                   <li className="flex gap-x-3">
                     <CheckCircleIcon
                       className="flex-none w-5 h-6 text-amber-500"
                       aria-hidden="true"
                     />
-                 Speaker Lounge
+                    Access to the Close Exclusive Whale Telegram Group
                   </li>
+                  <li className="flex gap-x-3">
+                    <CheckCircleIcon
+                      className="flex-none w-5 h-6 text-amber-500"
+                      aria-hidden="true"
+                    />
+                    Free NFT Pass for an upcoming Web3 Carnival event, securing
+                    your seat.
+                  </li>
+                  <li className="flex gap-x-3">
+                    <CheckCircleIcon
+                      className="flex-none w-5 h-6 text-amber-500"
+                      aria-hidden="true"
+                    />
+                    Post event access to revisit the event through Content
+                    Library Hub recordings
+                  </li>
+                  <li className="flex gap-x-3">
+                    <CheckCircleIcon
+                      className="flex-none w-5 h-6 text-amber-500"
+                      aria-hidden="true"
+                    />
+                    Experience priority service at the Special VIP Registration
+                    Desk
+                  </li>
+                  <li className="flex gap-x-3">
+                    <CheckCircleIcon
+                      className="flex-none w-5 h-6 text-amber-500"
+                      aria-hidden="true"
+                    />
+                    Enjoy a luxurious Pick Up &amp; Drop from Airport to venue
+                  </li>
+                  <li className="flex gap-x-3">
+                    <CheckCircleIcon
+                      className="flex-none w-5 h-6 text-amber-500"
+                      aria-hidden="true"
+                    />
+                    Take home an exquisite Web3 Carnival Gift Hamper
+                  </li>
+                  <li className="flex gap-x-3">
+                    <CheckCircleIcon
+                      className="flex-none w-5 h-6 text-amber-500"
+                      aria-hidden="true"
+                    />
+                    Dedicated person for planning your itinerary from anywhere
+                    in the world.
+                  </li>
+                  {/* <li className="flex gap-x-3">
+                    <CheckCircleIcon
+                      className="flex-none w-5 h-6 text-amber-500"
+                      aria-hidden="true"
+                    />
+                    Crypto Hardware Wallets, safeguarding your digital
+                    treasures.
+                  </li> */}
                 </ul>
               </div>
             </div>
