@@ -26,6 +26,7 @@ export default function Home() {
             className="h-screen block md:hidden w-full"
             autoPlay
             loop
+            muted
           ></video>
         </div>
       </div>
