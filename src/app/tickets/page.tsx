@@ -311,7 +311,7 @@ function Hero() {
                       className="flex-none w-5 h-6 text-amber-500"
                       aria-hidden="true"
                     />
-                    Receive an exclusive Web3 Carnival Goodies Bag
+                    Receive an exclusive DeGen Summit Goodies Bag
                   </li>
                   <li className="flex gap-x-3">
                     <CheckCircleIcon
@@ -334,13 +334,7 @@ function Hero() {
                     />
                     Have your voice heard through Voting for Awards
                   </li>
-                  <li className="flex gap-x-3">
-                    <CheckCircleIcon
-                      className="flex-none w-5 h-6 text-amber-500"
-                      aria-hidden="true"
-                    />
-                    Pass is only valid for One Day Access
-                  </li>
+                  
                 </ul>
               </div>
             </div>
@@ -359,18 +353,7 @@ function Hero() {
                 >Buy Now</a>
               </div>
               <div className="flex flex-col px-4 pb-8 space-y-3">
-                <a
-                  href="https://docs.google.com/forms/d/1MB3C0ovpdWjz9Xt0A7EWRX38K8873Yhng8tkIDvIiJA"
-                  title="Buy with Crypto"
-                />
-                <a
-                  href="https://in.explara.com/e/web3-carnival--2023-community-delight"
-                  title="Buy with UPI"
-                />
-                <a
-                  href="https://insider.in/web3-carnival-2023-dec4-2023/event"
-                  title="Buy with EMI"
-                />
+              
                   <ul
                   role="list"
                   className="pt-4 space-y-3 text-sm leading-6 text-left text-white/90"
@@ -394,7 +377,7 @@ function Hero() {
                       className="flex-none w-5 h-6 text-amber-500"
                       aria-hidden="true"
                     />
-                    Receive an exclusive Web3 Carnival Goodies Bag
+                    Receive an exclusive DeGen Summit Goodies Bag
                   </li>
                   <li className="flex gap-x-3">
                     <CheckCircleIcon
@@ -452,18 +435,7 @@ function Hero() {
                 </div>
               </div>
               <div className="flex flex-col px-4 pb-8 space-y-3">
-                <a
-                  href="https://docs.google.com/forms/d/1MB3C0ovpdWjz9Xt0A7EWRX38K8873Yhng8tkIDvIiJA"
-                  title="Buy with Crypto"
-                />
-                <a
-                  href="https://in.explara.com/e/web3-carnival--2023-community-delight"
-                  title="Buy with UPI"
-                />
-                <a
-                  href="https://insider.in/web3-carnival-2023-dec4-2023/event"
-                  title="Buy with EMI"
-                />
+               
                  <ul  role="list"
                   className="pt-4 space-y-3 text-sm leading-6 text-left text-white/90"
                 >
@@ -486,7 +458,7 @@ function Hero() {
                       className="flex-none w-5 h-6 text-amber-500"
                       aria-hidden="true"
                     />
-                    Receive an exclusive Web3 Carnival Goodies Bag
+                    Receive an exclusive DeGen Summit Goodies Bag
                   </li>
                   <li className="flex gap-x-3">
                     <CheckCircleIcon
@@ -543,7 +515,7 @@ function Hero() {
                       className="flex-none w-5 h-6 text-amber-500"
                       aria-hidden="true"
                     />
-                    Free NFT Pass for an upcoming Web3 Carnival event, securing
+                    Free NFT Pass for an upcoming DeGen Summit event, securing
                     your seat.
                   </li>
                   <li className="flex gap-x-3">
@@ -562,19 +534,13 @@ function Hero() {
                     Experience priority service at the Special VIP Registration
                     Desk
                   </li>
+                  
                   <li className="flex gap-x-3">
                     <CheckCircleIcon
                       className="flex-none w-5 h-6 text-amber-500"
                       aria-hidden="true"
                     />
-                    Enjoy a luxurious Pick Up &amp; Drop from Airport to venue
-                  </li>
-                  <li className="flex gap-x-3">
-                    <CheckCircleIcon
-                      className="flex-none w-5 h-6 text-amber-500"
-                      aria-hidden="true"
-                    />
-                    Take home an exquisite Web3 Carnival Gift Hamper
+                    Take home an exquisite DeGen Summit Gift Hamper
                   </li>
                   <li className="flex gap-x-3">
                     <CheckCircleIcon
