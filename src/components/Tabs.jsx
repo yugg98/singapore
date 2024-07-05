@@ -7,7 +7,7 @@ function classNames(...classes) {
 
 export default function Tabs() {
   return (
-    <div className="w-full max-w-6xl px-4 py-10 mx-auto lg:px-8">
+    <div className="w-full max-w-6xl px-4 pb-10 mx-auto lg:px-8">
       <Tab.Group>
        
         <Tab.Panels className="">
@@ -46,7 +46,7 @@ export default function Tabs() {
                              />
                            </svg>
                          </span>
-                        {data.Time} IST | Duration {data.Duration}
+                        {data.Time} | Duration {data.Duration}
                        </div>
                        {/* <div className="flex flex-wrap px-2 py-1 text-sm font-medium text-gray-900 md:text-base">
                          <span>

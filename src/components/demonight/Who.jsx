@@ -31,10 +31,10 @@ const features = [
 
 export default function Who() {
   return (
-    <div className="py-12 bg-white">
+    <div className="py-12 ">
       <div className="max-w-6xl px-4 mx-auto lg:px-8">
         <div className="max-w-2xl mx-auto lg:text-center">
-          <p className="mt-2 text-3xl font-bold text-purple-900 font-display sm:text-4xl">
+          <p className="mt-2 text-3xl font-bold text-primary font-display sm:text-4xl">
           Who Should Attend?
           </p>
         </div>

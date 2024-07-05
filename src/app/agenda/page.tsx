@@ -14,7 +14,7 @@ export default function Page() {
   return (
     <div>
      <div className="relative isolate overflow-hidden  bg-cover ">
-        <div className="mx-auto max-w-7xl pb-24 pt-24 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:px-8 ">
+        <div className="mx-auto max-w-7xl pt-36 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:px-8 ">
           <div className="px-6 lg:px-0 lg:pt-4">
             <div className="mx-auto max-w-2xl">
               <div className="max-w-lg ">
@@ -25,21 +25,14 @@ export default function Page() {
                16th September 2024 <br/>
                 Huone, 3D River Valley Rd, #03-01 Block D, Singapore 179023
                 </p>
-                <div className="mt-10 flex items-center gap-x-6">
-                  <button className="bg-purple-900 px-6 py-3 text-white rounded-full">
-                   Nominate Yourself
-                  </button>
-                  <button className="bg-purple-900 px-6 py-3 text-white rounded-full">
-                   Nominate Others
-                  </button>
-                </div>
+                
               </div>
             </div>
           </div>
           <div className=" md:mx-auto md:max-w-2xl lg:mx-0 lg:mt-0 lg:w-screen">
             <div className=" md:rounded-3xl">
               <div>
-                <div className="relative px-6 pt-8 sm:pt-16 md:pl-16 md:pr-0">
+                <div className="relative px-6   md:pr-0">
                   <div className="mx-auto max-w-xl md:mx-0 md:max-w-md">
                     <img src="/hero.jpg" className="rounded-2xl" alt="" />
                   </div>
@@ -50,7 +43,7 @@ export default function Page() {
         </div>
       </div>
       <div className="px-4 py-4 mx-auto max-w-7xl ">
-        <h1 className="py-6 text-xl font-bold tracking-tight text-center text-primary md:text-4xl sm:text-6xl">
+        <h1 className="pt-6 text-xl font-bold tracking-tight text-center text-primary md:text-4xl sm:text-6xl">
           Exploring the Event&apos;s Blueprint: Tentative Agenda
         </h1>
         <Tabs />

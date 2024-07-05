@@ -23,7 +23,7 @@ const features =  [
     "name": "Bull Market!",
     "image":"/f7.jpeg",
 
-    "description": "With the market in an upward trend, it is the  perfect time for investors and entrepreneurs to capitalize on bullish opportunities in the crypto world."
+    "description": "With the market in an upward trend, it is the perfect time for investors and entrepreneurs to capitalize on bullish opportunities in the crypto world."
   },
   
 ]

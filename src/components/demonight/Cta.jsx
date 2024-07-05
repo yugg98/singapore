@@ -2,7 +2,7 @@ import { CalendarIcon, MapPinIcon } from "@heroicons/react/20/solid";
 
 export default function Cta() {
   return (
-    <div className="bg-white">
+    <div className="">
       <div className="max-w-6xl py-16 mx-auto lg:px-8">
         <div className="relative px-6 py-8 overflow-hidden shadow-2xl bg-purple-950 isolate sm:rounded-2xl">
           <svg
@@ -31,8 +31,7 @@ export default function Cta() {
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
               Don&apos;t miss out on this unparalleled opportunity to witness
-              the future unfold before your eyes. Secure your spot at Web3
-              Carnival&apos;s Demo Night now and be part of the next wave of
+              the future unfold before your eyes. Secure your spot at DeGen Summit&apos;s Startup Night now and be part of the next wave of
               Web3 innovation.
             </p>
 
@@ -40,12 +39,12 @@ export default function Cta() {
               <div className="flex items-center">
                 <CalendarIcon className="w-8 h-8 mr-4 text-white" />
                 <p className="text-white">
-                  Wednesday, 6th December - Day 3, 19:00 to 23:00
+                 Monday, 16th September
                 </p>
               </div>
               <div className="flex items-center">
                 <MapPinIcon className="w-8 h-8 mr-4 text-white" />
-                <p className="text-white">Bengaluru, India</p>
+                <p className="text-white">Singapore</p>
               </div>
             </div>
             <div className="flex flex-col items-center justify-center mt-10 space-y-4 lg:space-y-0 gap-x-6 lg:justify-start">
@@ -54,15 +53,19 @@ export default function Cta() {
               </p>
               <div className="flex flex-col items-center w-full mt-10 space-y-4 text-center gap-x-6 lg:flex-row lg:space-y-0">
               <a
-              href="https://tally.so/r/nP1r4b"
+              // href="https://tally.so/r/nP1r4b"
               className="w-full px-6 py-4 text-sm font-semibold text-purple-600 bg-white rounded-md shadow-sm hover:bg-gray-100"
             >
                Web3 Startup
             </a>
-            <a href="https://tally.so/r/n994xY" className="w-full px-6 py-4 text-sm font-semibold text-purple-600 bg-white rounded-md shadow-sm hover:bg-gray-100">
+            <a 
+            // href="https://tally.so/r/n994xY" 
+            className="w-full px-6 py-4 text-sm font-semibold text-purple-600 bg-white rounded-md shadow-sm hover:bg-gray-100">
              Investor
             </a>
-            <a href="https://tally.so/r/wkezgM" className="w-full px-6 py-4 text-sm font-semibold text-purple-600 bg-white rounded-md shadow-sm hover:bg-gray-100">
+            <a
+            //  href="https://tally.so/r/wkezgM" 
+            className="w-full px-6 py-4 text-sm font-semibold text-purple-600 bg-white rounded-md shadow-sm hover:bg-gray-100">
             Incubators & Accelerators
             </a>
               </div>

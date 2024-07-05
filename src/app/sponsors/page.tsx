@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import Link from 'next/link';
-
+import Sponsors from '@/components/Sponsors'
 export default function SponsorSection() {
   const [email, setEmail] = useState('');
   const [isValidEmail, setIsValidEmail] = useState(false);
@@ -16,6 +16,7 @@ export default function SponsorSection() {
   };
 
   return (
+    <div>
     <div className="mx-auto max-w-7xl pb-24 pt-10 sm:pb-32 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:px-8 ">
       <div className="px-6 lg:px-0 lg:pt-4">
         <div className="mx-auto max-w-2xl mt-20">
@@ -46,6 +47,7 @@ export default function SponsorSection() {
               />
               {isValidEmail ? (
                 <Link
+                target='_blank'
                   href="DeGENSummitDeck.pdf"
                   className="md:w-1/2 w-full px-6 text-center py-4 mt-4 text-md font-semibold text-purple-100 bg-indigo-600 rounded-md shadow-sm md:mt-0 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
                 >
@@ -74,6 +76,10 @@ export default function SponsorSection() {
           </div>
         </div>
       </div>
+
     </div>
+      <Sponsors/>
+
+      </div>
   );
 }

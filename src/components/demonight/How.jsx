@@ -34,18 +34,18 @@ export default function How() {
         <div className="px-6 mx-auto max-w-7xl lg:px-8">
           <div className="flex flex-col items-start justify-between py-12 space-y-6 sm:flex-row sm:space-x-6 sm:space-y-0">
             <div className="max-w-2xl p-8 mx-auto transition-all duration-150 ease-in-out shadow-md cursor-pointer lg:text-center hover:scale-95 hover:shadow-2xl bg-purple-50 rounded-2xl">
-              <h2 className="text-3xl font-semibold leading-7 text-purple-900 font-display">
+              <h2 className="text-3xl font-semibold leading-7 text-indigo-900 font-display">
                 What to Expect?
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                repare to be amazed as the brightest minds in the Web3 space
+                Get ready to be amazed as the brightest minds in the Web3 space
                 showcase their cutting-edge innovations. Demo Night is your
                 chance to get an exclusive first look at the technologies and
                 solutions that are shaping the future of industries.
               </p>
             </div>
             <div className="max-w-2xl p-8 mx-auto transition-all duration-150 ease-in-out shadow-md cursor-pointer lg:text-center hover:scale-95 hover:shadow-2xl bg-purple-50 rounded-2xl ">
-              <h2 className="text-3xl font-semibold leading-7 text-purple-900 font-display">
+              <h2 className="text-3xl font-semibold leading-7 text-indigo-900 font-display">
                 Why Fundraise Here?
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-600">
@@ -61,7 +61,7 @@ export default function How() {
         <div className="py-16 bg-purple-950">
           <div className="px-6 mx-auto max-w-7xl lg:px-8">
             <div className="max-w-2xl p-8 mx-auto text-center">
-              <p className="mt-2 text-3xl font-bold text-white font-display sm:text-4xl">
+              <p className="mt-2 text-3xl font-bold text-primary font-display sm:text-4xl">
                 How it works?
               </p>
             </div>
