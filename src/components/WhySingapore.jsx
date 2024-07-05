@@ -3,7 +3,7 @@ import React from "react";
 
 const Whydubai = () => {
   return (
-    <div className=" overflow-hidden border-0 md;mt-0 mt-[-135px]">
+    <div className=" overflow-hidden border-0  md:mt-0 mt-[-135px]">
 
       <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8 border-0">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 border-0 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
