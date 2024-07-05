@@ -370,6 +370,13 @@ function Hero() {
                       className="flex-none w-5 h-6 text-amber-500"
                       aria-hidden="true"
                     />
+                   Coffee Breaks & Dinner
+                  </li>
+                  <li className="flex gap-x-3">
+                    <CheckCircleIcon
+                      className="flex-none w-5 h-6 text-amber-500"
+                      aria-hidden="true"
+                    />
                     Recharge with Lunch, Snacks &amp; Coffee Breaks
                   </li>
                   <li className="flex gap-x-3">
