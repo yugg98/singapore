@@ -352,7 +352,11 @@ function Hero() {
                 <div className="text-4xl font-bold tracking-wide text-white">
                   $199
                 </div>
-               
+                <a
+                  href="https://docs.google.com/forms/d/1MB3C0ovpdWjz9Xt0A7EWRX38K8873Yhng8tkIDvIiJA"
+                  title="Buy with Crypto"
+                  className="bg-purple-700 text-center py-2 inline-block rounded-lg"
+                >Buy Now</a>
               </div>
               <div className="flex flex-col px-4 pb-8 space-y-3">
                 <a
@@ -440,7 +444,11 @@ function Hero() {
                   $399
                 </div>
                 <div className="flex flex-col justify-center">
-                
+                <a
+                  href="https://docs.google.com/forms/d/1MB3C0ovpdWjz9Xt0A7EWRX38K8873Yhng8tkIDvIiJA"
+                  title="Buy with Crypto"
+                  className="bg-purple-700 text-center py-2 inline-block rounded-lg"
+                >Buy Now</a>
                 </div>
               </div>
               <div className="flex flex-col px-4 pb-8 space-y-3">
