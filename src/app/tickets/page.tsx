@@ -282,7 +282,7 @@ function Hero() {
               </div>
               <div className="flex flex-col px-4 pb-8 space-y-3">
                 <a
-                  href="https://docs.google.com/forms/d/1MB3C0ovpdWjz9Xt0A7EWRX38K8873Yhng8tkIDvIiJA"
+                  href="https://lu.ma/7a1zyw5g"
                   title="Buy with Crypto"
                   className="bg-purple-700 text-center py-2 inline-block rounded-lg"
                 >
@@ -350,7 +350,7 @@ function Hero() {
 
               <div className="flex flex-col px-4 pb-8 space-y-3">
                 <a
-                  href="https://docs.google.com/forms/d/1MB3C0ovpdWjz9Xt0A7EWRX38K8873Yhng8tkIDvIiJA"
+                  href="https://lu.ma/7a1zyw5g"
                   title="Buy with Crypto"
                   className="bg-purple-700 text-center py-2 inline-block rounded-lg"
                 >
@@ -441,7 +441,7 @@ function Hero() {
               </div>
               <div className="flex flex-col justify-center">
                 <a
-                  href="https://docs.google.com/forms/d/1MB3C0ovpdWjz9Xt0A7EWRX38K8873Yhng8tkIDvIiJA"
+                  href="https://lu.ma/7a1zyw5g"
                   title="Buy with Crypto"
                   className="bg-purple-700 mx-3 text-center py-2 inline-block rounded-lg"
                 >
