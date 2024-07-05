@@ -27,7 +27,7 @@ export default function Navbar() {
   return (
     <Disclosure
       as="nav"
-      className="absolute z-[10] backdrop-blur-2xl  color-indigo-400  w-full color-indigo-400"
+      className="absolute z-[10] backdrop-blur-2xl px-4  color-indigo-400  w-full color-indigo-400"
     >
       {({ open, close }) => (
         <>

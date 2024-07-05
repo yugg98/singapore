@@ -716,7 +716,7 @@ export default function Example() {
         </div>
         <ul
           role="list"
-          className="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-6 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-5 lg:gap-8"
+          className="mx-auto mt-20 grid max-w-2xl gap-6 grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-5 lg:gap-8"
         >
           {people.map((person) => (
             <li

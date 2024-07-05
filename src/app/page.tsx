@@ -49,14 +49,13 @@ export default function Home() {
       <div>
         <Highlights />
       </div>
-      <div className="mt-1 overflow-hidden sm:mt-20">
         <div className="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
             <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
               <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl">
                 About us
               </h2>
-              <p className="mt-6 text-xl leading-8 text-white">
+              <p className="mt-6 md:text-xl text-md  text-white">
                 Welcome to DeGEN Summit, the top event for Web3 fans globally.
                 Join us as top company founders and executives discuss their
                 views and perspectives on the blockchain market.
@@ -75,10 +74,9 @@ export default function Home() {
                 <img
                   src="/singapore.jpg"
                   alt=""
-                  className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
+                  className="max-w-xs  md:max-w-xl rounded-2xl bg-gray-50 object-cover"
                 />
               </div>
-            </div>
           </div>
         </div>
       </div>

@@ -14,9 +14,9 @@ const stats = [
 ];
 export default function Example() {
   return (
-    <div className="md:mt-8 md:relative top-[-100px]">
+    <div className="relative top-[-180px]">
       <div className="mx-auto max-w-6xl relative z-[20]">
-        <div className="grid gap-4 px-10 pt-10 overflow-hidden rounded-2xl md:grid-cols-4 grid-cols-2">
+        <div className="grid gap-4 md:px-10 px-4 overflow-hidden rounded-2xl md:grid-cols-4 grid-cols-3">
           {stats.map((stat, index) => (
             <div
               key={stat.name}
@@ -26,11 +26,11 @@ export default function Example() {
               
             >
               <p className="mt-2 flex items-baseline gap-x-2 ">
-                <span className="md:text-4xl text-2xl font-semibold tracking-tight text-white">
+                <span className="md:text-4xl text-md font-semibold tracking-tight text-white">
                   <CountUp start={0} end={stat.value} duration={2} />+
                 </span>
               </p>
-              <p className="text-xl font-medium leading-6 text-white mt-4">
+              <p className=" text-sm leading-6 text-white mt-4">
                 {stat.name}
               </p>
             </div>
