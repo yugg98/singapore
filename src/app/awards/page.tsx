@@ -7,90 +7,171 @@ import Goals from "@/components/Goals";
 // Dummy data for award categories
 const awardCategories = [
   {
-    title: "BEST CRYPTO ENTREPRENEUR",
-    description: "Recognizing exceptional leadership in the crypto space",
+    title: "Web3 Influencer of the Year",
+    description: "Celebrating the most influential voice in the Web3 community."
   },
   {
-    title: "BEST CRYPTO CENTRALISED EXCHANGE",
-    description: "Celebrating excellence in centralized cryptocurrency exchanges",
+    title: "Crypto Influencer of the Year",
+    description: "Recognizing a key influencer driving the crypto conversation."
   },
   {
-    title: "BEST CRYPTO DECENTRALISED EXCHANGE",
-    description: "Honoring the top decentralized cryptocurrency exchange",
+    title: "Most Influential Web3 Investor",
+    description: "Honoring an investor whose decisions have significantly impacted the Web3 space."
   },
   {
-    title: "BEST EXCHANGE FOR DERIVATIVES TRADING",
-    description: "Awarding the leading platform for derivatives trading",
+    title: "Web3 Woman of the Year",
+    description: "Recognizing a female leader making waves in the Web3 industry."
   },
   {
-    title: "BEST CRYPTO LAW FIRM",
-    description: "Acknowledging the premier legal firm in the crypto industry",
+    title: "Crypto Analyst of the Year",
+    description: "Awarding excellence in cryptocurrency analysis and insights."
   },
   {
-    title: "BEST CRYPTO LAWYER",
-    description: "Celebrating outstanding legal expertise in cryptocurrency",
+    title: "Favorite Blockchain Expert",
+    description: "Celebrating a popular expert known for deep blockchain knowledge."
   },
   {
-    title: "BEST LIQUIDITY & MM PROVIDER",
-    description: "Recognizing excellence in liquidity and market making services",
+    title: "Best NFT Creator",
+    description: "Honoring the most innovative and impactful NFT creator."
   },
   {
-    title: "BEST TRADING APP",
-    description: "Awarding the top trading application in the crypto market",
+    title: "Best Educational Resource",
+    description: "Recognizing the best platform or individual for crypto and Web3 education."
   },
   {
-    title: "BREAKTHROUGH OF THE YEAR",
-    description: "Highlighting the most significant breakthrough in the crypto industry",
+    title: "Crypto Media Platform of the Year",
+    description: "Celebrating the top media platform providing crypto news and insights."
   },
   {
-    title: "BEST CRYPTO AI PROJECT",
-    description: "Celebrating innovation in AI within the cryptocurrency space",
+    title: "PR and Marketing Agency of the Year",
+    description: "Awarding excellence in PR and marketing services for the crypto industry."
   },
   {
-    title: "BEST WEB3 SECURITY FIRM",
-    description: "Honoring the leading security firm in the Web3 ecosystem",
+    title: "Best Crypto Event Organizer",
+    description: "Honoring the best organizer of cryptocurrency-related events."
   },
   {
-    title: "BEST CRYPTO FUND",
-    description: "Recognizing the best-performing crypto investment fund",
+    title: "Top Crypto Podcaster of the Year",
+    description: "Recognizing the most engaging and informative crypto podcaster."
   },
   {
-    title: "BEST CRYPTO MEDIA",
-    description: "Celebrating excellence in cryptocurrency media and journalism",
+    title: "Best YouTube Crypto Content Creator",
+    description: "Celebrating the top content creator on YouTube for crypto-related content."
   },
   {
-    title: "BEST LAYER-1 SOLUTION",
-    description: "Awarding the top Layer-1 blockchain solution",
+    title: "Lifetime Achievement Award",
+    description: "Recognizing a pioneer who has made significant contributions to the development of Web3."
   },
   {
-    title: "BEST LAYER-2 SOLUTION",
-    description: "Honoring the leading Layer-2 blockchain solution",
+    title: "Rising Star Award",
+    description: "Honoring a young individual with exceptional potential to shape the future of Web3."
   },
   {
-    title: "BEST MARKETING AGENCY",
-    description: "Recognizing exceptional marketing services in the crypto industry",
+    title: "Crypto On-Chain Analyst of the Year",
+    description: "Awarding excellence in on-chain analysis for cryptocurrencies."
   },
   {
-    title: "BEST WEB3 GAMING PROJECT",
-    description: "Celebrating innovation in blockchain-based gaming",
+    title: "Most Engaging Web3 Twitter Personality",
+    description: "Recognizing the most engaging and influential Web3 personality on Twitter."
   },
   {
-    title: "MEME COIN OF THE YEAR",
-    description: "Highlighting the most impactful meme coin",
+    title: "Best Web3 Podcast Host",
+    description: "Celebrating the best host of a Web3-focused podcast."
   },
   {
-    title: "SOCIAL INFLUENCER TO WATCH",
-    description: "Recognizing a rising star in the crypto social media landscape",
+    title: "Pioneer in Web3 Marketing",
+    description: "Honoring groundbreaking work in marketing within the Web3 space."
   },
   {
-    title: "INNOVATIVE NFT PROJECT OF THE YEAR",
-    description: "Celebrating groundbreaking innovation in the NFT space",
+    title: "Most Innovative Web3 Founder",
+    description: "Recognizing a founder whose innovative ideas are shaping the future of Web3."
   },
   {
-    title: "ALL ‘BOUT CONNECTOR OF THE YEAR",
-    description: "Honoring exceptional networking and community-building in crypto",
+    title: "Best Crypto Entrepreneur",
+    description: "Recognizing exceptional leadership in the crypto space."
+  },
+  {
+    title: "Best Crypto Centralised Exchange",
+    description: "Celebrating excellence in centralized cryptocurrency exchanges."
+  },
+  {
+    title: "Best Crypto Decentralised Exchange",
+    description: "Honoring the top decentralized cryptocurrency exchange."
+  },
+  {
+    title: "Best Exchange for Derivatives Trading",
+    description: "Awarding the leading platform for derivatives trading."
+  },
+  {
+    title: "Best Crypto Law Firm",
+    description: "Acknowledging the premier legal firm in the crypto industry."
+  },
+  {
+    title: "Best Crypto Lawyer",
+    description: "Celebrating outstanding legal expertise in cryptocurrency."
+  },
+  {
+    title: "Best Liquidity & MM Provider",
+    description: "Recognizing excellence in liquidity and market-making services."
+  },
+  {
+    title: "Best Trading App",
+    description: "Awarding the top trading application in the crypto market."
+  },
+  {
+    title: "Breakthrough of the Year",
+    description: "Highlighting the most significant breakthrough in the crypto industry."
+  },
+  {
+    title: "Best Crypto AI Project",
+    description: "Celebrating innovation in AI within the cryptocurrency space."
+  },
+  {
+    title: "Best Web3 Security Firm",
+    description: "Honoring the leading security firm in the Web3 ecosystem."
+  },
+  {
+    title: "Best Crypto Fund",
+    description: "Recognizing the best-performing crypto investment fund."
+  },
+  {
+    title: "Best Crypto Media",
+    description: "Celebrating excellence in cryptocurrency media and journalism."
+  },
+  {
+    title: "Best Layer-1 Solution",
+    description: "Awarding the top Layer-1 blockchain solution."
+  },
+  {
+    title: "Best Layer-2 Solution",
+    description: "Honoring the leading Layer-2 blockchain solution."
+  },
+  {
+    title: "Best Marketing Agency",
+    description: "Recognizing exceptional marketing services in the crypto industry."
+  },
+  {
+    title: "Best Web3 Gaming Project",
+    description: "Celebrating innovation in blockchain-based gaming."
+  },
+  {
+    title: "Meme Coin of the Year",
+    description: "Highlighting the most impactful meme coin."
+  },
+  {
+    title: "Social Influencer to Watch",
+    description: "Recognizing a rising star in the crypto social media landscape."
+  },
+  {
+    title: "Innovative NFT Project of the Year",
+    description: "Celebrating groundbreaking innovation in the NFT space."
+  },
+  {
+    title: "All 'Bout Connector of the Year",
+    description: "Honoring exceptional networking and community-building in crypto."
   },
 ];
+
 
 
 export default function Hero() {

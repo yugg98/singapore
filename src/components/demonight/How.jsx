@@ -32,7 +32,7 @@ export default function How() {
   return (
       <div className="">
         <div className="px-6 mx-auto max-w-7xl lg:px-8">
-          <div className="flex flex-col items-start justify-between py-12 space-y-6 sm:flex-row sm:space-x-6 sm:space-y-0">
+          <div className="grid md:grid-cols-2 items-start justify-between py-12 space-y-6 sm:flex-row sm:space-x-6 sm:space-y-0">
             <div className="max-w-2xl p-8 mx-auto transition-all duration-150 ease-in-out shadow-md cursor-pointer lg:text-center hover:scale-95 hover:shadow-2xl bg-purple-50 rounded-2xl">
               <h2 className="text-3xl font-semibold leading-7 text-indigo-900 font-display">
                 What to Expect?
