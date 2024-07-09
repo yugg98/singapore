@@ -13,12 +13,12 @@ function classNames(...classes) {
 }
 
 const navigationItems = [
-  { href: "/sponsors", label: "Sponsors" },
   { href: "/speakers", label: "Speakers" },
-  { href: "/contact", label: "Contact" },
-  { href: "/startup", label: "Startup" },
   { href: "/agenda", label: "Agenda" },
-  { href: "/awards", label: "Awards" },
+  { href: "/sponsors", label: "Sponsors" },
+  { href: "/startup", label: "Demo Eve" },
+  { href: "/awards", label: "Awards Night" },
+
 
 ];
 const getinvolved = [
@@ -26,6 +26,8 @@ const getinvolved = [
   { name: "Speakers", href: "wv2GMA" },
   { name: "Media", href: "3xZjGr" },
   { name: "Community", href: "wbO9aL" },
+  { href: "/contact", label: "Contact" },
+
 ];
 export default function Navbar() {
   return (

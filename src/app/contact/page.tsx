@@ -70,7 +70,7 @@ export default function Page() {
             <p className="mt-6 text-base leading-6 text-gray-300">
               Have something to share, inquire about, or discuss? We&apos;re all
               ears! Whether you&apos;re a participant, sponsor, media
-              representative, or just curious about Abcconclave, we&apos;re
+              representative, or just curious about Degen Summit, we&apos;re
               ready to assist. Reach out to us using any of the methods below,
               and let&apos;s start a conversation.
             </p>

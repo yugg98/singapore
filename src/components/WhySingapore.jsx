@@ -15,7 +15,7 @@ const Whydubai = () => {
             <p className="mt-6 text-lg font-sato  text-gray-100">
               Singapore stands as a beacon of progress and innovation, making it
               the perfect setting for the DeGen Summit. With its crypto-friendly
-              regulatory environment, vibrant tech scene, and diverse
+              regulatory environment, vibrant tech scenes, and diverse
               population, Singapore attracts over 25,000 crypto enthusiasts to
               network, innovate, and capitalize on bullish opportunities in the
               Web3 space.
