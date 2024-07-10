@@ -74,17 +74,13 @@ export default function Home() {
               About us
             </h2>
             <p className="mt-6 md:text-xl text-md  text-white">
-              Welcome to DeGEN Summit, the top event for Web3 fans globally.
-              Join us as top company founders and executives discuss their views
-              and perspectives on the blockchain market.
+            Welcome to DeGEN Summit, after the success in london, dubai, india and Hong long degen summit is back in singapore   Join us as top company founders and executives discuss their views and perspectives on the blockchain market.
+
+
               <br />
               <br />
-              At DeGEN, we bring together entrepreneurs, investors, developers,
-              and worldwide media to explore the tremendous prospects in the
-              blockchain ecosystem while also providing unrivaled networking
-              opportunities. Be a member of the community that determines
-              what&apos;s next in blockchain. Join us at DeGen to help define
-              the future of blockchain.
+              At DeGEN, we bring together entrepreneurs, investors, developers, and worldwide media to explore the tremendous prospects in the blockchain ecosystem while also providing unrivaled networking opportunities. Be a member of the community that determines what&apos;s next in blockchain. Join us at DeGen to help define the future of blockchain.
+
             </p>
           </div>
           <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">

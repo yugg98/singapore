@@ -13,14 +13,10 @@ const page = () => {
                   Become a Speaker
                 </h1>
                 <p className="mt-6 text-lg leading-8 text-white">
-                  At DeGen Summit, we present exclusive sponsorship packages
-                  designed to align with your brand&apos;s vision, budget, and
-                  marketing aspirations.
-                  <br />
-                  <br />
-                  From prime exhibition spaces to impactful branding suites,
-                  DeGen Summit brings you a range of tailored opportunities for
-                  maximum visibility and meaningful connections.
+                Are you a pioneer in blockchain, a Web3 enthusiast, or a real degen with a story that inspires? Whether you&apos;re an individual innovator or a brand making waves, we want you at our event. 
+                <br/><br/>
+                If you’re eager to share your insights, lead a workshop, or simply tell your story, we invite you to become part of our speaker lineup.
+                 
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
                   <button className='bg-indigo-600 px-5 py-3 rounded-full'>
