@@ -1,8 +1,10 @@
 import React from 'react'
 import Speaker from '@/components/Speakers'
+import TallyPopupButton from '@/components/TallyPopupButton'
 const page = () => {
   return (
     <div>
+      
      <div className="mx-auto max-w-7xl pb-24 pt-10 sm:pb-32 lg:grid lg:grid-cols-2 lg:gap-x-8  lg:px-8 ">
           <div className="px-6 lg:px-0 lg:pt-4">
             <div className="mx-auto max-w-2xl mt-20">
@@ -21,7 +23,8 @@ const page = () => {
                   maximum visibility and meaningful connections.
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
-                <button className="bg-purple-900 px-6 py-3 text-white rounded-full">Become A Speaker</button>
+                  <button className='bg-indigo-600 px-5 py-3 rounded-full'>
+              <TallyPopupButton label={"Become A Speaker"} href="wv2GMA"/></button>
 
                 </div>
               </div>

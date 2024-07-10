@@ -1,4 +1,4 @@
-import Speakers from "@/components/Speakers";
+import Speakers, { Speaker } from "@/components/Speakers";
 import Highlights from "@/components/Highlights";
 import Tickets from "@/components/Tickets";
 import Sponsors from "@/components/Sponsors";
@@ -11,7 +11,7 @@ import Marquee from "react-fast-marquee";
 export default function Home() {
   return (
     <main>
-     <Marquee className=" py-2  bg-indigo-800 top-20  z-[10]">
+     <Marquee className=" py-2  bg-indigo-800 top-20  z-[10] ">
         <p className="text-base px-4 text-purple-100">#16th SEP</p>
         <p className="text-base px-4 text-purple-100">#Web3 Summit</p>
         <p className="text-base px-4 text-purple-100">#Largest Web3 Event</p>
@@ -100,7 +100,7 @@ export default function Home() {
       </div>
       {/* <Tickets/> */}
       <Sponsors />
-      <Speakers />
+      <Speaker/>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8073578615144!2d103.8456123!3d1.2898457000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19a01099b3eb%3A0x3e01c38ff3d2709!2sHUONE%20Singapore%20%7C%20Meeting%20and%20Event%20Venue!5e0!3m2!1sen!2sin!4v1720027375513!5m2!1sen!2sin"
         width="600"

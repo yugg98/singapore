@@ -68,7 +68,7 @@ const Whydubai = () => {
             <div className="hidden lg:flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
               <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
                 <img
-                  src="/f1.jpeg"
+                  src="/f3.jpeg"
                   alt=""
                   className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                 />
@@ -83,7 +83,7 @@ const Whydubai = () => {
                 </div>
                 <div className="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
                   <img
-                    src="/f3.jpeg"
+                    src="/f1.jpeg"
                     alt=""
                     className="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                   />

@@ -121,8 +121,8 @@ export default function Navbar() {
             leaveFrom="opacity-100 translate-y-0 scale-100" // starts from its original position and fully visible
             leaveTo="opacity-0 translate-y-full scale-95" // ends at the top and slightly scaled down
           >
-            <Disclosure.Panel className="lg:hidden absolute w-full z-20 bg-white rounded-lg">
-              <div className="space-y-1 pb-3 pt-2">
+            <Disclosure.Panel className="lg:hidden absolute w-full z-[40] bg-white rounded-lg">
+              <div className="space-y-1 pb-3 pt-6">
                 {navigationItems.map((item) => (
                   <Link
                     key={item.href}
@@ -133,6 +133,7 @@ export default function Navbar() {
                     {item.label}
                   </Link>
                 ))}
+                
               </div>
             </Disclosure.Panel>
           </Transition>
