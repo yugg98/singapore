@@ -19,7 +19,7 @@ export default function Page() {
             <div className="mx-auto max-w-2xl">
               <div className="max-w-lg ">
                 <h1 className=" text-4xl font-bold tracking-tight text-primary sm:text-6xl">
-                  DeGen Summit 2024 India Agenda 
+                  DeGen Summit 2024 Singapore Agenda 
                 </h1>
                 <p className="mt-6 text-lg leading-8 text-gray-100">
                16th September 2024 <br/>
