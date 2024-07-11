@@ -99,7 +99,7 @@ const navigation = {
             </div>
             <div className="mt-16 grid  gap-8  xl:mt-0">
              
-              <div className="md:grid md:grid-cols-2 md:gap-8">
+              <div className="md:grid md:grid-cols-3 md:gap-8">
                 <div>
                   <h3 className="text-sm font-bold leading-6 text-gray-100">About Us</h3>
                   <ul role="list" className="mt-6 space-y-4">
