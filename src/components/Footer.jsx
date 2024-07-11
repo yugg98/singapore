@@ -125,7 +125,7 @@ const navigation = {
                   </ul>
                 </div>
                 <div className="mt-10 md:mt-0">
-                  <h3 className="text-sm font-bold leading-6 text-gray-100">Legal</h3>
+                  <h3 className="text-sm font-bold leading-6 text-gray-100">More</h3>
                   <ul role="list" className="mt-6 space-y-4">
                     {navigation.More.map((item) => (
                       <li key={item.name}>
