@@ -5,7 +5,7 @@ const page = () => {
     <main className="container mx-auto p-6 ">
         <section className=" p-6 rounded shadow-md mt-16">
             <h2 className="text-4xl font-semibold mb-4">Welcome</h2>
-            <p className="mb-4">Welcome to the DeGen Summit event website. By using this Website, you agree to the following Terms and Conditions ("Terms"). If you do not agree with these Terms, please exit the Website. We reserve the right to refuse access to anyone at any time.</p>
+            <p className="mb-4">Welcome to the DeGen Summit event website. By using this Website, you agree to the following Terms and Conditions. If you do not agree with these Terms, please exit the Website. We reserve the right to refuse access to anyone at any time.</p>
 
             <h3 className="text-xl font-semibold mt-4">Website Use</h3>
             <p className="mb-4">This Website provides information about the Blockchain Summit event. By accessing and using the Website, you agree to:</p>
@@ -28,7 +28,7 @@ const page = () => {
             <p className="mb-4">We do not accept obligations of confidentiality for information submitted to us. Any information you provide is not considered confidential or proprietary, and we are free to use it.</p>
 
             <h3 className="text-xl font-semibold mt-4">Limitations</h3>
-            <p className="mb-4">The Website and content are provided "as is" with no warranties. We are not liable for any consequential, incidental, special, or exemplary damages. You are responsible for all information and content you contribute.</p>
+            <p className="mb-4">The Website and content are provided as is with no warranties. We are not liable for any consequential, incidental, special, or exemplary damages. You are responsible for all information and content you contribute.</p>
 
             <h3 className="text-xl font-semibold mt-4">Indemnification</h3>
             <p className="mb-4">You agree to indemnify and hold us harmless from any claims, liabilities, damages, losses, and expenses related to your use of the Website and content.</p>

@@ -1,17 +1,17 @@
 const navigation = {
     Speakers: [
       { name: 'Sponsors', href: '/sponsors' },
-      { name: 'Speakers', href: '/speaker' },
+      { name: 'Speakers', href: '/speakers' },
       { name: 'Contact', href: '/contact' },
       { name: 'Calendly', href: 'https://calendly.com/degensummit' },
       
   
     ],
-    support: [
-      { name: 'Pricing', href: '#' },
-      { name: 'Documentation', href: '#' },
-      { name: 'Guides', href: '#' },
-      { name: 'API Status', href: '#' },
+    More: [
+      { name: 'Book tickets', href: '/tickets' },
+      { name: 'Demo Eve', href: '/startup' },
+      { name: 'Awards', href: '/awards' },
+      { name: 'Agenda', href: '/agenda' },
     ],
     company: [
       { name: 'About', href: '#' },
@@ -21,7 +21,6 @@ const navigation = {
       { name: 'Partners', href: '#' },
     ],
     legal: [
-      { name: 'Claim', href: '#' },
       { name: 'Privacy', href: '/privacy-policy' },
       { name: 'Terms', href: '/terms-and-conditions' },
     ],
@@ -50,20 +49,6 @@ const navigation = {
           </svg>
         ),
       },
-      // {
-      //   name: 'Telegram',
-      //   href: 'https://t.me/degensummit',
-      //   icon: (props) => (
-      //       <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
-      //         <path
-      //           fillRule="evenodd"
-      //           d="M12 2c-5.522 0-10 4.477-10 10s4.478 10 10 10 10-4.477 10-10-4.478-10-10-10zm4.625 6.417l-9.383 4.822c-.29.149-.406.298-.335.448.073.149.369.104.69-.056l2.945-1.547 5.781 3.917c.166.113.311.106.406-.018.095-.125-.032-.276-.228-.404l-6.103-3.61 3.454-2.34c.264-.172.387-.282.373-.33-.014-.047-.187-.01-.459.108l-8.8 4.427c-.223.111-.305.17-.245.17.06 0 .23-.064.473-.191l9.797-5.103c.279-.146.412-.288.396-.426-.017-.138-.193-.133-.514.018z"
-      //           clipRule="evenodd"
-      //         />
-      //       </svg>
-         
-      //   ),
-      // },
       {
         name: 'LinkedIn',
         href: 'https://www.linkedin.com/company/degensummit/',
