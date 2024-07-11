@@ -43,7 +43,7 @@ const CancellationPolicy = () => {
               <p className="text-gray-600">
                 {item === 2.1 && "All purchases of tickets for conferences and events (including hotel rooms if applicable) are non-refundable in their entirety..."}
                 {item === 2.2 && "If for any reason AlphablockZ decides to cancel this event, AlphablockZ accepts no responsibility for covering airfare, hotel or other costs incurred by registrants, including delegates, sponsors, speakers and guests."}
-                {item === 2.3 && "No refunds will be issued for cancellations due to weather or other causes beyond the Registrant's control..."}
+                {item === 2.3 && "No refunds will be issued for cancellations due to weather or other causes beyond the Registrant&apos;s control..."}
                 {item === 2.4 && "Discounts cannot be combined with any other discount or multiple offer and apply to new bookings only; there will be no adjustments on previous registrations."}
                 {item === 2.5 && "For questions about registration or assistance with any registration problems, please contact us at info@abcconclave.com"}
               </p>
@@ -59,7 +59,7 @@ const CancellationPolicy = () => {
             <div key={index} className="bg-white p-4 rounded-lg shadow">
               <h3 className="font-semibold mb-2 text-gray-700">{item}</h3>
               <p className="text-gray-600">
-                {item === 3.1 && "AlphablockZ will not provide transport or travel expenses to or from any event or conference. AlphablockZ will consider but not guarantee exhibitors' requests for day changes at any event or conference."}
+                {item === 3.1 && "AlphablockZ will not provide transport or travel expenses to or from any event or conference. AlphablockZ will consider but not guarantee exhibitors&apos; requests for day changes at any event or conference."}
                 {item === 3.2 && "All items (screens, laptops, cabling and other electronic equipment, rooms, furniture etc.) supplied are on a rental basis and no exchange, transfer or refund of ordered items on-site will be entertained..."}
                 {item === 3.3 && "Non-standard items may be offered on request, subject to a separate quotation, and are subject to the same terms and conditions..."}
               </p>

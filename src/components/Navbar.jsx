@@ -18,7 +18,18 @@ const navigationItems = [
   { href: "/sponsors", label: "Sponsors" },
   { href: "/startup", label: "Demo Eve" },
   { href: "/awards", label: "Awards Night" },
+  
 
+];
+
+const navigationItemsm = [
+  { href: "/speakers", label: "Speakers" },
+  { href: "/agenda", label: "Agenda" },
+  { href: "/sponsors", label: "Sponsors" },
+  { href: "/startup", label: "Demo Eve" },
+  { href: "/awards", label: "Awards Night" },
+  { href: "/tickets", label: "Book Tickets" },
+  { href: "https://calendly.com/degensummit", label: "Enquire" },
 
 ];
 const getinvolved = [
@@ -123,7 +134,7 @@ export default function Navbar() {
           >
             <Disclosure.Panel className="lg:hidden absolute w-full z-[40] bg-white rounded-lg">
               <div className="space-y-1 pb-3 pt-6">
-                {navigationItems.map((item) => (
+                {navigationItemsm.map((item) => (
                   <Link
                     key={item.href}
                     onClick={close}
