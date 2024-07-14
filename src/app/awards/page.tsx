@@ -11,44 +11,48 @@ const awardCategories = [
     description: "Celebrating the most influential voice in the Web3 community."
   },
   {
-    title: "Crypto Influencer of the Year",
-    description: "Recognizing a key influencer driving the crypto conversation."
+    title: "Crypto KOL of the Year",
+    description: "Recognizing a key opinion leader driving the crypto conversation."
   },
   {
-    title: "Most Influential Web3 Investor",
-    description: "Honoring an investor whose decisions have significantly impacted the Web3 space."
+    title: "Most Influential Web3 KOL",
+    description: "Honoring a KOL whose impact on the Web3 space is significant and far-reaching."
   },
   {
-    title: "Web3 Woman of the Year",
-    description: "Recognizing a female leader making waves in the Web3 industry."
+    title: "Web3 Woman KOL of the Year",
+    description: "Recognizing a female KOL making waves in the Web3 industry."
   },
   {
     title: "Crypto Analyst of the Year",
     description: "Awarding excellence in cryptocurrency analysis and insights."
   },
   {
-    title: "Favorite Blockchain Expert",
-    description: "Celebrating a popular expert known for deep blockchain knowledge."
+    title: "Favorite Blockchain Influencer",
+    description: "Celebrating a popular influencer known for deep blockchain knowledge."
   },
   {
-    title: "Best NFT Creator",
-    description: "Honoring the most innovative and impactful NFT creator."
+    title: "Most Informative Telegram Channel",
+    description: "Recognizing the Telegram channel providing the best and most reliable crypto information."
+  },
+  {
+    title: "Best Memecoin Influencer",
+    description: "Honoring the most influential voice in the memecoin community."
+  },
+  {
+    title: "Most Influential Memecoin Community",
+    description: "Celebrating the memecoin community that has shown the greatest influence and engagement."
+  },
+  {
+    title: "Best NFT KOL",
+    description: "Honoring the most innovative and impactful KOL in the NFT space."
   },
   {
     title: "Best Educational Resource",
     description: "Recognizing the best platform or individual for crypto and Web3 education."
   },
   {
-    title: "Crypto Media Platform of the Year",
-    description: "Celebrating the top media platform providing crypto news and insights."
-  },
-  {
     title: "PR and Marketing Agency of the Year",
     description: "Awarding excellence in PR and marketing services for the crypto industry."
-  },
-  {
-    title: "Best Crypto Event Organizer",
-    description: "Honoring the best organizer of cryptocurrency-related events."
   },
   {
     title: "Top Crypto Podcaster of the Year",
@@ -67,10 +71,6 @@ const awardCategories = [
     description: "Honoring a young individual with exceptional potential to shape the future of Web3."
   },
   {
-    title: "Crypto On-Chain Analyst of the Year",
-    description: "Awarding excellence in on-chain analysis for cryptocurrencies."
-  },
-  {
     title: "Most Engaging Web3 Twitter Personality",
     description: "Recognizing the most engaging and influential Web3 personality on Twitter."
   },
@@ -79,14 +79,33 @@ const awardCategories = [
     description: "Celebrating the best host of a Web3-focused podcast."
   },
   {
-    title: "Pioneer in Web3 Marketing",
-    description: "Honoring groundbreaking work in marketing within the Web3 space."
+    title: "Most Innovative Web3 KOL",
+    description: "Recognizing a KOL whose innovative ideas are shaping the future of Web3."
   },
   {
-    title: "Most Innovative Web3 Founder",
-    description: "Recognizing a founder whose innovative ideas are shaping the future of Web3."
+    title: "Youngest Crypto Influencer of the Year (Under 18)",
+    description: "Honoring the youngest influencer making significant contributions to the crypto space."
   },
- 
+  {
+    title: "Most Engaging Crypto Twitter Account",
+    description: "Recognizing the most engaging and influential crypto Twitter account."
+  },
+  {
+    title: "Crypto Trendsetter of the Year",
+    description: "Celebrating an individual setting trends and leading the way in the crypto industry."
+  },
+  {
+    title: "Most Influential Crypto Blogger",
+    description: "Honoring the blogger whose insights and influence have made a significant impact in the crypto world."
+  },
+  {
+    title: "Best Crypto Discord Community Leader",
+    description: "Recognizing the best leader of a crypto community on Discord."
+  },
+  {
+    title: "Top Crypto TikTok Creator",
+    description: "Celebrating the most engaging and informative crypto content creator on TikTok."
+  }
 ];
 
 
