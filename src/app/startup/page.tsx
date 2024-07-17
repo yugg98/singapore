@@ -9,10 +9,31 @@ const page = () => {
     <div>
         <Hero/>
         <How />
+        <HowToParticipate/>
         <Who/>
         <Cta/>
     </div>
   )
 }
+
+const HowToParticipate = () => {
+  return (
+    <section className="p-6 bg-gray-100 rounded-lg shadow-md max-w-2xl mx-auto my-8">
+      <h2 className="text-2xl mb-4 text-center text-gray-800">How to Participate</h2>
+      <ul className="list-none p-0">
+        <li className="mb-3 text-lg text-gray-700">
+          <strong>Submit Your Pitch Deck</strong>: Send your pitch deck to our email info@degensummit.com on our website before the event date.
+        </li>
+        <li className="mb-3 text-lg text-gray-700">
+          <strong>Selection Process</strong>: Our panel of judges will review submissions and select finalists based on innovation, market potential, and scalability.
+        </li>
+        <li className="mb-3 text-lg text-gray-700">
+          <strong>Live Presentation</strong>: Finalists will be invited to present their pitches live at Degen Summit in Singapore.
+        </li>
+      </ul>
+    </section>
+  );
+}
+
 
 export default page

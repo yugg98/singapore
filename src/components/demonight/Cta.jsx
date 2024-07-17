@@ -26,13 +26,11 @@ export default function Cta() {
           </svg>
           <div className="w-full max-w-3xl mx-auto text-left lg:text-center lg:flex-auto lg:py-16">
             <h2 className="text-3xl font-bold text-white font-display sm:leading-normal sm:text-4xl">
-              Mark your calendar and be part of an evening that celebrates the
-              power of innovation.
+            Join Us at Degen Summit 2024
+
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              Don&apos;t miss out on this unparalleled opportunity to witness
-              the future unfold before your eyes. Secure your spot at DeGen Summit&apos;s Startup Night now and be part of the next wave of
-              Web3 innovation.
+            Don&apos;t miss your chance to be part of the future of innovation. Submit your pitch deck today and prepare to make your mark at Degen Summit 2024. Together, let’s shape the future of Web3 and crypto technologies.
             </p>
 
             <div className="flex items-center justify-center mt-6 space-x-6">

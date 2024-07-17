@@ -4,11 +4,12 @@ export default function Hero() {
     <div className="bg-cover bg-img">
       <div className="px-6 py-24 lg:px-8 lg:py-40">
         <div className="flex flex-col items-center max-w-4xl mx-auto text-center">
-          <h1 className="text-4xl font-bold text-primary font-display sm:leading-normal sm:text-6xl">
-          Introducing Demo Eve
+          <h1 className="text-4xl font-bold text-primary font-display rmal sm:text-6xl">
+          Degen Summit 2024 Demo Event: Pitch Your Vision to Transform the Future
+
           </h1>
           <p className="max-w-3xl mt-6 text-lg leading-8 text-white/80">
-          An extraordinary event that brings together visionary startups and enthusiastic investors, all under one roof with one agenda: To push through the limits of the Web3 arena.
+          Are you a visionary startup in the Web3 or crypto space, eager to make your mark on the global stage? Here’s your chance to shine at the Degen Summit 2024 Demo Event, where innovation meets opportunity in the heart of Singapore.
           </p>
           <p className="mt-6 text-sm font-medium text-white/60">
           Register Now As

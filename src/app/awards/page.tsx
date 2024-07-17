@@ -116,19 +116,10 @@ export default function Hero() {
       <div className="bg-[url('/awards.jpg')] bg-cover bg-no-repeat bg-awards md:bg-cover md:bg-awards-mobile flex flex-col justify-end items-center">
         <div className="items-center max-w-6xl px-4 pt-32 pb-10 mx-auto lg:flex lg:px-8 ">
           <div className="flex-shrink-0 max-w-7xl mx-auto lg:mx-0 lg:max-w-5xl">
-            <h1 className="text-4xl font-bold text-primary font-display sm:text-6xl text-center">Awards</h1>
+            <h1 className="text-4xl font-bold text-primary font-display sm:text-6xl text-center">Degen Summit 2024 KOL Awards Night: Celebrating Trailblazers in Web3
+            </h1>
             <p className="mt-6 text-lg text-center font-sato  text-gray-300">
-              Honoring the trailblazers who have made exceptional contributions
-              to the field. Nominees will be selected and winners chosen by the
-              esteemed community in different categories. Participate in this
-              grand celebration of digital innovation and excellence. We begin
-              by inviting nominations for various categories within the
-              Industry, celebrating the exceptional contributions of companies.
-              The power to select the winners is given to our vibrant community.
-              Voting will take place across all our social media channels,
-              including Telegram To ensure all votes are accounted for, the
-              voting process will be closed one day before the event. Winners
-              will be announced during the conference.
+            Get ready to applaud and celebrate the influencers who are shaping the future of Web3! Join us at the Degen Summit 2024 KOL Awards Night for an unforgettable evening of recognition, excitement, and community spirit.
             </p>
           
           </div>
@@ -178,7 +169,61 @@ export default function Hero() {
     </div>
   </div>
       <How/>
+      <DegenSummit/>
       <Goals/>
+      <HowToParticipate/>
+
     </div>
   );
 }
+
+import React from 'react';
+
+const HowToParticipate = () => {
+  return (
+    <section className="p-6 bg-gray-100 rounded-lg shadow-md max-w-2xl mx-auto my-8">
+      <h2 className="text-2xl mb-4 text-center text-gray-800">How to Participate</h2>
+      <ul className="list-none p-0">
+        <li className="mb-3 text-lg text-gray-700">
+          <strong>Vote</strong>: Visit our website and cast your votes for the KOLs who have inspired you the most in the Web3 category.
+        </li>
+        <li className="mb-3 text-lg text-gray-700">
+          <strong>Attend</strong>: Secure your spot at the Degen Summit 2024 KOL Awards Night and witness the excitement firsthand.
+        </li>
+        <li className="mb-3 text-lg text-gray-700">
+          <strong>Connect</strong>: Network with influencers, investors, and fellow attendees in an atmosphere buzzing with energy and enthusiasm.
+        </li>
+      </ul>
+    </section>
+  );
+}
+
+import { AcademicCapIcon, SparklesIcon } from '@heroicons/react/20/solid';
+
+const DegenSummit = () => {
+  return (
+      <div className="grid grid-cols-1 max-w-5xl mx-auto md:grid-cols-2 gap-6">
+        {/* Card 1 */}
+        <div className="bg-yellow-100 p-6 rounded-lg shadow-lg ">
+          <AcademicCapIcon className="h-12 w-12 text-yellow-500 mr-4" />
+          <div className="mt-4">
+            <h3 className="text-xl font-semibold text-black mb-2">Honoring Web3's Finest</h3>
+            <p className="text-gray-700">
+              The Degen Summit KOL Awards Night is where we shine a spotlight on the visionaries, innovators, and influencers who have made a significant impact in the Web3 ecosystem. From thought leaders in decentralized finance to trailblazers in NFTs and beyond, we honor their contributions to shaping the digital landscape.
+            </p>
+          </div>
+        </div>
+        {/* Card 2 */}
+        <div className="bg-yellow-100 p-6 rounded-lg shadow-lg">
+          <SparklesIcon className="h-12 w-12 text-yellow-500 mr-4" />
+          <div className="mt-4">
+            <h3 className="text-xl text-black font-semibold mb-2">An Evening of Fun and Festivities</h3>
+            <p className="text-gray-700">
+              Join us for a night filled with entertainment, live performances, and networking opportunities with industry leaders and fellow enthusiasts. Celebrate alongside your favorite influencers as they receive their awards and share their visions for the future of Web3.
+            </p>
+          </div>
+        </div>
+      </div>
+  );
+}
+

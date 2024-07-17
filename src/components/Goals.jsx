@@ -54,7 +54,7 @@ import {
               Awards Goals
             </p>
           </div>
-          <div className="max-w-2xl mx-auto mt-16 sm:mt-20 lg:mt-24 lg:max-w-none">
+          <div className="max-w-2xl mx-auto mt-16 sm:mt-10 lg:max-w-none">
             <dl className="grid max-w-xl grid-cols-1 gap-8 mt-6 lg:max-w-none lg:grid-cols-3">
               {features.map((feature) => (
                 <div key={feature.name} className="flex flex-col p-10 transition-all duration-150 ease-in-out bg-white shadow cursor-pointer hover:scale-95 rounded-2xl hover:bg-purple-100 hover:shadow-lg">

@@ -1,95 +1,94 @@
 [
-    {
-      "Day": "Day 1 - 4th Dec",
-      "Time_Range": "09:30 AM to 5:30 PM",
-      "Conference": "Blockchain & its Infrastructure 1st day - Day 1",
-      "Agenda": [
-        {
-          "Time": "08:30-09:00AM",
-          "Duration": "30 Minutes",
-          "Topics": "Registration and High Tea"
-        },
-        {
-          "Time": "09:00-09:20AM",
-          "Duration": "20 Minutes",
-          "Topics": "Opening Talk"
-        },
-        {
-          "Time": "09:20-09:40AM",
-          "Duration": "20 Minutes",
-          "Topics": "FireSide Key Chat"
-        },
-        {
-          "Time": "09:40-10:20AM",
-          "Duration": "40 Minutes",
-          "Topics": "Panel"
-        },
-        {
-          "Time": "10:20-10:40AM",
-          "Duration": "20 Minutes",
-          "Topics": "KeyNote"
-        },
-        {
-          "Time": "10:40-11:20AM",
-          "Duration": "40 Minutes",
-          "Topics": "Panel"
-        },
-        {
-          "Time": "11:20-12:00PM",
-          "Duration": "40 Minutes",
-          "Topics": "Panel"
-        },
-        {
-          "Time": "12:00-12:20PM",
-          "Duration": "20 Minutes",
-          "Topics": "KeyNote"
-        },
-        {
-          "Time": "12:20-01:00PM",
-          "Duration": "40 Minutes",
-          "Topics": "Panel"
-        },
-        {
-          "Time": "01:00-02:00PM",
-          "Duration": "1 Hour",
-          "Topics": "Lunch"
-        },
-        {
-          "Time": "02:00-02:20PM",
-          "Duration": "20 Minutes",
-          "Topics": "KeyNote"
-        },
-        {
-          "Time": "02:20-03:20PM",
-          "Duration": "1 Hour",
-          "Topics": "Panel"
-        },
-        {
-          "Time": "03:20-04:00PM",
-          "Duration": "40 Minutes",
-          "Topics": "Panel"
-        },
-        {
-          "Time": "04:00-04:20PM",
-          "Duration": "20 Minutes",
-          "Topics": "KeyNote"
-        },
-        {
-          "Time": "04:20-05:00PM",
-          "Duration": "40 Minutes",
-          "Topics": "Panel"
-        },
-        {
-          "Time": "05:00-06:30PM",
-          "Duration": "1 Hour 30 Minutes",
-          "Topics": "High Tea & Networking"
-        },
-        {
-          "Time": "06:30-08:00PM",
-          "Duration": "1 Hour 30 Minutes",
-          "Topics": "Award Ceremony"
-        }
-      ]
-    }
-   
-  ]
+  {
+    "Day": "Day 1 - 4th Dec",
+    "Time_Range": "09:30 AM to 5:30 PM",
+    "Conference": "Blockchain & its Infrastructure 1st day - Day 1",
+    "Agenda": [
+      {
+        "Time": "08:30-09:00AM",
+        "Duration": "30 Minutes",
+        "Topics": "Registration and High Tea"
+      },
+      {
+        "Time": "09:00-09:20AM",
+        "Duration": "20 Minutes",
+        "Topics": "Opening Talk"
+      },
+      {
+        "Time": "09:20-09:40AM",
+        "Duration": "20 Minutes",
+        "Topics": "FireSide Key Chat"
+      },
+      {
+        "Time": "09:40-10:20AM",
+        "Duration": "40 Minutes",
+        "Topics": "Decentralization vs Centralization: Striking the Balance for Mass Adoption"
+      },
+      {
+        "Time": "10:20-10:40AM",
+        "Duration": "20 Minutes",
+        "Topics": "KeyNote"
+      },
+      {
+        "Time": "10:40-11:20AM",
+        "Duration": "40 Minutes",
+        "Topics": "Blockchain Gaming: Revolutionizing In-Game Economies and Player Ownership"
+      },
+      {
+        "Time": "11:20-12:00PM",
+        "Duration": "40 Minutes",
+        "Topics": "Beyond Art: Exploring Practical Applications of NFTs in Industries"
+      },
+      {
+        "Time": "12:00-12:20PM",
+        "Duration": "20 Minutes",
+        "Topics": "KeyNote"
+      },
+      {
+        "Time": "12:20-01:00PM",
+        "Duration": "40 Minutes",
+        "Topics": "Web3: Empowering Individuals or Reinforcing Digital Divide?"
+      },
+      {
+        "Time": "01:00-02:00PM",
+        "Duration": "1 Hour",
+        "Topics": "Lunch"
+      },
+      {
+        "Time": "02:00-02:20PM",
+        "Duration": "20 Minutes",
+        "Topics": "KeyNote"
+      },
+      {
+        "Time": "02:20-03:20PM",
+        "Duration": "1 Hour",
+        "Topics": "Global Crypto Regulations: Standardizing Compliance Across Borders"
+      },
+      {
+        "Time": "03:20-04:00PM",
+        "Duration": "40 Minutes",
+        "Topics": "Bitcoin: Store of Value vs Medium of Exchange - Finding Its True Purpose"
+      },
+      {
+        "Time": "04:00-04:20PM",
+        "Duration": "20 Minutes",
+        "Topics": "KeyNote"
+      },
+      {
+        "Time": "04:20-05:00PM",
+        "Duration": "40 Minutes",
+        "Topics": "Tokenizing Intellectual Property: Transforming Creativity into Tradable Assets"
+      },
+      {
+        "Time": "05:00-06:30PM",
+        "Duration": "1 Hour 30 Minutes",
+        "Topics": "High Tea & Networking"
+      },
+      {
+        "Time": "06:30-08:00PM",
+        "Duration": "1 Hour 30 Minutes",
+        "Topics": "Award Ceremony"
+      }
+    ]
+  }
+]
