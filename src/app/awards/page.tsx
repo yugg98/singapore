@@ -181,8 +181,8 @@ import React from 'react';
 
 const HowToParticipate = () => {
   return (
-    <section className="p-6 bg-gray-100 rounded-lg shadow-md max-w-2xl mx-auto my-8">
-      <h2 className="text-2xl mb-4 text-center text-gray-800">How to Participate</h2>
+    <section className="p-6 hover:scale-95 bg-gray-100 rounded-lg shadow-md max-w-2xl mx-auto my-8">
+      <h2 className="text-3xl mb-4 text-center font-bold text-gray-800">How to Participate</h2>
       <ul className="list-none p-0">
         <li className="mb-3 text-lg text-gray-700">
           <strong>Vote</strong>: Visit our website and cast your votes for the KOLs who have inspired you the most in the Web3 category.
@@ -202,7 +202,7 @@ import { AcademicCapIcon, SparklesIcon } from '@heroicons/react/20/solid';
 
 const DegenSummit = () => {
   return (
-      <div className="grid grid-cols-1 max-w-5xl mx-auto md:grid-cols-2 gap-6">
+      <div className="grid  grid-cols-1 max-w-5xl mx-auto md:grid-cols-2 gap-6">
         {/* Card 1 */}
         <div className="bg-yellow-100 p-6 rounded-lg shadow-lg ">
           <AcademicCapIcon className="h-12 w-12 text-yellow-500 mr-4" />

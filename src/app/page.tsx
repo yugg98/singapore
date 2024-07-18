@@ -7,6 +7,7 @@ import Clock from "@/components/Clock";
 
 import WhySingapore from "@/components/WhySingapore";
 import Marquee from "react-fast-marquee";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -26,23 +27,44 @@ export default function Home() {
 
       </Marquee>
 
-      <div className="h-screen">
-        <div className="flex justify-center items-center absolute bg-cover">
+      <div className="h-[90vh]">
+       
+        <div className="relative isolate pt-14">
           <video
-            src="/degen.mp4 "
-            className=" md:block hidden mx-auto  w-screen"
+            src="/degen.mp4"
             autoPlay
             loop
             muted
-            // controls
-          ></video>
-          <video
-            src="/mobile.mp4 "
-            className="h-screen block md:hidden w-full"
-            autoPlay
-            loop
-            muted
-          ></video>
+            className="absolute top-0 left-0 w-full h-[110vh] object-cover z-[-1]"
+          />
+        
+          <div className="py-12 sm:py-1">
+            <div className="mx-auto max-w-7xl px-6 lg:px-8">
+              <div className="mx-auto max-w-7xl mt-60 text-center">
+               
+                <h1 className="text-4xl uppercase mt-0 font-bold tracking-tight text-white sm:text-8xl">
+                DeGen Summit <br/> <span className="text-yellow-400"> Web3 </span> Conclave
+
+
+                </h1>
+
+                <div className="mt-10 flex items-center  hover:pb-20 justify-center gap-x-6">
+                  <Link
+                    href="/tickets"
+                    className="rounded-md uppercase transition-all ease-in-out hover:scale-105   hover:bg-white bg-[#670B56] hover:text-purple-800 px-3.5 py-2.5 text-lg font-semibold text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+                  >
+                    Book Tickets
+                  </Link>
+                  {/* <Link
+                    href="/contact"
+                    className="rounded-md bg-[#670B56] hover:bg-purple-800 px-3.5 py-2.5 text-lg font-semibold text-white shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+                  >
+                    Become A Sponsor
+                  </Link> */}
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       {/* <Clock/> */}
