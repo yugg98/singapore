@@ -207,7 +207,7 @@ const DegenSummit = () => {
         <div className="bg-yellow-100 p-6 rounded-lg shadow-lg ">
           <AcademicCapIcon className="h-12 w-12 text-yellow-500 mr-4" />
           <div className="mt-4">
-            <h3 className="text-xl font-semibold text-black mb-2">Honoring Web3's Finest</h3>
+            <h3 className="text-xl font-semibold text-black mb-2">Honoring Web3&apos;s Finest</h3>
             <p className="text-gray-700">
               The Degen Summit KOL Awards Night is where we shine a spotlight on the visionaries, innovators, and influencers who have made a significant impact in the Web3 ecosystem. From thought leaders in decentralized finance to trailblazers in NFTs and beyond, we honor their contributions to shaping the digital landscape.
             </p>

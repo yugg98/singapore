@@ -15,7 +15,7 @@ const page = () => {
           Immerse yourself in the vibrant heartbeat of Singapore at HUONE, our exquisite venue nestled along the scenic riverfront of Clarke Quay. 
 
           <br/><br/>
-          Centrally located amidst the bustling cityscape, HUONE offers a serene retreat where the energy of Singapore's urban pulse meets the tranquility of waterfront views.
+          Centrally located amidst the bustling cityscape, HUONE offers a serene retreat where the energy of Singapore&apos;s urban pulse meets the tranquility of waterfront views.
            
           </p>
           <div className="mt-10 flex items-center gap-x-6">
