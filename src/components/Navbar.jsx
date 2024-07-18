@@ -61,7 +61,7 @@ export default function Navbar() {
                 </a>
               </div>
               <div>
-                <div className="hidden  shadow-nav py-3 px-10 rounded-full items-center justify-center lg:flex lg:space-x-6">
+                <div className="hidden  shadow-nav py-3 px-10 rounded-full items-center justify-center lg:flex lg:space-x-4">
                   {navigationItems.map((item) => (
                     <Link
                       key={item.href}
