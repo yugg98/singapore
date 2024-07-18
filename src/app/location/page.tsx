@@ -67,7 +67,7 @@ const HUONEExperience = () => {
           <div>
             <h3 className="text-xl mt-4 text-black font-semibold mb-2">Embrace the Spirit of Collaboration</h3>
             <p className="text-gray-700">
-              Gather alongside the picturesque riverfront, where the gentle flow of the water complements the buzz of Singapore's dynamic atmosphere. HUONE’s versatile spaces are ideal for forging new connections, sparking innovative ideas, and nurturing meaningful relationships among industry leaders and visionaries.
+              Gather alongside the picturesque riverfront, where the gentle flow of the water complements the buzz of Singapore&apos;s dynamic atmosphere. HUONE&apos;s versatile spaces are ideal for forging new connections, sparking innovative ideas, and nurturing meaningful relationships among industry leaders and visionaries.
             </p>
           </div>
         </div>
