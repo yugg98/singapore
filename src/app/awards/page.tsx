@@ -113,13 +113,13 @@ const awardCategories = [
 export default function Hero() {
   return (
     <div>
-      <div className="bg-[url('/awards.jpg')] bg-cover bg-no-repeat bg-awards md:bg-cover md:bg-awards-mobile flex flex-col justify-end items-center">
+      <div className="bg-[url('/bg.jpg')] bg-cover bg-no-repeat bg-awards md:bg-cover md:bg-awards-mobile flex flex-col justify-end items-center">
         <div className="items-center max-w-6xl px-4 pt-32 pb-10 mx-auto lg:flex lg:px-8 ">
           <div className="flex-shrink-0 max-w-7xl mx-auto lg:mx-0 lg:max-w-5xl">
-            <h1 className="text-4xl font-bold text-primary font-display sm:text-6xl text-center">Degen Summit 2024 KOL Awards Night: Celebrating Trailblazers in Web3
+            <h1 className="text-4xl font-bold text-primary font-display sm:text-6xl text-center">DeGen Summit 2024 KOL Awards Night: Celebrating Trailblazers in Web3
             </h1>
             <p className="mt-6 text-lg text-center font-sato  text-gray-300">
-            Get ready to applaud and celebrate the influencers who are shaping the future of Web3! Join us at the Degen Summit 2024 KOL Awards Night for an unforgettable evening of recognition, excitement, and community spirit.
+            Get ready to applaud and celebrate the influencers who are shaping the future of Web3! Join us at the DeGen Summit 2024 KOL Awards Night for an unforgettable evening of recognition, excitement, and community spirit.
             </p>
           
           </div>
@@ -127,13 +127,13 @@ export default function Hero() {
         </div>
         <div className="flex flex-col items-center w-[60%]  mb-20 space-y-4 lg:flex-row lg:space-y-0 gap-x-6 ">
           <a
-            // href="https://tally.so/r/wL7Og1"
+            href="https://tally.so/r/w4jV4k"
             className="w-full px-6 py-4 text-sm font-sato font-semibold text-purple-600 bg-white rounded-md shadow-sm hover:bg-gray-100 text-center"
           >
             Nominate Yourself
           </a>
           <a
-            // href="https://tally.so/r/npyzMb"
+            href="https://tally.so/r/wkZxdr"
             className="w-full px-6 py-4 text-sm font-sato font-semibold text-purple-600 bg-white rounded-md shadow-sm hover:bg-gray-100 text-center"
           >
             Nominate Others
@@ -188,7 +188,7 @@ const HowToParticipate = () => {
           <strong>Vote</strong>: Visit our website and cast your votes for the KOLs who have inspired you the most in the Web3 category.
         </li>
         <li className="mb-3 text-lg text-gray-700">
-          <strong>Attend</strong>: Secure your spot at the Degen Summit 2024 KOL Awards Night and witness the excitement firsthand.
+          <strong>Attend</strong>: Secure your spot at the DeGen Summit 2024 KOL Awards Night and witness the excitement firsthand.
         </li>
         <li className="mb-3 text-lg text-gray-700">
           <strong>Connect</strong>: Network with influencers, investors, and fellow attendees in an atmosphere buzzing with energy and enthusiasm.

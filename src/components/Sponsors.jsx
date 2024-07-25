@@ -351,7 +351,7 @@ export default function Who() {
       
       <div className="pt-8 pb-20 ">
         <div className="max-w-6xl px-6 mx-auto lg:px-8">
-          <h2 className="text-xl font-bold text-center text-primary font-display">
+        <h2 className="text-3xl text-center capitalize font-bold tracking-tight text-primary sm:text-4xl">
             Media Partners
           </h2>
           <div className="-mx-6 mt-6 grid grid-cols-2 md:grid-cols-4 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
@@ -640,7 +640,7 @@ export default function Who() {
 
       <div className="pt-8 pb-4 ">
         <div className="max-w-6xl px-6 mx-auto lg:px-8">
-          <h2 className="text-xl font-bold text-center text-primary font-display">
+        <h2 className="text-3xl capitalize text-center font-bold tracking-tight text-primary sm:text-4xl">
             Community Partners
           </h2>
           <div className="-mx-6 mt-6 grid grid-cols-2 md:grid-cols-4 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">

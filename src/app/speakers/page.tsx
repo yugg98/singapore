@@ -13,7 +13,7 @@ const page = () => {
                   Become a Speaker
                 </h1>
                 <p className="mt-6 text-lg leading-8 text-white">
-                Are you a pioneer in blockchain, a Web3 enthusiast, or a real degen with a story that inspires? Whether you&apos;re an individual innovator or a brand making waves, we want you at our event. 
+                Are you a pioneer in blockchain, a Web3 enthusiast, or a real DeGen with a story that inspires? Whether you&apos;re an individual innovator or a brand making waves, we want you at our event. 
                 <br/><br/>
                 If you’re eager to share your insights, lead a workshop, or simply tell your story, we invite you to become part of our speaker lineup.
                  

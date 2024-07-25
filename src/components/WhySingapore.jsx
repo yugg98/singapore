@@ -24,7 +24,7 @@ const Whydubai = () => {
               This global gathering underscores Singapore&apos;s role as a
               leading hub for blockchain technology and its readiness to embrace
               the future of decentralized finance. It’s the perfect setting for
-              the DeGen Summit for several compelling reasons:
+              the DeGen Summit for several compelling reasons
             </p>
             <Link
               href="https://calendly.com/degensummit"

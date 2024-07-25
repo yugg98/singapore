@@ -120,12 +120,7 @@ const people = [
     imageUrl: nikita,
     linkedinUrl: "https://www.linkedin.com/in/brandiveil/",
   },
-  {
-    name: "Alexandra Topalian",
-    role: "Master of Ceremonies",
-    imageUrl: alexandra,
-    linkedinUrl: "https://www.linkedin.com/in/brandiveil/",
-  },
+  
   {
     name: "Raj Kapoor",
     role: "Founder, India Blockchain Alliance & Founder, Web3 On The Sea",
@@ -786,7 +781,7 @@ export function Speaker() {
     <div className=" py-8">
       <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
         <div className="mx-auto max-w-2xl">
-          <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl">
+          <h2 className="text-3xl capitalize font-bold tracking-tight text-primary sm:text-4xl">
             Meet our previous speakers
           </h2>
         

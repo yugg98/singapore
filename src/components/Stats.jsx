@@ -3,20 +3,18 @@ import React from "react";
 import CountUp from "react-countup";
 
 const stats = [
-  { name: "Global Attendees", value: 5000 },
-  { name: "Renowned Speakers", value: 75 },
-  { name: "Illuminating Seminars", value: 25 },
-  { name: "Blockchain Developers", value: 1000 },
-  { name: "Web3 Founders", value: 500 },
+  { name: "Global Attendees", value: 4000 },
+  { name: "Renowned Speakers", value: 200 },
+  { name: "Web3 Developers", value: 800 },
+  { name: "Entreprenuers", value: 400 },
   { name: "Media Partners", value: 100 },
-  { name: "Respected KOLs", value: 150 },
-  { name: "Active Investors", value: 100 },
+  { name: "Investors", value: 75 },
 ];
 export default function Example() {
   return (
     <div className="relative md:top-[-10px] top-[-180px]">
       <div className="mx-auto max-w-6xl relative z-[20]">
-        <div className="grid gap-4 md:px-10 px-4 overflow-hidden rounded-2xl md:grid-cols-4 grid-cols-3">
+        <div className="grid gap-4 md:px-10 px-4 overflow-hidden rounded-2xl md:grid-cols-3 grid-cols-3">
           {stats.map((stat, index) => (
             <div
               key={stat.name}

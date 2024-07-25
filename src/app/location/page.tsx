@@ -9,7 +9,7 @@ const page = () => {
           <div className="mx-auto max-w-2xl mt-20">
             <div className="max-w-lg ">
               <h1 className=" text-4xl font-bold tracking-tight text-primary sm:text-5xl">
-                Discover HUONE: Your Premier Venue for Degen Summit 2024
+                Discover HUONE: Your Premier Venue for DeGen Summit 2024
               </h1>
               <p className="mt-6 text-lg leading-8 text-white">
                 Immerse yourself in the vibrant heartbeat of Singapore at HUONE,
