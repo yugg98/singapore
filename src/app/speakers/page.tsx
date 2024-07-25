@@ -27,12 +27,10 @@ const page = () => {
             </div>
           </div>
           <div className=" md:mx-auto md:max-w-3xl lg:mx-0 lg:mt-20 lg:w-screen">
-            <div className=" md:rounded-3xl">
+            <div className=" md:rounded-md">
               <div>
                 <div className="relative px-6 pt-8 sm:pt-16 md:pl-16 md:pr-0">
-                  <div className="mx-auto max-w-xl md:mx-0 md:max-w-xl">
-                    <img src="/speaker.jpeg" className="rounded-2xl" alt="" />
-                  </div>
+                    <img src="/collagedesg2.png" className="rounded-xl" alt="" />
                 </div>
               </div>
             </div>

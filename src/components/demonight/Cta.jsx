@@ -46,27 +46,22 @@ export default function Cta() {
               </div>
             </div>
             <div className="flex flex-col items-center justify-center mt-10 space-y-4 lg:space-y-0 gap-x-6 lg:justify-start">
-              <p className="mb-2 text-lg font-semibold text-white/80">
+              <p className="mb-2 text-lg font-semibold mb-6 text-white/80">
                 Register Now As
               </p>
-              <div className="flex flex-col items-center w-full mt-10 space-y-4 text-center gap-x-6 lg:flex-row lg:space-y-0">
+              <div className="flex gap-x-8">
               <a
-              // href="https://tally.so/r/nP1r4b"
-              className="w-full px-6 py-4 text-sm font-semibold text-purple-600 bg-white rounded-md shadow-sm hover:bg-gray-100"
+              href="https://tally.so/r/n9l5qE"
+             className="w-full px-6 py-4 flex items-center justify-center  font-semibold text-purple-600 bg-white rounded-md shadow-sm hover:bg-gray-100"
             >
-               Web3 Startup
+               Web3 Startup 
             </a>
             <a 
-            // href="https://tally.so/r/n994xY" 
-            className="w-full px-6 py-4 text-sm font-semibold text-purple-600 bg-white rounded-md shadow-sm hover:bg-gray-100">
-             Investor
+            href="https://tally.so/r/nP0Qyx" 
+           className="w-full px-6 py-4  font-semibold text-purple-600 bg-white rounded-md shadow-sm hover:bg-gray-100">
+             Incubators, Investors & Accelerators
             </a>
-            <a
-            //  href="https://tally.so/r/wkezgM" 
-            className="w-full px-6 py-4 text-sm font-semibold text-purple-600 bg-white rounded-md shadow-sm hover:bg-gray-100">
-            Incubators & Accelerators
-            </a>
-              </div>
+            </div>
             </div>
           </div>
         </div>

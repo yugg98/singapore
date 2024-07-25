@@ -31,13 +31,9 @@ export default function Page() {
           </div>
           <div className=" md:mx-auto md:max-w-2xl lg:mx-0 lg:mt-0 lg:w-screen">
             <div className=" md:rounded-3xl">
-              <div>
-                <div className="relative px-6   md:pr-0">
-                  <div className="mx-auto max-w-xl md:mx-0 md:max-w-md">
-                    <img src="/hero.jpg" className="rounded-2xl" alt="" />
-                  </div>
+              <div className="relative px-6  md:pr-0">
+                    <img src="/collagedesg1.png" className="rounded-xl" alt="" />
                 </div>
-              </div>
             </div>
           </div>
         </div>
