@@ -709,6 +709,8 @@ export default function Example() {
   return (
     <div className=" py-8">
       <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
+       
+        <Speaker/>
         <div className="mx-auto max-w-2xl">
           <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl">
             Meet our previous speakers
@@ -718,6 +720,7 @@ export default function Example() {
           role="list"
           className="mx-auto mt-20 grid max-w-2xl gap-6 grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-5 lg:gap-8"
         >
+
           {people.map((person) => (
             <li
               key={person.name}
@@ -827,7 +830,7 @@ export function Speaker() {
       <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
         <div className="mx-auto max-w-2xl">
           <h2 className="text-3xl capitalize font-bold tracking-tight text-primary sm:text-4xl">
-            Meet our previous speakers
+            Our Speakers
           </h2>
         </div>
         <ul
@@ -889,11 +892,7 @@ export function Speaker() {
             </li>
           ))}
         </ul>
-        <button className="mt-12 ">
-          <Link href="speakers" className="text-xl px-4 py-2 rounded-2xl bg-white text-center text-purple-800 ">
-            View Our Priveous Speaker
-          </Link>
-        </button>
+       
       </div>
     </div>
   );
