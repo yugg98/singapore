@@ -9,6 +9,11 @@ import Hariharan from "@/images/speakers/hariharan.jpeg";
 import Satish from "@/images/speakers/satish.jpeg";
 import Zach from "@/images/speakers/zach.jpeg";
 import Kanishka from "@/images/speakers/kanishka.jpeg";
+import speaker1 from "@/images/speaker1.jpg";
+import speaker2 from "@/images/speaker2.jpg";
+import speaker3 from "@/images/speaker3.jpg";
+import speaker4 from "@/images/speaker4.jpeg";
+
 import anil from "@/images/speakers/anil.jpg";
 import trish from "@/images/speakers/trish.jpeg";
 import kamlesh from "@/images/speakers/kamlesh.png";
@@ -120,7 +125,7 @@ const people = [
     imageUrl: nikita,
     linkedinUrl: "https://www.linkedin.com/in/brandiveil/",
   },
-  
+
   {
     name: "Raj Kapoor",
     role: "Founder, India Blockchain Alliance & Founder, Web3 On The Sea",
@@ -708,7 +713,6 @@ export default function Example() {
           <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl">
             Meet our previous speakers
           </h2>
-        
         </div>
         <ul
           role="list"
@@ -774,7 +778,48 @@ export default function Example() {
     </div>
   );
 }
-const first15People = people.splice(0, 15);
+const first15People = [
+  {
+    name: "David Ching",
+    role: "Web3 VC | Oxbridge Society HK President | CFA HK Director Animoca Brands University of Oxford",
+    imageUrl: speaker3,
+    location: "India",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/david-ching-hk/",
+  },
+  {
+    name: "Alvin Kan",
+    role: "COO at Bitget Wallet",
+    imageUrl: speaker1,
+    location: "India",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/alvinkan/",
+  },
+  {
+    name: "Michael Jelen",
+    role: "CEO @ Replay | Managing Partner @ PB&J | Treasurer @ Veloce",
+    imageUrl: speaker2,
+    location: "India",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/michaeljelen",
+  },
+  {
+    name: "Ajeet Khurana",
+    role: "Angel Investor; Ex-CEO, Zebpay",
+    imageUrl: ajeet,
+    location: "Dubai, UAE",
+    twitterUrl: "https://x.com/ajeetk",
+    linkedinUrl: "https://www.linkedin.com/in/ajeetkhurana",
+  },
+  {
+    name: "Kevin Raham Soltani",
+    role: "Investing & Advising in Esports, DeFi, Web3 | Blockchain x Gaming | Digital Assets Communications & Fundraising Specialist | 4 exits 2 IPO",
+    imageUrl: speaker4,
+    location: "Dubai, UAE",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/kevinsoltani/",
+  },
+];
 
 export function Speaker() {
   return (
@@ -784,7 +829,6 @@ export function Speaker() {
           <h2 className="text-3xl capitalize font-bold tracking-tight text-primary sm:text-4xl">
             Meet our previous speakers
           </h2>
-        
         </div>
         <ul
           role="list"
@@ -846,7 +890,10 @@ export function Speaker() {
           ))}
         </ul>
         <button className="mt-12 ">
-        <Link href="speakers" className="text-2xl text-center text-primary ">View More</Link></button>
+          <Link href="speakers" className="text-xl px-4 py-2 rounded-2xl bg-white text-center text-purple-800 ">
+            View Our Priveous Speaker
+          </Link>
+        </button>
       </div>
     </div>
   );

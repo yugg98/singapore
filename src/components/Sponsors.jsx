@@ -128,11 +128,25 @@ import soulverse from "@/images/sponsors-logo/soulverse.jpeg"
 
 
 export default function Who() {
+  const items = [
+    { src: "/logo1.jpg", name: "Image 1" },
+    { src: "/logo2.jpg", name: "Image 2" },
+    { src: "/logo3.png", name: "Image 3" },
+    { src: "/logo4.png", name: "Image 1" },
+    { src: "/logo5.svg", name: "Image 2" },
+    { src: "/logo6.jpg", name: "Image 3" },
+    { src: "/logo7.jpg", name: "Image 3" },
+    { src: "/logo8.jpg", name: "Image 3" },
+    { src: "/logo9.png", name: "Image 3" },
+    { src: "/logo10.png", name: "Image 3" },
+    { src: "/logo11.jpg", name: "Image 3" },
+
+  ];
   return (
     <>
       <div className="pt-8 pb-4  ">
       <div className="py-8 "> 
-        <div className="max-w-6xl px-6 mx-auto lg:px-8">
+        {/* <div className="max-w-6xl px-6 mx-auto lg:px-8">
           <h2 className="text-5xl mb-10 font-bold text-center text-primary font-display">
             Our Previous Sponsors
           </h2>
@@ -344,10 +358,34 @@ export default function Who() {
               />
             </a>
           </div>
-        </div>
+        </div> */}
         </div>
        
-   
+        <div className="pt-8 pb-4 ">
+        <div className="max-w-6xl px-6 mx-auto lg:px-8">
+        <h2 className="text-3xl text-center capitalize font-bold tracking-tight text-primary sm:text-4xl">
+            Community Partners
+          </h2>
+          <div className="-mx-6 mt-6 grid grid-cols-2 md:grid-cols-4 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
+            {items.map(item=>(
+
+          <a
+              target="_blank"
+              href="https://cointelegraph.com/"
+              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
+            >
+              <img
+                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
+                src={item.src}
+                alt="cointelegraph"
+              />
+            </a>
+            ))}
+         
+            {/* media partners ends */}
+          </div>
+        </div>
+      </div>
       
       <div className="pt-8 pb-20 ">
         <div className="max-w-6xl px-6 mx-auto lg:px-8">
@@ -635,652 +673,14 @@ export default function Who() {
             {/* media partners ends */}
           </div>
 
+     
+          <p className="text-4xl mt-8 text-center text-primary">& Many More..</p>
+
+
         </div>
       </div>
 
-      <div className="pt-8 pb-4 ">
-        <div className="max-w-6xl px-6 mx-auto lg:px-8">
-        <h2 className="text-3xl capitalize text-center font-bold tracking-tight text-primary sm:text-4xl">
-            Community Partners
-          </h2>
-          <div className="-mx-6 mt-6 grid grid-cols-2 md:grid-cols-4 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
-            <a
-              target="_blank"
-              href="https://www.nefto.in/?ref=web3carnival"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={NeftoLogo}
-                alt="nefto"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.codeate.in/?ref=web3carnival"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={codeate}
-                alt="codeate"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://web3kerala.com/?ref=web3carnival"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={Web3Kerala}
-                alt="Web3Kerala"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://app.social3.club/?ref=web3carnival"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={social3}
-                alt="social3"
-              />
-            </a>
-           
-            <a
-              target="_blank"
-              href="https://theblockchainhive.com/aarambh/?ref=web3carnival"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={blockchainHive}
-                alt="blockchainHive"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://metakraft.live/?ref=web3carnival"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={metakraft}
-                alt="MetaKraft"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://linktr.ee/central_dao/?ref=web3carnival"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={centraldao}
-                alt="Central DAO"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.gearfi.in/?ref=web3carnival"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={gearfi}
-                alt="gearfi"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://linktr.ee/giakaaweb3/?ref=web3carnival"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={openweb3}
-                alt="openweb3"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.buidlup.io/?ref=web3carnival"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={buidlup}
-                alt="buidlup"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://befikracommunity.in/?ref=web3carnival"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={befikra}
-                alt="befikra"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://linktr.ee/alt_coiners"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={AltCoiners}
-                alt="AltCoiners"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/company/tech-surfers/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={TechSurfers}
-                alt="TechSurfers"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://twitter.com/ocd_india"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={Web3Commune}
-                alt="Web3Commune"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://joincollider.com"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={Collider}
-                alt="Collider"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://irlamigo.com"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={amigo}
-                alt="amigo"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://bowshy.com"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={bowshy}
-                alt="bowshy"
-              />
-            </a>
-
-            <a
-              target="_blank"
-              href="https://securedapp.io/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={securedapp}
-                alt="securedapp"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="nas.io/ubiqwity.io"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={ubiqwity}
-                alt="ubiqwity"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.soclly.com/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={soclly}
-                alt="soclly"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://metaversespace.io/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={metaversespace}
-                alt="metaversespace"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.decentraclasses.com/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={decentraclass}
-                alt="decentraclass"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.blockchainworldco.com/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={blockworldco}
-                alt="blockworldco"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://coinlisting.services/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={coinlisting}
-                alt="coinlisitng"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/company/coders-era/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={codersera}
-                alt="codersera"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://zuraverse.xyz"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={zuraverse}
-                alt="zuraverse"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://linktr.ee/Bhopal_DAO"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={bhopaldao}
-                alt="bhopaldao"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://twitter.com/CampusTechies"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={campustechies}
-                alt="campustechies"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://blockwee.com"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={blockwee}
-                alt="blockwee"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://defiverse.money"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={defiverse}
-                alt="defiverse"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://lawblocks.io"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={lawblocks}
-                alt="lawblocks"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.web5.nexus/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={web5nexus}
-                alt="web5nexus"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://linktr.ee/hub_geeky"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={geekyhub}
-                alt="geekyhub"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://paycoincapital.com/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={paycoin}
-                alt="paycoin"
-              />
-            </a>
-            <a
-              target="_blank"
-              href=""
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={club3}
-                alt="3.0club"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.bananahq.io/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={bananahq}
-                alt="bananahq"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://ogclub.bio.link/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={ogclub}
-                alt="ogclub"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://linktr.ee/simarpreet019"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={web3panjab}
-                alt="web3panjab"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://twitter.com/daodeepverse"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={deepverse}
-                alt="deepverse"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.hyderabaddao.com/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={hyddao}
-                alt="hyddao"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://x.com/HERDAOIndia?s=20"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={herdao}
-                alt="herdao"
-              />
-            </a>
-
-            <a
-              target="_blank"
-              href="www.buildoor.xyz"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={buildoor}
-                alt="buildoor"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.expelee.com/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={expelee}
-                alt="expelee"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://linktr.ee/nammablockchain"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={namma}
-                alt="namma"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://twitter.com/Hashweb3"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <img
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={`https://storage.tally.so/private/IMG_20231012_230555_604.jpg?id=Z9z9GV&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ilo5ejlHViIsImZvcm1JZCI6Im1WUU5kdiIsImlhdCI6MTY5NzEzMjI4M30.6yTP_mlfWR_7IvlhIb-1ZDXZntFJTpHuRzN7RFTgO8M&signature=5501de4c355ea0ea8132271d3ea1e3879270f722435e6f5e5ce48217be0abeb0`}
-                alt="hashweb3"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://chainly.studio"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={chainly}
-                alt="chainly"
-              />
-            </a>
-
-            <a
-              target="_blank"
-              href="https://www.cryptofemale.org/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <img
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={`https://storage.tally.so/private/IMG_2638.png?id=o9lG6O&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Im85bEc2TyIsImZvcm1JZCI6Im1WUU5kdiIsImlhdCI6MTY5NzczMDM1OH0.jXRgfy7mXcKH32Ekrrm2NxFcK5LTrfe8XPwiKgSoJKM&signature=a03af48e56622c320dd88752c98c5793d010c40d4bd46459b411430aa59993c6`}
-                alt="crypfem"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://tenacity.social"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <img
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={`https://storage.tally.so/private/Tenacity-Logo-White-Transparent.png?id=KpPQB8&accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IktwUFFCOCIsImZvcm1JZCI6Im1WUU5kdiIsImlhdCI6MTY5NzUzMzk1NX0.KL8FZmpu_wECFsIE_u8N_NtTVCfrHgI-KUDEg7dHUaQ&signature=6f9efaefb8f34c60a18dcddef5082982911e9c127012e7e6ee835286577e2509`}
-                alt="tenacity"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.actualone.xyz/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={actualone}
-                alt="actualone"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.macha.ai/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={macha}
-                alt="macha"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.tribeacademy.in/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={tribeacademy}
-                alt="tribeacademy"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://mastersunion.org/thirdblockcommunity"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={tbc}
-                alt="tbc"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://web3jharkhand.github.io/web3jh/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={web3jh}
-                alt="web3jh"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://chillinq.com"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={chillin}
-                alt="chillin"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.chainrisk.cloud/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={chainrisk}
-                alt="chainrisk"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://linktr.ee/draperBLR"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={draper}
-                alt="draper"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://startupnews.fyi/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                src={startupnews}
-                alt="startupnews"
-              />
-            </a>
-
-            {/* community partners end */}
-          </div>
-        </div>
-        <p className="text-2xl text-center text-primary">& Many More..</p>
-      </div>
+    
       </div>
     </>
   );
