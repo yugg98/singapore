@@ -106,7 +106,7 @@ export default function Home() {
               <img
                 src="/singapore.jpg"
                 alt=""
-                className="max-w-xs  md:max-w-xl rounded-2xl bg-gray-50 object-cover"
+                className="max-w-xs mx-auto  md:max-w-xl rounded-2xl bg-gray-50 object-cover"
               />
             </div>
           </div>

@@ -29,7 +29,7 @@ export default function Page() {
               </div>
             </div>
           </div>
-          <div className=" md:mx-auto md:max-w-2xl lg:mx-0 lg:mt-0 lg:w-screen">
+          <div className=" md:mx-auto md:max-w-2xl  lg:mx-0 mt-6 lg:w-screen">
             <div className=" md:rounded-3xl">
               <div className="relative px-6  md:pr-0">
                     <img src="/collagedesg1.png" className="rounded-xl" alt="" />
