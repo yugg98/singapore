@@ -114,7 +114,7 @@ export default function Home() {
       {/* <Tickets/> */}
       <Sponsors />
       <Speaker />
-      <div className="my-12 flex justify-center items-center">
+      <div className="my`-12 flex justify-center items-center">
       <button className=" flex justify-center items-center">
           <Link href="speakers" className="text-xl px-4 py-2 rounded-2xl bg-white text-center text-purple-800 ">
             View Our Priveous Speaker

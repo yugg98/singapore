@@ -371,6 +371,7 @@ export default function Who() {
 
           <a
               target="_blank"
+              key={item.name}
               href="https://cointelegraph.com/"
               className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
             >
