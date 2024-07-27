@@ -13,6 +13,7 @@ import speaker1 from "@/images/speaker1.jpg";
 import speaker2 from "@/images/speaker2.jpg";
 import speaker3 from "@/images/speaker3.jpg";
 import speaker4 from "@/images/speaker4.jpeg";
+import speaker5 from "@/images/s6.jpg";
 
 import anil from "@/images/speakers/anil.jpg";
 import trish from "@/images/speakers/trish.jpeg";
@@ -540,14 +541,7 @@ const people = [
     twitterUrl: "https://twitter.com/romilvrma",
     linkedinUrl: "https://www.linkedin.com/in/vermaromil/",
   },
-  {
-    name: "Nanda Khiara",
-    role: "Artist, writer, storyteller, speaker  & founder of GALLERY NK",
-    imageUrl: nanda,
-    location: "UK",
-    twitterUrl: "https://twitter.com/NandaKhiara",
-    linkedinUrl: "https://www.linkedin.com/in/nanda-khiara-4941786/",
-  },
+  
   {
     name: "Parika Soni",
     role: "Web3 Startup Advisor",
@@ -711,14 +705,14 @@ export default function Example() {
       <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
        
         <Speaker/>
-        <div className="mx-auto max-w-2xl">
+        <div className="mx-auto max-w-2xl mt-20">
           <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl">
             Meet our previous speakers
           </h2>
         </div>
         <ul
           role="list"
-          className="mx-auto mt-20 grid max-w-2xl gap-6 grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-5 lg:gap-8"
+          className="mx-auto mt-10 grid max-w-2xl gap-6 grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-5 lg:gap-8"
         >
 
           {people.map((person) => (
@@ -784,7 +778,7 @@ export default function Example() {
 const first15People = [
   {
     name: "David Ching",
-    role: "Web3 VC | Oxbridge Society HK President | CFA HK Director Animoca Brands University of Oxford",
+    role: " CFA HK Director Animoca Brands ",
     imageUrl: speaker3,
     location: "India",
     twitterUrl: "",
@@ -816,11 +810,27 @@ const first15People = [
   },
   {
     name: "Kevin Raham Soltani",
-    role: "Investing & Advising in Esports, DeFi, Web3 | Blockchain x Gaming | Digital Assets Communications & Fundraising Specialist | 4 exits 2 IPO",
+    role: "Founder, Gima Group",
     imageUrl: speaker4,
     location: "Dubai, UAE",
     twitterUrl: "",
     linkedinUrl: "https://www.linkedin.com/in/kevinsoltani/",
+  },
+  {
+    name: "Kumardev C.",
+    role: "Member, INTERPOL Expert Group on Metaverse",
+    imageUrl: speaker5,
+    location: "Dubai, UAE",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/kumardev/?originalSubdomain=uk",
+  },
+  {
+    name: "Nanda Khiara",
+    role: "Artist, writer, storyteller, speaker  & founder of GALLERY NK",
+    imageUrl: nanda,
+    location: "UK",
+    twitterUrl: "https://twitter.com/NandaKhiara",
+    linkedinUrl: "https://www.linkedin.com/in/nanda-khiara-4941786/",
   },
 ];
 
@@ -835,7 +845,7 @@ export function Speaker() {
         </div>
         <ul
           role="list"
-          className="mx-auto mt-20 grid max-w-2xl gap-6 grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-5 lg:gap-8"
+          className="mx-auto mt-10 grid max-w-2xl gap-6 grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-5 lg:gap-8"
         >
           {first15People.map((person) => (
             <li

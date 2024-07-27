@@ -37,43 +37,23 @@ const Whydubai = () => {
             <div className="block lg:hidden">
               <div className="w-full">
                 <img
-                  src="/f1.jpeg"
+                  src="/collagedesg2.png"
                   alt=""
                   className="aspect-[7/5] w-full max-w-none rounded-2xl bg-gray-50 object-cover"
                 />
               </div>
-              <div className="w-full">
-                <img
-                  src="/f2.jpeg"
-                  alt=""
-                  className="aspect-[4/3] w-full max-w-none rounded-2xl bg-gray-50 object-cover"
-                />
-              </div>
-              <div className="w-full">
-                <img
-                  src="/f3.jpeg"
-                  alt=""
-                  className="aspect-[7/5] w-full max-w-none rounded-2xl bg-gray-50 object-cover"
-                />
-              </div>
-              <div className="w-full">
-                <img
-                  src="/f4.jpeg"
-                  alt=""
-                  className="aspect-[4/3] w-full max-w-none rounded-2xl bg-gray-50 object-cover"
-                />
-              </div>
+            
             </div>
 
             <div className="hidden lg:flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
               <div className="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
                 <img
-                  src="/f3.jpeg"
+                  src="/collagedesg2.png"
                   alt=""
                   className="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                 />
               </div>
-              <div className="contents lg:col-span-2 lg:col-end-2 mt-12 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
+              {/* <div className="contents lg:col-span-2 lg:col-end-2 mt-12 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
                 <div className="order-first flex w-64 flex-none justify-end self-end lg:w-auto">
                   <img
                     src="/f2.jpeg"
@@ -95,7 +75,7 @@ const Whydubai = () => {
                     className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                   />
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

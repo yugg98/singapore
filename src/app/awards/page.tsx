@@ -121,11 +121,11 @@ export default function Hero() {
             <p className="mt-6 text-lg text-center font-sato  text-gray-300">
             Get ready to applaud and celebrate the influencers who are shaping the future of Web3! Join us at the DeGen Summit 2024 KOL Awards Night for an unforgettable evening of recognition, excitement, and community spirit.
             </p>
-          
+            
           </div>
-         
+        
         </div>
-        <div className="flex flex-col items-center w-[60%]  mb-20 space-y-4 lg:flex-row lg:space-y-0 gap-x-6 ">
+        <div className="flex flex-col items-center w-[60%]   space-y-4 lg:flex-row lg:space-y-0 gap-x-6 ">
           <a
             href="https://tally.so/r/w4jV4k"
             className="w-full px-6 py-4 text-sm font-sato font-semibold text-purple-600 bg-white rounded-md shadow-sm hover:bg-gray-100 text-center"
@@ -139,6 +139,11 @@ export default function Hero() {
             Nominate Others
           </a>
         </div>
+        <div className="mt-10 flex mb-20 items-center gap-x-6 mx-auto">
+                <a target="_blank" href="https://lu.ma/event/evt-k4z7L9tHl39kNVN" className="bg-green-600 px-5 py-3 rounded-lg">
+                  Register Now
+                </a>
+              </div>
       </div>
       <div className="bg-grey-900">
     <div className="px-4 py-20 mx-auto max-w-7xl lg:px-8">

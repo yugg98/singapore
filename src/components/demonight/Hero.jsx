@@ -1,3 +1,4 @@
+import TallyPopupButton from "../TallyPopupButton";
 
 export default function Hero() {
   return (
@@ -27,6 +28,12 @@ export default function Hero() {
              Incubators, Investors & Accelerators
             </a>
           </div>
+
+          <div className="mt-10 flex items-center gap-x-6">
+                <a target="_blank" href="https://lu.ma/event/evt-wMGHDfAmZEXxNs8" className="bg-green-600 px-5 py-3 rounded-full">
+                  Register Now
+                </a>
+              </div>
         </div>
       </div>
     </div>
