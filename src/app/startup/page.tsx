@@ -33,7 +33,8 @@ const page = () => {
     },
 
     { src: "/logo8.jpg", name: "Image 3" },
-    { src: "/m1.png", name: "Image 4" },
+    { src: "/m1.jpeg", name: "Image 4" },
+
   ];
   return (
     <div>

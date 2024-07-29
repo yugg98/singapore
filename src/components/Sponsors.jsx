@@ -139,7 +139,8 @@ export default function Who() {
     { src: "/logo10.png", name: "Image 3" },
     { src: "/logo11.jpg", name: "Image 3" },
     { src: "/m2.jpeg", name: "Image 3" },
-    { src: "/img.svg", name: "Image 3" },
+    { src: "/cm1.jpeg", name: "Image 3" },
+    { src: "/cm2.png", name: "Image 3" },
 
   ];
   return (
@@ -385,6 +386,9 @@ export default function Who() {
               {/* media partners ends */}
             </div>
           </div>
+           <p className="text-4xl mt-8 text-center text-primary">
+              & Many More..
+            </p>
         </div>
 
         <div className="pt-8 pb-20 ">
