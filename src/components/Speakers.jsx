@@ -55,6 +55,12 @@ import vinod from "@/images/speakers/vinod.jpg";
 import yax from "@/images/speakers/yax.png";
 import alankar from "@/images/speakers/alankar.png";
 import punit from "@/images/speakers/punit.jpeg";
+import m4 from "@/images/speakers/m4.jpeg";
+import m5 from "@/images/speakers/m5.jpeg";
+import m6 from "@/images/speakers/m6.jpeg";
+import m7 from "@/images/speakers/m7.jpeg";
+import m8 from "@/images/speakers/m8.jpeg";
+
 import romil from "@/images/speakers/romil.jpeg";
 import nanda from "@/images/speakers/nanda.jpeg";
 import parika from "@/images/speakers/parika.jpeg";
@@ -785,6 +791,46 @@ const first15People = [
     linkedinUrl: "https://www.linkedin.com/in/david-ching-hk/",
   },
   {
+    name: "Brian Liang",
+    role: " Chief Operating Officer at Aelf",
+    imageUrl: m4,
+    location: "India",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/david-ching-hk/",
+  },
+  {
+    name: "Alice S.",
+    role: " Founder @ ICL Comms",
+    imageUrl: m8,
+    location: "India",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/alicezhura/",
+  },
+  {
+    name: "Hanis Harmiles",
+    role: " Founder of Reinvent DAO",
+    imageUrl: m7,
+    location: "India",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/hanis-harmiles/",
+  },
+  {
+    name: "Cyrille Brière",
+    role: " Entrepreneur & Therapist",
+    imageUrl: m6,
+    location: "India",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/cyrillebriere/",
+  },
+  {
+    name: "Jonathan G. Blanco ",
+    role: "  Niftmint Founder/CEO",
+    imageUrl: m5,
+    location: "India",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/jgproduct/",
+  },
+  {
     name: "Alvin Kan",
     role: "COO at Bitget Wallet",
     imageUrl: speaker1,
@@ -853,7 +899,7 @@ export function Speaker() {
               className="p-4 transition-all card  duration-150 ease-in-out bg-indigo-900 hover:scale-105 rounded-xl hover:bg-orange-900 hover:shadow-md flex flex-col justify-between"
             >
               <Image
-                className="mx-auto h-36 w-36  md:h-40 md:w-40"
+                className="mx-auto h-36 w-36 rounded-lg  md:h-40 md:w-40"
                 src={person.imageUrl}
                 alt=""
               />

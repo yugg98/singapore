@@ -140,7 +140,8 @@ export default function Who() {
     { src: "/logo11.jpg", name: "Image 3" },
     { src: "/m2.jpeg", name: "Image 3" },
     { src: "/cm1.jpeg", name: "Image 3" },
-    { src: "/cm2.png", name: "Image 3" },
+    { src: "/m3.jpeg", name: "Image 3" },
+    { src: "/logo.jpg", name: "Image 3" },
 
   ];
   return (

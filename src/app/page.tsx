@@ -98,10 +98,13 @@ export default function Home() {
               their views and perspectives on the blockchain market.
               <br />
               <br />
-              This year, DeGen Summit also brings together web3.0 startups and VC&apos;s together in our demo eve where startups can get a chance to win thousands of dollars in grants, cash, services and various products!
+              This year, DeGen Summit also brings together web3.0 startups and
+              VC&apos;s together in our demo eve where startups can get a chance
+              to win thousands of dollars in grants, cash, services and various
+              products!
               <br />
               <br />
-{/* We will also be organizing a KOL's night awards to felicitate the best in the crypto industry, the fun is just getting started, see you all in Singapore super soon! */}
+              {/* We will also be organizing a KOL's night awards to felicitate the best in the crypto industry, the fun is just getting started, see you all in Singapore super soon! */}
             </p>
           </div>
           <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
