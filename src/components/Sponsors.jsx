@@ -142,6 +142,9 @@ export default function Who() {
     { src: "/cm1.jpeg", name: "Image 3" },
     { src: "/m3.jpeg", name: "Image 3" },
     { src: "/logo.jpg", name: "Image 3" },
+    { src: "/l1.jpeg", name: "Image 3" },
+
+    { src: "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/5043377/178779_54842.png", name: "Image 3" },
 
   ];
   return (
