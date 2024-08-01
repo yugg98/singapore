@@ -14,7 +14,6 @@ import digital from "@/images/sponsors-logo/digital.png";
 import yahoo from "@/images/sponsors-logo/yahoo.png";
 // import web3chennai from "@/images/sponsors-logo/web3xchennai.png";
 import forweb3 from "@/images/sponsors-logo/forweb3.png";
-import dimo from "@/images/sponsors-logo/dimo.png";
 import newscrypto from "@/images/sponsors-logo/newscrypto.png";
 import blockchainHive from "@/images/sponsors-logo/theblockchainhive.png";
 import codeate from "@/images/sponsors-logo/codeate.png";
