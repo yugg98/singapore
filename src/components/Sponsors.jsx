@@ -373,10 +373,7 @@ export default function Who() {
             </h2>
             <div className="-mx-6 mt-6 grid grid-cols-2 md:grid-cols-4 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
               {items.map((item) => (
-                <a
-                  target="_blank"
-                  key={item.name}
-                  href="https://cointelegraph.com/"
+                <p
                   className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
                 >
                   <img
@@ -384,7 +381,7 @@ export default function Who() {
                     src={item.src}
                     alt="cointelegraph"
                   />
-                </a>
+                </p>
               ))}
 
               {/* media partners ends */}
