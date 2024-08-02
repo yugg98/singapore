@@ -373,6 +373,7 @@ export default function Who() {
             <div className="-mx-6 mt-6 grid grid-cols-2 md:grid-cols-4 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
               {items.map((item) => (
                 <p
+                key={item.src}
                   className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
                 >
                   <img
