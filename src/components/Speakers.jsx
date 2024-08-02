@@ -60,6 +60,7 @@ import m5 from "@/images/speakers/m5.jpeg";
 import m6 from "@/images/speakers/m6.jpeg";
 import m7 from "@/images/speakers/m7.jpeg";
 import m8 from "@/images/speakers/m8.jpeg";
+import m9 from "@/images/speakers/s4.jpeg";
 
 import romil from "@/images/speakers/romil.jpeg";
 import nanda from "@/images/speakers/nanda.jpeg";
@@ -813,6 +814,14 @@ const first15People = [
     location: "India",
     twitterUrl: "",
     linkedinUrl: "https://www.linkedin.com/in/hanis-harmiles/",
+  },
+  {
+    name: "Elena R.",
+    role: " Blockchain, Web3 and AI evangelist ",
+    imageUrl: m9,
+    location: "India",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/elenauk/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
     name: "Cyrille Brière",
