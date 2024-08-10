@@ -61,6 +61,8 @@ import m6 from "@/images/speakers/m6.jpeg";
 import m7 from "@/images/speakers/m7.jpeg";
 import m8 from "@/images/speakers/m8.jpeg";
 import m9 from "@/images/speakers/s4.jpeg";
+import m10 from "@/images/speakers/Jelle.jpg";
+import m11 from "@/images/speakers/akshay.jpeg";
 
 import romil from "@/images/speakers/romil.jpeg";
 import nanda from "@/images/speakers/nanda.jpeg";
@@ -807,14 +809,7 @@ const first15People = [
     twitterUrl: "",
     linkedinUrl: "https://www.linkedin.com/in/alicezhura/",
   },
-  {
-    name: "Hanis Harmiles",
-    role: " Founder of Reinvent DAO",
-    imageUrl: m7,
-    location: "India",
-    twitterUrl: "",
-    linkedinUrl: "https://www.linkedin.com/in/hanis-harmiles/",
-  },
+ 
   {
     name: "Elena R.",
     role: " Blockchain, Web3 and AI evangelist ",
@@ -830,6 +825,22 @@ const first15People = [
     location: "India",
     twitterUrl: "",
     linkedinUrl: "https://www.linkedin.com/in/cyrillebriere/",
+  },
+  {
+    name: "Jelle Buth",
+    role: " Co-founder Enflux",
+    imageUrl: m10,
+    location: "India",
+    twitterUrl: " https://x.com/j_buth",
+    linkedinUrl: "https://www.linkedin.com/in/jelle-buth/",
+  },
+  {
+    name: "Akshay Nassa ",
+    role: "CEO Chimp Exchange",
+    imageUrl: m11,
+    location: "India",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/akshaynassa",
   },
   {
     name: "Jonathan G. Blanco ",
