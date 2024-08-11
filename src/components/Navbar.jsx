@@ -16,7 +16,7 @@ const navigationItems = [
   { href: "/speakers", label: "Speakers" },
   { href: "/agenda", label: "Agenda" },
   { href: "/sponsors", label: "Sponsors" },
-  { href: "/startup", label: "Demo Eve" },
+  { href: "/startup", label: "Pitch Fest" },
   { href: "/awards", label: "Awards Night" },
   { href: "/location", label: "Location" },
   

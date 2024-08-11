@@ -14,6 +14,21 @@ import speaker2 from "@/images/speaker2.jpg";
 import speaker3 from "@/images/speaker3.jpg";
 import speaker4 from "@/images/speaker4.jpeg";
 import speaker5 from "@/images/s6.jpg";
+import speaker7 from "@/images/speakers/sp1.jpeg";
+import speaker6 from "@/images/speakers/sp2.jpeg";
+import speaker8 from "@/images/speakers/sp3.jpeg";
+import speaker9 from "@/images/speakers/sp4.jpeg";
+import speaker10 from "@/images/speakers/sp5.jpeg";
+import speaker11 from "@/images/speakers/sp6.jpeg";
+import speaker12 from "@/images/speakers/sp7.jpeg";
+import speaker13 from "@/images/speakers/sp8.jpeg";
+import speaker14 from "@/images/speakers/sp6.jpeg";
+
+import sf1 from "@/images/sp4.jpeg";
+import sf2 from "@/images/sf2.jpeg";
+import sf3 from "@/images/sf3.jpeg";
+
+
 
 import anil from "@/images/speakers/anil.jpg";
 import trish from "@/images/speakers/trish.jpeg";
@@ -470,6 +485,8 @@ const people = [
     twitterUrl: "",
     linkedinUrl: "https://in.linkedin.com/in/muditmarda",
   },
+  
+ 
   {
     name: "Preetam Rao",
     role: "CEO and Co-Founder, QuillAudits",
@@ -794,6 +811,14 @@ const first15People = [
     linkedinUrl: "https://www.linkedin.com/in/david-ching-hk/",
   },
   {
+    name: "Yannik Schrade",
+    role: "CEO & Co-Founder @ Arcium",
+    imageUrl: speaker7,
+    location: "India",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/yannik-schrade/?originalSubdomain=de",
+  },
+  {
     name: "Brian Liang",
     role: " Chief Operating Officer at Aelf",
     imageUrl: m4,
@@ -839,7 +864,7 @@ const first15People = [
     role: "CEO Chimp Exchange",
     imageUrl: m11,
     location: "India",
-    twitterUrl: "",
+    twitterUrl: "https://x.com/nassaverse",
     linkedinUrl: "https://www.linkedin.com/in/akshaynassa",
   },
   {
@@ -883,6 +908,62 @@ const first15People = [
     linkedinUrl: "https://www.linkedin.com/in/kevinsoltani/",
   },
   {
+    name: "Yannik Schrade",
+    role: "CEO & Co-Founder @ Arcium",
+    imageUrl: speaker7,
+    location: "India",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/katarzyna-henel-0a19a713b/",
+  },
+  {
+    name: "Katarzyna Henel",
+    role: "CEO at Gold Flamingo ",
+    imageUrl: speaker6,
+    location: "India",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/katarzyna-henel-0a19a713b/",
+  },
+  {
+    name: "Michael H",
+    role: "Strategic Advisor for Lingo Coin ",
+    imageUrl: speaker8,
+    location: "India",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/katarzyna-henel-0a19a713b/",
+  },
+  {
+    name: "Stephanie V.",
+    role: "COO @Veda Tech Co-founder @Seven Seas Strategies",
+    imageUrl: speaker9,
+    location: "India",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/katarzyna-henel-0a19a713b/",
+  },
+  {
+    name: "J.D. Seraphine ",
+    role: "CEO @Raiinmaker Founder @VisionTree ",
+    imageUrl: speaker10,
+    location: "India",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/katarzyna-henel-0a19a713b/",
+  },
+  {
+    name: "E. Dean Tribble",
+    role: "CEO at Agoric",
+    imageUrl: speaker11,
+    location: "India",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/katarzyna-henel-0a19a713b/",
+  },
+  {
+    name: "Chan Ahn",
+    role: "Chief Technology Officer @ alexGo.btc",
+    imageUrl: speaker12,
+    location: "India",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/katarzyna-henel-0a19a713b/",
+  },
+  {
     name: "Kumardev C.",
     role: "Member, INTERPOL Expert Group on Metaverse",
     imageUrl: speaker5,
@@ -897,6 +978,30 @@ const first15People = [
     location: "UK",
     twitterUrl: "https://twitter.com/NandaKhiara",
     linkedinUrl: "https://www.linkedin.com/in/nanda-khiara-4941786/",
+  },
+  {
+    name: "Julian Peh 白奇豪",
+    role: " Co-founder @KIP Protocol & @KIPLEY.ai Investor @EigenForm AI",
+    imageUrl: sf1,
+    location: "UK",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/julianpeh/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+  },
+  {
+    name: "Rongxin Zhang",
+    role: "Head of DevRel @Nervos Foundation",
+    imageUrl: sf2,
+    location: "UK",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/rongxinz/",
+  },
+  {
+    name: "Yusuf Goolamabbas",
+    role: "Chief Knowledge office @Aminoca",
+    imageUrl: sf3,
+    location: "UK",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/yusufg/",
   },
 ];
 

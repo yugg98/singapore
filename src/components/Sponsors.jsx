@@ -142,8 +142,13 @@ export default function Who() {
     { src: "/m3.jpeg", name: "Image 3" },
     { src: "/logo.jpg", name: "Image 3" },
     { src: "/l1.jpeg", name: "Image 3" },
+    { src: "/c1.jpeg", name: "Image 3" },
+    { src: "/c3.png", name: "Image 4" },
 
+    { src: "https://media.licdn.com/dms/image/C4E0BAQHCYS0hWVpJ-g/company-logo_200_200/0/1659271641283/cryptomondays_london_logo?e=1731542400&v=beta&t=IA_IofGaO0tMqGpzCnzQa73f57zNn-uNih65XI9rwXc", name: "Image 3" },
+    { src: "https://media.licdn.com/dms/image/D4E0BAQHeHumCmLFzVQ/company-logo_200_200/0/1687351126462/healerverse5d_logo?e=1731542400&v=beta&t=AXAp5_jGMofkoNSghWD2YILTyegY17kLFF9v1J_oS7s", name: "Image 3" },
     { src: "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/5043377/178779_54842.png", name: "Image 3" },
+
 
   ];
   return (

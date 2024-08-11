@@ -28,6 +28,19 @@ const page = () => {
       src: "v5.png",
     },
     {
+      name: "5",
+      src: "p1.jpeg",
+    },
+    
+    {
+      name: "5",
+      src: "p2.png",
+    },
+    {
+      name: "5",
+      src: "p3.jpg",
+    },
+    {
       name: "6",
       src: "v6.jpeg",
     },
@@ -84,7 +97,7 @@ const HowToParticipate = () => {
           email{" "}
           <span className="text-black font-semibold">
             {" "}
-            info@degensummit.com{" "}
+            contact@degensummit.com{" "}
           </span>{" "}
           on our website before the event date.
         </li>

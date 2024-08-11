@@ -9,9 +9,11 @@ const navigation = {
     ],
     More: [
       { name: 'Book tickets', href: '/tickets' },
-      { name: 'Demo Eve', href: '/startup' },
+      { name: 'Pitch Fest', href: '/startup' },
       { name: 'Awards', href: '/awards' },
       { name: 'Agenda', href: '/agenda' },
+      { name: 'Brand Kit', href: 'https://drive.google.com/drive/folders/1qzG-xrzLH-w2Shr8TP4AXkiyUbQSQMcv?usp=sharing' },
+
     ],
     company: [
       { name: 'About', href: '#' },

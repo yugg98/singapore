@@ -8,6 +8,7 @@ import Clock from "@/components/Clock";
 import WhySingapore from "@/components/WhySingapore";
 import Marquee from "react-fast-marquee";
 import Link from "next/link";
+import Countdown from "@/components/Clock";
 
 export default function Home() {
   return (
@@ -64,7 +65,6 @@ export default function Home() {
         </div>
       </div>
       {/* <Clock/> */}
-
       <Stats />
 
       <WhySingapore />
@@ -81,6 +81,7 @@ export default function Home() {
         <p className="text-base px-4 text-purple-100">#Web3 Summit</p>
         <p className="text-base px-4 text-purple-100">#16th SEP</p>
       </Marquee>
+      <Countdown/>
 
       <div>
         <Highlights />
