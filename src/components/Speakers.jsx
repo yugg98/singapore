@@ -810,14 +810,7 @@ const first15People = [
     twitterUrl: "",
     linkedinUrl: "https://www.linkedin.com/in/david-ching-hk/",
   },
-  {
-    name: "Yannik Schrade",
-    role: "CEO & Co-Founder @ Arcium",
-    imageUrl: speaker7,
-    location: "India",
-    twitterUrl: "",
-    linkedinUrl: "https://www.linkedin.com/in/yannik-schrade/?originalSubdomain=de",
-  },
+ 
   {
     name: "Brian Liang",
     role: " Chief Operating Officer at Aelf",
@@ -997,7 +990,7 @@ const first15People = [
   },
   {
     name: "Yusuf Goolamabbas",
-    role: "Chief Knowledge office @Aminoca",
+    role: "Chief Knowledge office @Animoca",
     imageUrl: sf3,
     location: "UK",
     twitterUrl: "",
