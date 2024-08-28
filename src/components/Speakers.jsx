@@ -23,6 +23,16 @@ import speaker11 from "@/images/speakers/sp6.jpeg";
 import speaker12 from "@/images/speakers/sp7.jpeg";
 import speaker13 from "@/images/speakers/sp8.jpeg";
 import speaker14 from "@/images/speakers/sp6.jpeg";
+import rkpur from "@/images/speakers/rajkapoor.jpg";
+import ktz from "@/images/speakers/kartazyna.jpeg";
+import juliet from "@/images/speakers/juliet.jpeg";
+import shumin from "@/images/speakers/shumin.jpeg";
+import hemily from "@/images/speakers/hemily.jpeg";
+import kate from "@/images/speakers/kate.jpg";
+import melanie from "@/images/speakers/melanie.jpeg";
+import mona from "@/images/speakers/mona.jpeg";
+import anna from "@/images/speakers/anna.jpeg";
+import pauli from "@/images/speakers/pauli.jpg";
 
 import sf1 from "@/images/sp4.jpeg";
 import sf2 from "@/images/sf2.jpeg";
@@ -803,6 +813,14 @@ export default function Example() {
 }
 const first15People = [
   {
+    name: "Alvin Kan",
+    role: "COO at Bitget Wallet",
+    imageUrl: speaker1,
+    location: "India",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/alvinkan/",
+  },
+  {
     name: "David Ching",
     role: " CFA HK Director Animoca Brands ",
     imageUrl: speaker3,
@@ -867,15 +885,7 @@ const first15People = [
     location: "India",
     twitterUrl: "",
     linkedinUrl: "https://www.linkedin.com/in/jgproduct/",
-  },
-  {
-    name: "Alvin Kan",
-    role: "COO at Bitget Wallet",
-    imageUrl: speaker1,
-    location: "India",
-    twitterUrl: "",
-    linkedinUrl: "https://www.linkedin.com/in/alvinkan/",
-  },
+  }, 
   {
     name: "Michael Jelen",
     role: "CEO @ Replay | Managing Partner @ PB&J | Treasurer @ Veloce",
@@ -995,6 +1005,86 @@ const first15People = [
     location: "UK",
     twitterUrl: "",
     linkedinUrl: "https://www.linkedin.com/in/yusufg/",
+  },
+  {
+    name: "Raj Kapoor",
+    role: "Founder IBA",
+    imageUrl: rkpur,
+    location: "India",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/indieblock/",
+  },
+  {
+    name: "Katarzyna Henel",
+    role: "CMO - Synapse Network & API-Verse",
+    imageUrl: ktz,
+    location: "Poland",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/katarzyna-henel-0a19a713b/",
+  },
+  {
+    name: "Juliet Su",
+    role: "Partner - NewTribe capital",
+    imageUrl: juliet,
+    location: "Poland",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/juliet-su-%E8%8B%8F%E4%B8%BD-438b3725/",
+  },
+  {
+    name: "Hemilly Rodrigues",
+    role: "Founder & CEO of RXCO",
+    imageUrl: hemily,
+    location: "UK",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/hemilly-rodrigues-4aa65a11b/",
+  },
+  {
+    name: "Shumin Lin",
+    role: "Litigator at Drew & Napier LLC",
+    imageUrl: shumin,
+    location: "Singapore",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/shumin-lin-a19a1614a/",
+  },
+  {
+    name: "Anna Lou",
+    role: "Chief Business Officer of CoinCatch",
+    imageUrl: anna,
+    location: "Hong Kong",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/lubitget/",
+  },
+  {
+    name: "Pauli Speaks",
+    role: "Web3 connector and podcast host",
+    imageUrl: pauli,
+    location: "UK",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/hemilly-rodrigues-4aa65a11b/",
+  },
+  {
+    name: "Mona Tiesler",
+    role: "Investment Manager of tokentus investment AG",
+    imageUrl: mona,
+    location: "Singapore",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/mona-tiesler/",
+  },
+  {
+    name: "Melanie Dow",
+    role: "Blockchain Game Alliance",
+    imageUrl: melanie,
+    location: "UK",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/melanie-dow/",
+  },
+  {
+    name: "Katekittywong",
+    role: "COO of RSS3",
+    imageUrl: kate,
+    location: "UK",
+    twitterUrl: "",
+    linkedinUrl: "https://x.com/pingthepingping",
   },
 ];
 
