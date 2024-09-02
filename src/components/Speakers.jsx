@@ -71,6 +71,17 @@ import yax from "@/images/speakers/yax.png";
 import alankar from "@/images/speakers/alankar.png";
 import punit from "@/images/speakers/punit.jpeg";
 import m4 from "@/images/speakers/m4.jpeg";
+import mm4 from "@/images/ss1.jpeg";
+import mm9 from "@/images/ss6.jpg";
+import mm10 from "@/images/ss7.jpg";
+import mm11 from "@/images/ss8.jpeg";
+
+import mm5 from "@/images/ss2.jpeg";
+import mm6 from "@/images/ss3.jpg";
+import mm7 from "@/images/ss4.jpeg";
+import mm8 from "@/images/ss5.jpeg";
+
+
 import m5 from "@/images/speakers/m5.jpeg";
 import m6 from "@/images/speakers/m6.jpeg";
 import m7 from "@/images/speakers/m7.jpeg";
@@ -812,12 +823,68 @@ const first15People = [
   },
  
   {
-    name: "Brian Liang",
-    role: " Chief Operating Officer at Aelf",
-    imageUrl: m4,
+    name: "Khaniff Lau",
+    role: " Business Development Director at AELF",
+    imageUrl: mm4,
     location: "India",
     twitterUrl: "",
-    linkedinUrl: "https://www.linkedin.com/in/david-ching-hk/",
+    linkedinUrl: "https://www.linkedin.com/in/khaniff/",
+  },
+  {
+    name: "Victor Ji",
+    role: "Co Founder at Manta Network",
+    imageUrl: mm6,
+    location: "India",
+    twitterUrl: "https://x.com/protogodx",
+    linkedinUrl: "https://www.linkedin.com/in/peterpengx",
+  },
+  {
+    name: "Peter Peng",
+    role: " Founder at Gpt Protocol",
+    imageUrl: mm10,
+    location: "India",
+    twitterUrl: "https://x.com/protogodx",
+    linkedinUrl: "https://www.linkedin.com/in/peterpengx",
+  },
+  {
+    name: "Juliet Su 苏丽",
+    role: "Fund Partner at NewTribe Capital ~ Investor and Advisor",
+    imageUrl: mm11,
+    location: "India",
+    twitterUrl: "https://x.com/protogodx",
+    linkedinUrl: "https://www.linkedin.com/in/peterpengx",
+  },
+  {
+    name: "Raj Kapoor",
+    role: "Founder | India Blockchain Alliance",
+    imageUrl: mm8,
+    location: "India",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/indieblock/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+  },
+  {
+    name: "Gleb Gora",
+    role: "Co-founder & CEO of Vortex.",
+    imageUrl: mm5,
+    location: "India",
+    twitterUrl: "",
+    linkedinUrl: "https://www.linkedin.com/in/glebgora/",
+  },
+  {
+    name: "Kate KittyWong",
+    role: "coo rss3",
+    imageUrl: mm6,
+    location: "India",
+    twitterUrl: "https://x.com/pingthepingping",
+    linkedinUrl: "",
+  },
+  {
+    name: "Avery Isan",
+    role: "Business Development Executive at LimeChain",
+    imageUrl: mm7,
+    location: "India",
+    twitterUrl: "https://x.com/pingthepingping",
+    linkedinUrl: "",
   },
   {
     name: "Alice S.",

@@ -143,7 +143,10 @@ export default function Who() {
     { src: "/logo.jpg", name: "Image 3" },
     { src: "/l1.jpeg", name: "Image 3" },
     { src: "/c1.jpeg", name: "Image 3" },
-    { src: "/c3.png", name: "Image 4" },
+    { src: "/true.jpeg", name: "Image 3" },
+    { src: "/ju.jpeg", name: "Image 3" },
+    { src: "/pol.jpeg", name: "Image 3" },
+
 
     { src: "https://media.licdn.com/dms/image/C4E0BAQHCYS0hWVpJ-g/company-logo_200_200/0/1659271641283/cryptomondays_london_logo?e=1731542400&v=beta&t=IA_IofGaO0tMqGpzCnzQa73f57zNn-uNih65XI9rwXc", name: "Image 3" },
     { src: "https://media.licdn.com/dms/image/D4E0BAQHeHumCmLFzVQ/company-logo_200_200/0/1687351126462/healerverse5d_logo?e=1731542400&v=beta&t=AXAp5_jGMofkoNSghWD2YILTyegY17kLFF9v1J_oS7s", name: "Image 3" },
