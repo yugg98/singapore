@@ -15,60 +15,19 @@ import yahoo from "@/images/sponsors-logo/yahoo.png";
 // import web3chennai from "@/images/sponsors-logo/web3xchennai.png";
 import forweb3 from "@/images/sponsors-logo/forweb3.png";
 import newscrypto from "@/images/sponsors-logo/newscrypto.png";
-import blockchainHive from "@/images/sponsors-logo/theblockchainhive.png";
-import codeate from "@/images/sponsors-logo/codeate.png";
-import Web3Kerala from "@/images/sponsors-logo/web3kerala.png";
-import metakraft from "@/images/sponsors-logo/metakraft.svg";
-import gearfi from "@/images/sponsors-logo/gearfi.png";
+
 import voiceofcrypto from "@/images/sponsors-logo/voiceofcrypto.png";
-import buktrips from "@/images/sponsors-logo/buktrips.svg";
-import openweb3 from "@/images/sponsors-logo/openweb3.jpeg";
-import centraldao from "@/images/sponsors-logo/centradao.png";
-import buidlup from "@/images/sponsors-logo/buidlup.png";
-import befikra from "@/images/sponsors-logo/befikra.png";
-import Web3Commune from "@/images/sponsors-logo/web3communedark.png";
-import TechSurfers from "@/images/sponsors-logo/TechSurfers.png";
-import AltCoiners from "@/images/sponsors-logo/AltCoiners.png";
-import Collider from "@/images/sponsors-logo/Collider.png";
+
 import CryptoNewsZ from "@/images/sponsors-logo/CryptoNewsZ.svg";
-import bfg from "@/images/sponsors-logo/bfg.jpeg";
-import accenture from "@/images/sponsors-logo/accenture.jpeg";
-import flamingo from "@/images/sponsors-logo/flamingo.jpeg";
-import amigo from "@/images/sponsors-logo/amigo.jpeg";
-import artysan from "@/images/sponsors-logo/artysan.jpeg";
-import mastercard from "@/images/sponsors-logo/mastercard.webp";
-import ford from "@/images/sponsors-logo/ford.jpeg";
-import sorted from "@/images/sponsors-logo/sorted.jpeg";
-import jia from "@/images/sponsors-logo/jia.jpeg";
-import decentraclass from "@/images/sponsors-logo/decentraclass.png";
-import securedapp from "@/images/sponsors-logo/securedapp.svg";
-import bowshy from "@/images/sponsors-logo/bowshy.png";
-import blockworldco from "@/images/sponsors-logo/blockworldco.png";
+
 import coingabbar from "@/images/sponsors-logo/coingabbar.png";
-import simsy from "@/images/sponsors-logo/simsy.jpeg";
-import punchword from "@/images/sponsors-logo/punchword.jpeg";
-import ubiqwity from "@/images/sponsors-logo/ubiqwity.png";
-import soclly from "@/images/sponsors-logo/soclly.png";
-import brinc1 from "@/images/sponsors-logo/Brinc1.png";
-import metaversespace from "@/images/sponsors-logo/metaversespace.jpeg";
-import aws from "@/images/sponsors-logo/aws.png";
+
 import droom from "@/images/sponsors-logo/droom.png";
-import coinlisting from "@/images/sponsors-logo/coinlisting.png";
-import codersera from "@/images/sponsors-logo/codersera.png";
-import blockwee from "@/images/sponsors-logo/blockwee.png";
-import raindropsdao from "@/images/sponsors-logo/raindropsdao.png";
-import bhopaldao from "@/images/sponsors-logo/bhopaldao.jpeg";
-import zuraverse from "@/images/sponsors-logo/zuraverse.png";
+
 import blockopedia from "@/images/sponsors-logo/blockopedia.png";
 import ktro from "@/images/sponsors-logo/ktro.png";
 import klarda from "@/images/sponsors-logo/klarda.png";
-import campustechies from "@/images/sponsors-logo/campustechies.png";
-import defiverse from "@/images/sponsors-logo/defiverse.png";
-import web5nexus from "@/images/sponsors-logo/web5nexus.png";
-import lawblocks from "@/images/sponsors-logo/lawblocks.png";
-import healerverse from "@/images/sponsors-logo/healerverse.png";
-import anatolian from "@/images/sponsors-logo/anatolian.jpeg";
-import geekyhub from "@/images/sponsors-logo/geekyhub.png";
+
 import utoday from "@/images/sponsors-logo/utoday.png";
 import cankaya from "@/images/sponsors-logo/cankaya.jpeg";
 import fintech24 from "@/images/sponsors-logo/fintech24.png";
@@ -76,23 +35,9 @@ import paycoin from "@/images/sponsors-logo/paycoin.png";
 import economic from "@/images/sponsors-logo/economic.jpeg";
 import coinbase from "@/images/sponsors-logo/coinbase.png";
 import cryptotimes from "@/images/sponsors-logo/cryptotimes.svg";
-import bananahq from "@/images/sponsors-logo/bananahq.png";
-import startupnews from "@/images/sponsors-logo/startupnews.png";
-import club3 from "@/images/sponsors-logo/3.0club.png";
-import ogclub from "@/images/sponsors-logo/ogclub.png";
-import web3panjab from "@/images/sponsors-logo/web3panjab.png";
-import bhaifin from "@/images/sponsors-logo/bhaifin.png";
-import ajeetco from "@/images/sponsors-logo/ajeetco.jpeg";
-import foundersphere from "@/images/sponsors-logo/foundersphere.jpeg";
-import adlunam from "@/images/sponsors-logo/adlunam.jpeg";
-import blocnet from "@/images/sponsors-logo/blocnet.jpeg";
-import deepverse from "@/images/sponsors-logo/deepverse.jpg";
+
 import coinedition from "@/images/sponsors-logo/coinedition.png";
-import hyddao from "@/images/sponsors-logo/hyddao.png";
-import herdao from "@/images/sponsors-logo/herdao.png";
-import buildoor from "@/images/sponsors-logo/buildoor.png";
-import expelee from "@/images/sponsors-logo/expelee.png";
-import namma from "@/images/sponsors-logo/namma.jpg";
+
 import cryptonite from "@/images/sponsors-logo/cryptonite.png";
 import chainly from "@/images/sponsors-logo/chainly.png";
 import kanalcoin from "@/images/sponsors-logo/kanalcoin.png";
@@ -146,6 +91,8 @@ export default function Who() {
     { src: "/true.jpeg", name: "Image 3" },
     { src: "/ju.jpeg", name: "Image 3" },
     { src: "/pol.jpeg", name: "Image 3" },
+    { src: "/aba.PNG", name: "Image 3" },
+    { src: "/n.jpeg", name: "Image 3" },
 
 
     { src: "https://media.licdn.com/dms/image/C4E0BAQHCYS0hWVpJ-g/company-logo_200_200/0/1659271641283/cryptomondays_london_logo?e=1731542400&v=beta&t=IA_IofGaO0tMqGpzCnzQa73f57zNn-uNih65XI9rwXc", name: "Image 3" },

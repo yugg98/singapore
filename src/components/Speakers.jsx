@@ -27,6 +27,11 @@ import speaker14 from "@/images/speakers/sp6.jpeg";
 import sf1 from "@/images/sp4.jpeg";
 import sf2 from "@/images/sf2.jpeg";
 import sf3 from "@/images/sf3.jpeg";
+import sff2 from "@/images/mona.jpeg";
+import sff4 from "@/images/sm2.jpeg";
+import m16 from "@/images/m.jpeg";
+import m20 from "@/images/shu.jpeg";
+import anna from "@/images/anna.jpeg";
 
 
 
@@ -80,6 +85,9 @@ import mm5 from "@/images/ss2.jpeg";
 import mm6 from "@/images/ss3.jpg";
 import mm7 from "@/images/ss4.jpeg";
 import mm8 from "@/images/ss5.jpeg";
+import sffm4 from "@/images/ss3.jpeg";
+
+
 
 
 import m5 from "@/images/speakers/m5.jpeg";
@@ -1063,6 +1071,55 @@ const first15People = [
     twitterUrl: "",
     linkedinUrl: "https://www.linkedin.com/in/yusufg/",
   },
+  {
+    name: "Mona Tiesler ",
+    role: "Web3 VC Investor at tokentus",
+    imageUrl: sff2,
+    location: "UK",
+    twitterUrl: "",
+    linkedinUrl:" https://www.linkedin.com/in/mona-tiesler/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+  },
+  {
+    name: "Yash Dahenkar ",
+    role: "Web3 Builder, Advisor",
+    imageUrl: sff4,
+    location: "UK",
+    twitterUrl: "",
+    linkedinUrl:" https://www.linkedin.com/in/yash-dahenkar",
+  },
+  {
+    name: "Hemilly Rodrigues ",
+    role: "Founder & CEO RXCO",
+    imageUrl: sffm4,
+    location: "UK",
+    twitterUrl: "",
+    linkedinUrl:" https://www.linkedin.com/in/hemilly-rodrigues-4aa65a11b",
+  },
+  {
+    name: "Melanie Dow ",
+    role: "Blockchain Game Alliance",
+    imageUrl: m16,
+    location: "UK",
+    twitterUrl: "",
+    linkedinUrl:"https://www.linkedin.com/in/melanie-dow/",
+  },
+  {
+    name: "Shumin Lin  ",
+    role: "Litigator at Drew & Napier",
+    imageUrl: m20,
+    location: "UK",
+    twitterUrl: "",
+    linkedinUrl:"https://www.linkedin.com/in/melanie-dow/",
+  },
+  {
+    name: "Anna Lou ",
+    role: "CoinCatch CBO",
+    imageUrl: anna,
+    location: "UK",
+    twitterUrl: "",
+    linkedinUrl:"https://www.linkedin.com/in/lubitget",
+  }
+  
 ];
 
 export function Speaker() {

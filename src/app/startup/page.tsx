@@ -44,7 +44,14 @@ const page = () => {
       name: "6",
       src: "v6.jpeg",
     },
-
+    {
+      name: "6",
+      src: "pf1.jpeg",
+    },
+    {
+      name: "6",
+      src: "ven.jpeg",
+    },
     { src: "/logo8.jpg", name: "Image 3" },
     { src: "/m1.jpeg", name: "Image 4" },
 

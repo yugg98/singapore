@@ -30,7 +30,7 @@ export default function Home() {
       <div className="h-[90vh]">
         <div className="relative isolate pt-14">
           <video
-            src="/degen.mp4"
+            src="/desk.mp4"
             autoPlay
             loop
             muted
