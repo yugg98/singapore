@@ -174,10 +174,10 @@ export default function Hero() {
     </div>
   </div>
       <How/>
+<Speaker/>
       <DegenSummit/>
       <Goals/>
       <HowToParticipate/>
-<Speaker/>
     </div>
   );
 }
