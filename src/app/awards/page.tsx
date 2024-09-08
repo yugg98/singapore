@@ -286,7 +286,7 @@ const first15People = [
       <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
         <div className="mx-auto max-w-2xl">
           <h2 className="text-3xl capitalize font-bold tracking-tight text-primary sm:text-4xl">
-            KOL's Attending
+            KOL&apos;s Attending
           </h2>
         </div>
         <ul
