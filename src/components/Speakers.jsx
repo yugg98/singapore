@@ -126,6 +126,21 @@ import nikita from "@/images/speakers/nikita.jpeg";
 import cryptorich from "@/images/speakers/cryptorich.jpeg";
 import anton from "@/images/speakers/anton.jpg";
 import Link from "next/link";
+
+import mm1s from "@/images/mm1.jpeg";
+import mm2s from "@/images/mm2.jpeg";
+import mm3s from "@/images/mm3.jpeg";
+// import mm4 from "@/images/mm4.jpeg";
+import mm5s from "@/images/mm5.jpeg";
+import mm6s from "@/images/mm6.jpeg";
+import mm7s from "@/images/mm7.jpeg";
+import mm8s from "@/images/mm8.jpeg";
+import mm9s from "@/images/mm9.jpeg";
+import mm11s from "@/images/mm11.jpeg";
+import mm12s from "@/images/mm12.jpeg";
+
+
+
 const people = [
   {
     name: "Brock Pierce",
@@ -1118,8 +1133,87 @@ const first15People = [
     location: "UK",
     twitterUrl: "",
     linkedinUrl:"https://www.linkedin.com/in/lubitget",
-  }
-  
+  },
+  {
+    name: "Jennifer C. ",
+    role: "CoinCatch CBO",
+    imageUrl: mm1s,
+    location: "UK",
+    twitterUrl: "",
+    linkedinUrl:"https://www.linkedin.com/in/jennifercheng/",
+  },
+  {
+    name: "Arjun Mishra",
+    role: "Co-Founder Digilion Technologies",
+    imageUrl: mm11s,
+    location: "UK",
+    twitterUrl: "",
+    linkedinUrl:"https://www.linkedin.com/in/arjunms/",
+  },
+  {
+    name: "Michael Harding",
+    role: "Director Business Development Blockchain Sensei",
+    imageUrl: mm9s,
+    location: "UK",
+    twitterUrl: "",
+    linkedinUrl:"https://www.linkedin.com/in/mrharding",
+  },
+  {
+    name: "Wayne Marcel ",
+    role: "Head of Growth FIO Protocoal",
+    imageUrl: mm8s,
+    location: "UK",
+    twitterUrl: "",
+    linkedinUrl:"https://www.linkedin.com/in/blockchainwayne/",
+  },
+  {
+    name: "Constantin Kogan ",
+    role: "CEO TDX",
+    imageUrl: mm7s,
+    location: "UK",
+    twitterUrl: "",
+    linkedinUrl:"https://www.linkedin.com/in/constantin-kogan/",
+  },
+  {
+    name: "Gaurav Dubey ",
+    role: "CEO TDEFI",
+    imageUrl: mm6s,
+    location: "UK",
+    twitterUrl: "",
+    linkedinUrl:"https://www.linkedin.com/in/gauravdubeyith/",
+  },
+  {
+    name: "Sinjin David Jung",
+    role: "Founder PeekingDuckStudious",
+    imageUrl: mm5s,
+    location: "UK",
+    twitterUrl: "",
+    linkedinUrl:"https://www.linkedin.com/in/sinjindavidjung/",
+  },
+  {
+    name: "Ajay Ahlawat",
+    role: "CXO @ NuChain",
+    imageUrl: mm3s,
+    location: "UK",
+    twitterUrl: "",
+    linkedinUrl:"https://www.linkedin.com/in/group-captain-ajay-ahlawat-veteran-954870145/",
+  },
+  {
+    name: "Kuntal Ganguly",
+    role: "Partner @ Momentum Capital",
+    imageUrl: mm2s,
+    location: "UK",
+    twitterUrl: "",
+    linkedinUrl:"https://www.linkedin.com/in/kuntalganguly88/",
+  },
+  {
+    name: "Varun Sethi",
+    role: "Blockchain Lawyer",
+    imageUrl: mm12s,
+    location: "UK",
+    twitterUrl: "",
+    linkedinUrl:"https://www.linkedin.com/in/varun-sethi-89a76818b/",
+  },
 ];
 
 export function Speaker() {

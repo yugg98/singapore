@@ -101,223 +101,49 @@ export default function Who() {
 
 
   ];
+  const itemssp = [
+    { src: "/sp/image1.png", name: "Image 3" },
+    { src: "/sp/image2.png", name: "Image 3" },
+    { src: "/sp/image3.png", name: "Image 3" },
+    { src: "/sp/image4.png", name: "Image 3" },
+    { src: "/sp/image5.png", name: "Image 3" },
+    // { src: "/sp/image6.png", name: "Image 3" },
+    { src: "/sp/image7.png", name: "Image 3" },
+    { src: "/sp/image8.png", name: "Image 3" },
+    { src: "/sp/image9.png", name: "Image 3" },
+    { src: "/sp/image10.png", name: "Image 3" },
+    { src: "/sp/image11.png", name: "Image 3" },
+    { src: "/sp/image12.png", name: "Image 3" },
+    { src: "/sp/image.png", name: "Image 3" },
+
+
+
+  ];
   return (
     <>
       <div className="pt-8 pb-4  ">
         <div className="py-8 ">
-          {/* <div className="max-w-6xl px-6 mx-auto lg:px-8">
+          <div className="max-w-6xl px-6 mx-auto lg:px-8">
           <h2 className="text-5xl mb-10 font-bold text-center text-primary font-display">
-            Our Previous Sponsors
+            Our Sponsors
           </h2>
           <div className="-mx-6 mt-6 grid grid-cols-2 md:grid-cols-4 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
-          <a
-              target="_blank"
-              href="https://www.ton.org/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110 "
-                src={ton}
-                alt="ton"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.coinstore.com/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110 "
-                src={coinstore}
-                alt="coinstore"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.siriwnpartners.com/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110 "
-                src={sirwin}
-                alt="sirwin"
-              />
-            </a>
-          <a
-              target="_blank"
-              href="https://www.brinc.io/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110 "
-                src={brinc1}
-                alt="brinc"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://soulverse.us/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110 "
-                src={soulverse}
-                alt="soulverse"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.outdefine.com"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110 "
-                src={outdefine}
-                alt="outdefine"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.verseatile.live/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110 "
-                src={versatile}
-                alt="versatile"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://beta.letsbounce.gg/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110 "
-                src={bounce}
-                alt="bounce"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://andlunam.com/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110 "
-                src={adlunam}
-                alt="adlunam"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://dimo.finance/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110 "
-                src={dimo}
-                alt="dimo"
-              />
-            </a>
-            
-            <a
-              target="_blank"
-              href="https://www.anryton.com/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110 "
-                src={anryton}
-                alt="anryton"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.lbank.com/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110 "
-                src={lbank}
-                alt="lbank"
-              />
-            </a>
-            <a
-              target="_blank"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110 "
-                src={xault}
-                alt="xault"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://www.thecobox.org/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110 "
-                src={cobox}
-                alt="cobox"
-              />
-            </a>
-            
-            <a
-              target="_blank"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110 "
-                src={encryptus}
-                alt="encryptus"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://safeverse.io/"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110 "
-                src={safeverse}
-                alt="safeverse"
-              />
-            </a>
-            <a
-              target="_blank"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110 "
-                src={kajlabs}
-                alt="encryptus"
-              />
-            </a>
-            <a
-              target="_blank"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110 "
-                src={cointacted}
-                alt="encryptus"
-              />
-            </a>
-            <a
-              target="_blank"
-              className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-            >
-              <Image
-                className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110 "
-                src={guest}
-                alt="encryptus"
-              />
-            </a>
-          </div>
-        </div> */}
+              {itemssp.map((item) => (
+                <p
+                key={item.src}
+                  className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
+                >
+                  <img
+                    className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
+                    src={item.src}
+                    alt="cointelegraph"
+                  />
+                </p>
+              ))}
+
+              {/* media partners ends */}
+            </div>
+        </div>
         </div>
 
         <div className="pt-8 pb-4 ">
