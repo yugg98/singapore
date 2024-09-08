@@ -172,7 +172,7 @@ const first15People = [
     linkedinUrl: "https://www.linkedin.com/in/hemilly-rodrigues-4aa65a11b/",
   },
 ]
-export function Speaker() {
+ function Speaker() {
   return (
     <div className=" py-8">
       <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
