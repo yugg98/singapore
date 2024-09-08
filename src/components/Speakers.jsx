@@ -18,6 +18,7 @@ import speaker7 from "@/images/speakers/sp1.jpeg";
 import speaker6 from "@/images/speakers/sp2.jpeg";
 import jo from "@/images/jo.jpeg";
 import si from "@/images/si.jpeg";
+import ol from "@/images/ol.jpg";
 
 
 import sf1 from "@/images/sp4.jpeg";
@@ -1233,6 +1234,14 @@ const first15People = [
     name: "Siddhant Pandey",
     role: "Lawyer & Founder Is It Legal Sid",
     imageUrl: si,
+    location: "UK",
+    twitterUrl: "",
+    linkedinUrl:"https://www.linkedin.com/in/isitlegalsid/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+  },
+  {
+    name: "Olivier Galaud",
+    role: "co-head staking & restaking @MetaMask",
+    imageUrl: ol,
     location: "UK",
     twitterUrl: "",
     linkedinUrl:"https://www.linkedin.com/in/isitlegalsid/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
