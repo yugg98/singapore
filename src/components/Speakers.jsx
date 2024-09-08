@@ -16,13 +16,9 @@ import speaker4 from "@/images/speaker4.jpeg";
 import speaker5 from "@/images/s6.jpg";
 import speaker7 from "@/images/speakers/sp1.jpeg";
 import speaker6 from "@/images/speakers/sp2.jpeg";
-import speaker8 from "@/images/speakers/sp3.jpeg";
-import speaker9 from "@/images/speakers/sp4.jpeg";
-import speaker10 from "@/images/speakers/sp5.jpeg";
-import speaker11 from "@/images/speakers/sp6.jpeg";
-import speaker12 from "@/images/speakers/sp7.jpeg";
-import speaker13 from "@/images/speakers/sp8.jpeg";
-import speaker14 from "@/images/speakers/sp6.jpeg";
+import jo from "@/images/jo.jpeg";
+import si from "@/images/si.jpeg";
+
 
 import sf1 from "@/images/sp4.jpeg";
 import sf2 from "@/images/sf2.jpeg";
@@ -86,6 +82,8 @@ import mm6 from "@/images/ss3.jpg";
 import mm7 from "@/images/ss4.jpeg";
 import mm8 from "@/images/ss5.jpeg";
 import sffm4 from "@/images/ss3.jpeg";
+import ab from "@/images/ab.jpeg";
+import kr from "@/images/speakers/kr.jpeg";
 
 
 
@@ -1102,14 +1100,7 @@ const first15People = [
     twitterUrl: "",
     linkedinUrl:" https://www.linkedin.com/in/yash-dahenkar",
   },
-  {
-    name: "Hemilly Rodrigues ",
-    role: "Founder & CEO RXCO",
-    imageUrl: sffm4,
-    location: "UK",
-    twitterUrl: "",
-    linkedinUrl:" https://www.linkedin.com/in/hemilly-rodrigues-4aa65a11b",
-  },
+  
   {
     name: "Melanie Dow ",
     role: "Blockchain Game Alliance",
@@ -1213,6 +1204,38 @@ const first15People = [
     location: "UK",
     twitterUrl: "",
     linkedinUrl:"https://www.linkedin.com/in/varun-sethi-89a76818b/",
+  },
+  {
+    name: "Abdul Rafay Gadit",
+    role: "Co-Founder & CFO, Zignaly.com",
+    imageUrl: ab,
+    location: "UK",
+    twitterUrl: "",
+    linkedinUrl:"https://www.linkedin.com/in/argadit/",
+  },
+  {
+    name: "Kartik Chugh",
+    role: "CMO @QuillAudits",
+    imageUrl: kr,
+    location: "UK",
+    twitterUrl: "",
+    linkedinUrl:"https://www.linkedin.com/in/argadit/",
+  },
+  {
+    name: "Joris Beerda, FRSA",
+    role: "CEO & Co-Founder The Octalysis Group",
+    imageUrl: jo,
+    location: "UK",
+    twitterUrl: "",
+    linkedinUrl:"https://www.linkedin.com/in/jorisbeerda/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+  },
+  {
+    name: "Siddhant Pandey",
+    role: "Lawyer & Founder Is It Legal Sid",
+    imageUrl: si,
+    location: "UK",
+    twitterUrl: "",
+    linkedinUrl:"https://www.linkedin.com/in/isitlegalsid/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
   },
 ];
 

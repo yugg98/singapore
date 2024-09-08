@@ -75,8 +75,8 @@ export default function Who() {
     { src: "/logo1.jpg", name: "Image 1" },
     { src: "/logo2.jpg", name: "Image 2" },
     { src: "/logo3.png", name: "Image 3" },
-    { src: "/logo4.png", name: "Image 1" },
-    { src: "/logo5.svg", name: "Image 2" },
+    // { src: "/logo4.png", name: "Image 1" },
+    // { src: "/logo5.svg", name: "Image 2" },
     { src: "/logo6.jpg", name: "Image 3" },
     { src: "/logo7.jpg", name: "Image 3" },
     { src: "/logo9.png", name: "Image 3" },
@@ -93,13 +93,22 @@ export default function Who() {
     { src: "/pol.jpeg", name: "Image 3" },
     { src: "/aba.PNG", name: "Image 3" },
     { src: "/n.jpeg", name: "Image 3" },
+    { src: "/bu.jpeg", name: "Image 3" },
 
+    { src: "/de.jpeg", name: "Image 3" },
 
-    { src: "https://media.licdn.com/dms/image/C4E0BAQHCYS0hWVpJ-g/company-logo_200_200/0/1659271641283/cryptomondays_london_logo?e=1731542400&v=beta&t=IA_IofGaO0tMqGpzCnzQa73f57zNn-uNih65XI9rwXc", name: "Image 3" },
-    { src: "https://media.licdn.com/dms/image/D4E0BAQHeHumCmLFzVQ/company-logo_200_200/0/1687351126462/healerverse5d_logo?e=1731542400&v=beta&t=AXAp5_jGMofkoNSghWD2YILTyegY17kLFF9v1J_oS7s", name: "Image 3" },
-    { src: "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/5043377/178779_54842.png", name: "Image 3" },
-
-
+    {
+      src: "https://media.licdn.com/dms/image/C4E0BAQHCYS0hWVpJ-g/company-logo_200_200/0/1659271641283/cryptomondays_london_logo?e=1731542400&v=beta&t=IA_IofGaO0tMqGpzCnzQa73f57zNn-uNih65XI9rwXc",
+      name: "Image 3",
+    },
+    {
+      src: "https://media.licdn.com/dms/image/D4E0BAQHeHumCmLFzVQ/company-logo_200_200/0/1687351126462/healerverse5d_logo?e=1731542400&v=beta&t=AXAp5_jGMofkoNSghWD2YILTyegY17kLFF9v1J_oS7s",
+      name: "Image 3",
+    },
+    {
+      src: "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/5043377/178779_54842.png",
+      name: "Image 3",
+    },
   ];
   const itemssp = [
     { src: "/sp/image1.png", name: "Image 3" },
@@ -115,35 +124,181 @@ export default function Who() {
     { src: "/sp/image11.png", name: "Image 3" },
     { src: "/sp/image12.png", name: "Image 3" },
     { src: "/sp/image.png", name: "Image 3" },
-
-
-
   ];
   return (
     <>
       <div className="pt-8 pb-4  ">
         <div className="py-8 ">
           <div className="max-w-6xl px-6 mx-auto lg:px-8">
-          <h2 className="text-5xl mb-10 font-bold text-center text-primary font-display">
-            Our Sponsors
-          </h2>
-          <div className="-mx-6 mt-6 grid grid-cols-2 md:grid-cols-4 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
-              {itemssp.map((item) => (
-                <p
-                key={item.src}
-                  className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
-                >
-                  <img
-                    className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-                    src={item.src}
-                    alt="cointelegraph"
-                  />
-                </p>
-              ))}
+            <h2 className="text-5xl mb-10 font-bold text-center text-primary font-display">
+              Our Sponsors
+            </h2>
+            <p className="text-5xl text-primary text-center">Title Sponsor </p>
+
+            <div className="-mx-6 mt-6 grid grid-cols-2  gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
+              <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
+                <img
+                  className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
+                  src={"/neiro.avif"}
+                  alt="cointelegraph"
+                />
+              </p>
+              <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
+                <img
+                  className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
+                  src={"/ya.jpeg"}
+                  alt="cointelegraph"
+                />
+              </p>
 
               {/* media partners ends */}
             </div>
-        </div>
+           
+            <p className="text-5xl text-primary text-center mt-20">
+              Co Title Sponsor{" "}
+            </p>
+
+            <div className="-mx-6 mt-6 grid grid-cols-1  gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
+              <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
+                <img
+                  className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
+                  src={"/sp/image3.png"}
+                  alt="cointelegraph"
+                />
+              </p>
+             
+              {/* media partners ends */}
+            </div>
+            <p className="text-5xl text-primary text-center mt-20">Diamond </p>
+
+            <div className="-mx-6 mt-6 grid grid-cols-2  gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
+              <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
+                <img
+                  className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
+                  src={"/zig.svg"}
+                  alt="cointelegraph"
+                />
+              </p>
+              <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
+                <img
+                  className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
+                  src={"/e.jpeg"}
+                  alt="cointelegraph"
+                />
+              </p>
+
+              {/* media partners ends */}
+            </div>
+            
+            <p className="text-5xl text-primary text-center mt-20">Platinum </p>
+
+            <div className="-mx-6 mt-6 grid grid-cols-2  gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
+              <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
+                <img
+                  className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
+                  src={"/sp/image2.png"}
+                  alt="cointelegraph"
+                />
+              </p>
+              <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
+                <img
+                  className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
+                  src={"/m.png"}
+                  alt="cointelegraph"
+                />
+              </p>
+
+              {/* media partners ends */}
+            </div>
+            <p className="text-5xl text-primary text-center mt-20">Gold </p>
+
+            <div className="-mx-6 mt-6 grid grid-cols-5  gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
+              <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
+                <img
+                  className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
+                  src={"/sp/image11.png"}
+                  alt="cointelegraph"
+                />
+              </p>
+              <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
+                <img
+                  className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
+                  src={"/sp/image.png"}
+                  alt="cointelegraph"
+                />
+              </p>
+             
+              <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
+                <img
+                  className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
+                  src={"/meme.jpeg"}
+                  alt="cointelegraph"
+                />
+              </p>
+              <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
+                <img
+                  className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
+                  src={"/k.jpeg"}
+                  alt="cointelegraph"
+                />
+              </p>
+              <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
+                <img
+                  className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
+                  src={"/bla.jpeg"}
+                  alt="cointelegraph"
+                />
+              </p>
+              {/* media partners ends */}
+            </div>
+            <p className="text-5xl text-primary text-center mt-20">Silver </p>
+
+            <div className="-mx-6 mt-6 grid grid-cols-3  gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
+              <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
+                <img
+                  className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
+                  src={"/sp/image12.png"}
+                  alt="cointelegraph"
+                />
+              </p>
+              <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
+              <img
+                  className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
+                  src={"/sp/image10.png"}
+                  alt="cointelegraph"
+                />
+              </p>
+              <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
+              <img
+                  className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
+                  src={"/sp/image5.png"}
+                  alt="cointelegraph"
+                />
+              </p>
+              <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
+              <img
+                  className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
+                  src={"/sp/image9.png"}
+                  alt="cointelegraph"
+                />
+              </p>
+              <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
+              <img
+                  className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
+                  src={"/sp/image7.png"}
+                  alt="cointelegraph"
+                />
+              </p>
+              <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
+              <img
+                  className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
+                  src={"/sp/image8.png"}
+                  alt="cointelegraph"
+                />
+              </p>
+              {/* media partners ends */}
+            </div>
+          </div>
         </div>
 
         <div className="pt-8 pb-4 ">
@@ -154,7 +309,7 @@ export default function Who() {
             <div className="-mx-6 mt-6 grid grid-cols-2 md:grid-cols-4 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
               {items.map((item) => (
                 <p
-                key={item.src}
+                  key={item.src}
                   className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
                 >
                   <img
@@ -168,12 +323,12 @@ export default function Who() {
               {/* media partners ends */}
             </div>
           </div>
-           <p className="text-4xl mt-8 text-center text-primary">
-              & Many More..
-            </p>
+          <p className="text-4xl mt-8 text-center text-primary">
+            & Many More..
+          </p>
         </div>
 
-        <div className="pt-8 pb-20 ">
+        {/* <div className="pt-8 pb-20 ">
           <div className="max-w-6xl px-6 mx-auto lg:px-8">
             <h2 className="text-3xl text-center capitalize font-bold tracking-tight text-primary sm:text-4xl">
               Media Partners
@@ -433,7 +588,7 @@ export default function Who() {
                 src={`https://imageupload.io/ib/hqAq73TkfOCsxdT_1698259827.png`}
                 alt="kanalcoin"
               />
-            </a>*/}
+            </a>
               <a
                 target="_blank"
                 href="https://coinpedia.org/"
@@ -456,14 +611,14 @@ export default function Who() {
                   alt="icoholder"
                 />
               </a>
-              {/* media partners ends */}
             </div>
 
             <p className="text-4xl mt-8 text-center text-primary">
               & Many More..
             </p>
           </div>
-        </div>
+        </div> 
+        */}
       </div>
     </>
   );

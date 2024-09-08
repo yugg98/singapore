@@ -55,6 +55,12 @@ const page = () => {
     },
     { src: "/logo8.jpg", name: "Image 3" },
     { src: "/m1.jpeg", name: "Image 4" },
+    { src: "/brinc.png", name: "Image 4" },
+    { src: "/out.webp", name: "Image 4" },
+    { src: "/umas.jpeg", name: "Image 4" },
+    { src: "/bl.jpeg", name: "Image 4" },
+
+    { src: "/gr.png", name: "Image 4" },
 
   ];
   return (
@@ -178,7 +184,7 @@ const first15People = [
       <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
         <div className="mx-auto max-w-2xl">
           <h2 className="text-3xl capitalize font-bold tracking-tight text-primary sm:text-4xl">
-            Pitch Fest Jury
+            Pitch Fest Round - 1 Jury
           </h2>
         </div>
         <ul
