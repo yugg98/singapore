@@ -135,14 +135,14 @@ export default function Who() {
             </h2>
             <p className="text-5xl text-primary text-center">Title Sponsor </p>
 
-            <div className="-mx-6 mt-6 grid grid-cols-2  gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
-              <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
+            <div className="-mx-6 mt-6 grid grid-cols-  gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
+              {/* <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
                 <img
                   className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
                   src={"/neiro.avif"}
                   alt="cointelegraph"
                 />
-              </p>
+              </p> */}
               <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
                 <img
                   className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
@@ -298,8 +298,48 @@ export default function Who() {
               </p>
               {/* media partners ends */}
             </div>
+            <p className="text-5xl text-primary text-center mt-20">Venture Partner </p>
+
+<div className="-mx-6 mt-6 grid max-w-6xl gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
+  
+  <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
+    <img
+      className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
+      src={"/m1.jpeg"}
+      alt="cointelegraph"
+    />
+  </p>
+  </div>
+  <p className="text-5xl text-primary text-center mt-20">Payments Partner </p>
+
+<div className="-mx-6 mt-6 grid max-w-6xl gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
+  
+  <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
+    <img
+      className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
+      src={"/cop.jpeg"}
+      alt="cointelegraph"
+    />
+  </p>
+  </div>
+  <p className="text-5xl text-primary text-center mt-20">Merch Partner </p>
+
+<div className="-mx-6 mt-6 grid max-w-6xl gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
+  
+  <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
+    <img
+      className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
+      src={"/swagzap.png"}
+      alt="cointelegraph"
+    />
+  </p>
+  </div>
+ 
+  
           </div>
+          
         </div>
+       
 
         <div className="pt-8 pb-4 ">
           <div className="max-w-6xl px-6 mx-auto lg:px-8">
