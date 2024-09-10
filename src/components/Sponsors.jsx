@@ -109,6 +109,11 @@ export default function Who() {
       src: "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/5043377/178779_54842.png",
       name: "Image 3",
     },
+    {
+      src: "/ae.jpeg",
+      name: "Image 3",
+    },
+    
   ];
   const itemssp = [
     { src: "/sp/image1.png", name: "Image 3" },
@@ -153,7 +158,7 @@ export default function Who() {
 
               {/* media partners ends */}
             </div>
-           
+
             <p className="text-5xl text-primary text-center mt-20">
               Co Title Sponsor{" "}
             </p>
@@ -166,7 +171,7 @@ export default function Who() {
                   alt="cointelegraph"
                 />
               </p>
-             
+
               {/* media partners ends */}
             </div>
             <p className="text-5xl text-primary text-center mt-20">Diamond </p>
@@ -189,7 +194,7 @@ export default function Who() {
 
               {/* media partners ends */}
             </div>
-            
+
             <p className="text-5xl text-primary text-center mt-20">Platinum </p>
 
             <div className="-mx-6 mt-6 grid grid-cols-2  gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
@@ -227,7 +232,7 @@ export default function Who() {
                   alt="cointelegraph"
                 />
               </p>
-             
+
               <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
                 <img
                   className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
@@ -262,35 +267,35 @@ export default function Who() {
                 />
               </p>
               <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
-              <img
+                <img
                   className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
                   src={"/sp/image10.png"}
                   alt="cointelegraph"
                 />
               </p>
               <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
-              <img
+                <img
                   className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
                   src={"/sp/image5.png"}
                   alt="cointelegraph"
                 />
               </p>
               <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
-              <img
+                <img
                   className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
                   src={"/sp/image9.png"}
                   alt="cointelegraph"
                 />
               </p>
               <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
-              <img
+                <img
                   className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
                   src={"/sp/image7.png"}
                   alt="cointelegraph"
                 />
               </p>
               <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
-              <img
+                <img
                   className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
                   src={"/sp/image8.png"}
                   alt="cointelegraph"
@@ -298,48 +303,47 @@ export default function Who() {
               </p>
               {/* media partners ends */}
             </div>
-            <p className="text-5xl text-primary text-center mt-20">Venture Partner </p>
+            <p className="text-5xl text-primary text-center mt-20">
+              Venture Partner{" "}
+            </p>
 
-<div className="-mx-6 mt-6 grid max-w-6xl gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
-  
-  <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
-    <img
-      className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-      src={"/m1.jpeg"}
-      alt="cointelegraph"
-    />
-  </p>
-  </div>
-  <p className="text-5xl text-primary text-center mt-20">Payments Partner </p>
+            <div className="-mx-6 mt-6 grid max-w-6xl gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
+              <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
+                <img
+                  className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
+                  src={"/m1.jpeg"}
+                  alt="cointelegraph"
+                />
+              </p>
+            </div>
+            <p className="text-5xl text-primary text-center mt-20">
+              Payments Partner{" "}
+            </p>
 
-<div className="-mx-6 mt-6 grid max-w-6xl gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
-  
-  <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
-    <img
-      className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-      src={"/cop.jpeg"}
-      alt="cointelegraph"
-    />
-  </p>
-  </div>
-  <p className="text-5xl text-primary text-center mt-20">Merch Partner </p>
+            <div className="-mx-6 mt-6 grid max-w-6xl gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
+              <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
+                <img
+                  className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
+                  src={"/cop.jpeg"}
+                  alt="cointelegraph"
+                />
+              </p>
+            </div>
+            <p className="text-5xl text-primary text-center mt-20">
+              Merch Partner{" "}
+            </p>
 
-<div className="-mx-6 mt-6 grid max-w-6xl gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
-  
-  <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
-    <img
-      className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
-      src={"/swagzap.png"}
-      alt="cointelegraph"
-    />
-  </p>
-  </div>
- 
-  
+            <div className="-mx-6 mt-6 grid max-w-6xl gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
+              <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
+                <img
+                  className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
+                  src={"/swagzap.png"}
+                  alt="cointelegraph"
+                />
+              </p>
+            </div>
           </div>
-          
         </div>
-       
 
         <div className="pt-8 pb-4 ">
           <div className="max-w-6xl px-6 mx-auto lg:px-8">

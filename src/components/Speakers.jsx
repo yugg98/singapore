@@ -13,6 +13,11 @@ import speaker1 from "@/images/speaker1.jpg";
 import speaker2 from "@/images/speaker2.jpg";
 import speaker3 from "@/images/speaker3.jpg";
 import speaker4 from "@/images/speaker4.jpeg";
+import yu from "@/images/y.jpeg";
+import nav from "@/images/nav.jpeg";
+import yi from "@/images/yi.jpeg";
+
+
 import speaker5 from "@/images/s6.jpg";
 import speaker7 from "@/images/speakers/sp1.jpeg";
 import speaker6 from "@/images/speakers/sp2.jpeg";
@@ -1152,7 +1157,7 @@ const first15People = [
   },
   {
     name: "Wayne Marcel ",
-    role: "Head of Growth FIO Protocoal",
+    role: "Head of Growth FIO Protocol",
     imageUrl: mm8s,
     location: "UK",
     twitterUrl: "",
@@ -1246,6 +1251,39 @@ const first15People = [
     twitterUrl: "",
     linkedinUrl:"https://www.linkedin.com/in/isitlegalsid/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
   },
+  {
+    name: "Robby Jeo",
+    role: "Chief Executive Officer of Kommunitas.",
+    imageUrl: yu,
+    location: "UK",
+    twitterUrl: " https://twitter.com/@robbie_jeo",
+    linkedinUrl:"https://www.linkedin.com/in/robby678/",
+  },
+  {
+    name: "Navodaya Singh Rajpurohit",
+    role: "Lawyer, Coinque Consulting",
+    imageUrl: nav,
+    location: "UK",
+    twitterUrl: "",
+    linkedinUrl:"https://www.linkedin.com/in/navodaya",
+  },
+  {
+    name: "Navodaya Singh Rajpurohit",
+    role: "Lawyer, Coinque Consulting",
+    imageUrl: nav,
+    location: "UK",
+    twitterUrl: "",
+    linkedinUrl:"https://www.linkedin.com/in/navodaya",
+  },
+  {
+    name: "Mosa zhu",
+    role: "Cofounder, MemeMeet",
+    imageUrl: yi,
+    location: "UK",
+    twitterUrl: "https://x.com/zoecoka",
+    linkedinUrl:"https://www.linkedin.com/in/yijun-zhu-b95407207",
+  },
+  
 ];
 
 export function Speaker() {
