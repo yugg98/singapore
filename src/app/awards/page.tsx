@@ -173,7 +173,7 @@ export default function Hero() {
         </div>
       </div>
       <Speaker />
-      <p className="text-2xl text-center text-primary mt-8">& Many More..</p>
+      {/* <p className="text-2xl text-center text-primary mt-8">& Many More..</p> */}
       {/* <div className="bg-grey-900">
         <div className="px-4 py-20 mx-auto max-w-7xl lg:px-8">
           <div className="">
