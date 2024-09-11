@@ -176,7 +176,7 @@ export default function Who() {
             </div>
             <p className="text-5xl text-primary text-center mt-20">Diamond </p>
 
-            <div className="-mx-6 mt-6 grid grid-cols-1  gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
+            <div className="-mx-6 mt-6 grid grid-cols-2  gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
               <p className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100">
                 <img
                   className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"

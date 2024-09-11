@@ -1259,14 +1259,7 @@ const first15People = [
     twitterUrl: " https://twitter.com/@robbie_jeo",
     linkedinUrl:"https://www.linkedin.com/in/robby678/",
   },
-  {
-    name: "Navodaya Singh Rajpurohit",
-    role: "Lawyer, Coinque Consulting",
-    imageUrl: nav,
-    location: "UK",
-    twitterUrl: "",
-    linkedinUrl:"https://www.linkedin.com/in/navodaya",
-  },
+  
   {
     name: "Navodaya Singh Rajpurohit",
     role: "Lawyer, Coinque Consulting",
