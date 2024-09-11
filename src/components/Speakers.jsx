@@ -1249,7 +1249,7 @@ const first15People = [
     imageUrl: ol,
     location: "UK",
     twitterUrl: "",
-    linkedinUrl:"https://www.linkedin.com/in/isitlegalsid/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    linkedinUrl:"https://www.linkedin.com/in/oliviergalaud/",
   },
   {
     name: "Robby Jeo",
