@@ -83,7 +83,7 @@ export default function Who() {
     { src: "/bwc.webp", name: "bwx" },
     { src: "/mirchmedia.png", name: "mirchmedia" },
     { src: "/coinedition.webp", name: "bwx" },
-    { src: "/museigen.webp", name: "bwx" },
+    { src: "/museigen.webp", name: "bwxx" },
 
   ];
 
