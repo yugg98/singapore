@@ -69,8 +69,24 @@ import cointacted from "@/images/sponsors-logo/cointacted.jpg";
 import sirwin from "@/images/sponsors-logo/siriwn.png";
 import guest from "@/images/sponsors-logo/guestreammedia.png";
 import soulverse from "@/images/sponsors-logo/soulverse.jpeg";
+import blockpedia from  "@/images/blockpedia.jpg";
+import zexprwire from "@/images/zexprwire.jpg";
 
 export default function Who() {
+  const media = [
+    { src: "/newscrypto.webp", name: "newscrypto" },
+    { src: "/blockpedia.jpg", name: "zexprwire" },
+    { src: "/zexprwire.jpg", name: "zexprwire" },
+    { src: "/droomdroom.png", name: "Blockpedia" },  // Define the 'src' and 'name' fields correctly
+    { src: "/incrypted.svg", name: "incrypted" },
+    { src: "/cryptotale.png", name: "cryptotale" },
+    { src: "/bwc.webp", name: "bwx" },
+    { src: "/mirchmedia.png", name: "mirchmedia" },
+    { src: "/coinedition.webp", name: "bwx" },
+    { src: "/museigen.webp", name: "bwx" },
+
+  ];
+
   const items = [
     { src: "/logo1.jpg", name: "Image 1" },
     { src: "/logo2.jpg", name: "Image 2" },
@@ -367,9 +383,36 @@ export default function Who() {
               {/* media partners ends */}
             </div>
           </div>
-          <p className="text-4xl mt-8 text-center text-primary">
-            & Many More..
-          </p>
+          {/* <p className="text-4xl mt-8 text-center text-primary">
+            Media Partners
+          </p> */}
+          
+        </div>
+
+        <div className="pt-8 pb-4 ">
+          <div className="max-w-6xl px-6 mx-auto lg:px-8">
+            <h2 className="text-3xl text-center capitalize font-bold tracking-tight text-primary sm:text-4xl">
+              Media Partners
+            </h2>
+            <div className="-mx-6 mt-6 grid grid-cols-2 md:grid-cols-4 gap-0.5 overflow-hidden sm:mx-0 sm:rounded-2xl">
+  {media.map((item, index) => (
+    <p
+      key={index}  // Use a unique key for each item, such as 'index' here
+      className="p-8 bg-gray-50 sm:p-10 hover:bg-gray-100"
+    >
+      <img
+        className="object-contain w-full max-h-12 transform transition-transform duration-500 hover:scale-110"
+        src={item.src}  // Correctly reference 'item.src'
+        alt={item.name}  // Use 'item.name' for the alt attribute
+      />
+    </p>
+  ))}
+</div>
+          </div>
+          {/* <p className="text-4xl mt-8 text-center text-primary">
+            Media Partners
+          </p> */}
+          
         </div>
 
         {/* <div className="pt-8 pb-20 ">
