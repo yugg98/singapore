@@ -1,93 +1,78 @@
 [
   {
     "Day": "Day 1 - 4th Dec",
-    "Time_Range": "09:30 AM to 5:30 PM",
+    "Time_Range": "08:30 AM to 4:30 PM",
     "Conference": "Blockchain & its Infrastructure 1st day - Day 1",
     "Agenda": [
       {
-        "Time": "08:30-09:00AM",
-        "Duration": "30 Minutes",
-        "Topics": "Registration and High Tea"
+        "Time": "08:30-09:20AM",
+        "Duration": "50 Minutes",
+        "Topics": "Registration"
       },
       {
-        "Time": "09:00-09:20AM",
-        "Duration": "20 Minutes",
-        "Topics": "Opening Talk"
-      },
-      {
-        "Time": "09:20-09:40AM",
-        "Duration": "20 Minutes",
-        "Topics": "FireSide Key Chat"
-      },
-      {
-        "Time": "09:40-10:20AM",
+        "Time": "09:20-10:00AM",
         "Duration": "40 Minutes",
-        "Topics": "Decentralization vs Centralization: Striking the Balance for Mass Adoption"
+        "Topics": "Panel 1: Decentralization vs Centralization: Striking the Balance for Mass Adoption"
       },
       {
-        "Time": "10:20-10:40AM",
+        "Time": "10:00-10:20AM",
         "Duration": "20 Minutes",
-        "Topics": "The Evolution of Decentralized Finance (DeFi): Navigating Opportunities and Challenges"
+        "Topics": "Keynote: Is Censorship-Resistant AI the Key to Web4?"
       },
       {
-        "Time": "10:40-11:20AM",
+        "Time": "10:20-11:00AM",
         "Duration": "40 Minutes",
-        "Topics": "Blockchain Gaming: Revolutionizing In-Game Economies and Player Ownership"
+        "Topics": "Panel 2: The Evolution of Decentralized Finance (DeFi): Navigating Opportunities and Challenges"
       },
       {
-        "Time": "11:20-12:00PM",
+        "Time": "11:00-11:40AM",
         "Duration": "40 Minutes",
-        "Topics": "Beyond Art: Exploring Practical Applications of NFTs in Industries"
+        "Topics": "Panel 3: Blockchain Gaming: Revolutionizing In-Game Economies and Player Ownership"
       },
       {
-        "Time": "12:00-12:20PM",
+        "Time": "11:40-12:00PM",
         "Duration": "20 Minutes",
-        "Topics": "From NFTs to Digital Collectibles: Redefining Ownership in the Metaverse"
+        "Topics": "Keynote: The Future of Decentralised Applications: AI as a Game Changer"
       },
       {
-        "Time": "12:20-01:00PM",
+        "Time": "12:00-12:40PM",
         "Duration": "40 Minutes",
-        "Topics": "Web3: Empowering Individuals or Reinforcing Digital Divide?"
+        "Topics": "Panel 4: The Rise of Web3: Decentralized Internet and Its Implications for Digital Sovereignty"
       },
       {
-        "Time": "01:00-02:00PM",
+        "Time": "12:40-01:20PM",
+        "Duration": "40 Minutes",
+        "Topics": "Panel 5: VC Panel (Topic - How VCs are gearing up for Bull Run)"
+      },
+      {
+        "Time": "01:20-02:00PM",
+        "Duration": "40 Minutes",
+        "Topics": "Keynote Lunch"
+      },
+      {
+        "Time": "02:00-03:00PM",
         "Duration": "1 Hour",
-        "Topics": "Lunch"
+        "Topics": "Panel 6: Global Crypto Regulations: Standardizing Compliance Across Borders"
       },
       {
-        "Time": "02:00-02:20PM",
+        "Time": "03:00-03:20PM",
         "Duration": "20 Minutes",
-        "Topics": "Blockchain Beyond Crypto: Real-World Applications and Future Potential"
-      },
-      {
-        "Time": "02:20-03:20PM",
-        "Duration": "1 Hour",
-        "Topics": "Global Crypto Regulations: Standardizing Compliance Across Borders"
+        "Topics": "Keynote: Blockchain Beyond Crypto: Real-World Applications and Future Potential"
       },
       {
         "Time": "03:20-04:00PM",
         "Duration": "40 Minutes",
-        "Topics": "Bitcoin: Store of Value vs Medium of Exchange - Finding Its True Purpose"
+        "Topics": "Panel 7: Blockchain Beyond Crypto: Real-World Applications and Future Potential"
       },
       {
-        "Time": "04:00-04:20PM",
-        "Duration": "20 Minutes",
-        "Topics": "The Rise of Web3: Decentralized Internet and Its Implications for Digital Sovereignty"
+        "Time": "03:30-05:30PM",
+        "Duration": "2 Hours",
+        "Topics": "Pitch Fest"
       },
       {
-        "Time": "04:20-05:00PM",
-        "Duration": "40 Minutes",
-        "Topics": "Tokenizing Intellectual Property: Transforming Creativity into Tradable Assets"
-      },
-      {
-        "Time": "05:00-06:30PM",
-        "Duration": "1 Hour 30 Minutes",
-        "Topics": "High Tea & Networking"
-      },
-      {
-        "Time": "06:30-08:00PM",
-        "Duration": "1 Hour 30 Minutes",
-        "Topics": "Award Ceremony"
+        "Time": "04:00-04:30PM",
+        "Duration": "30 Minutes",
+        "Topics": "Panel 8 (security): Tokenizing Intellectual Property: Transforming Creativity into Tradable Assets"
       }
     ]
   }
