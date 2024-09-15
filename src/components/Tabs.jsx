@@ -46,7 +46,7 @@ export default function Tabs() {
                              />
                            </svg>
                          </span>
-                        {data.Time} | Duration {data.Duration}
+                        {data.Time} 
                        </div>
                        {/* <div className="flex flex-wrap px-2 py-1 text-sm font-medium text-gray-900 md:text-base">
                          <span>

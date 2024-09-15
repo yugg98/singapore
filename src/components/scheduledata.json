@@ -1,7 +1,7 @@
 [
   {
     "Day": "Day 1 - 4th Dec",
-    "Time_Range": "08:30 AM to 4:30 PM",
+    "Time_Range": "08:30 AM to 11:00 PM",
     "Conference": "Blockchain & its Infrastructure 1st day - Day 1",
     "Agenda": [
       {
@@ -73,6 +73,11 @@
         "Time": "04:00-04:30PM",
         "Duration": "30 Minutes",
         "Topics": "Panel 8 (security): Tokenizing Intellectual Property: Transforming Creativity into Tradable Assets"
+      },
+      {
+        "Time": "07:00-11:00PM",
+        "Duration": "4 Hours",
+        "Topics": "KOL Awards Night - Westin Singapore"
       }
     ]
   }
